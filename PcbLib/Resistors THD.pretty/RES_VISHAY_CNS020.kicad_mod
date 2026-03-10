@@ -1,0 +1,168 @@
+(footprint "RES_VISHAY_CNS020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Radial, Pad spacing 5.08mm - Body 8.1mm x 2.54mm")
+	(property "Reference" "REF**"
+		(at 0 -2.07 0)
+		(layer "F.SilkS")
+		(uuid "968b5981-5013-48ca-85b0-de3d5d428964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RES_VISHAY_CNS020"
+		(at 0 2.07 0)
+		(layer "F.Fab")
+		(uuid "dd11f735-636d-4b42-b0c8-58888f6a6191")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c6de606-0b31-43e5-9812-f2fab68666a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f7b6e1a-f3b7-48f0-b1b2-a4e24661aaf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -2.78 -1.27)
+		(end 2.78 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b34ed5e4-84b9-4ca3-9bf0-f5bd4f7f3c45")
+	)
+	(fp_line
+		(start -2.78 1.27)
+		(end 2.78 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5c8915a-3c2b-417b-8611-f6465dbe2ec1")
+	)
+	(fp_arc
+		(start -2.78 1.27)
+		(mid -4.05 0)
+		(end -2.78 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93a4dcf8-ebd2-4355-98ec-0cf11e40eaf8")
+	)
+	(fp_arc
+		(start 2.78 -1.27)
+		(mid 4.05 0)
+		(end 2.78 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff7ffb61-44fb-48c6-a4f5-c6231dda75a5")
+	)
+	(fp_line
+		(start -2.78 -1.27)
+		(end 2.78 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4e33dd1-2ac0-44ac-a088-f90d2cc8cd9a")
+	)
+	(fp_line
+		(start -2.78 1.27)
+		(end 2.78 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ec197ef-2ee1-4528-ae32-9a3790633091")
+	)
+	(fp_arc
+		(start -2.78 1.27)
+		(mid -4.05 0)
+		(end -2.78 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fc4ec00-638e-43d3-8757-c2057c34e7bd")
+	)
+	(fp_arc
+		(start 2.78 -1.27)
+		(mid 4.05 0)
+		(end 2.78 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ac4f783-139b-46d7-a192-bd51cd5185b7")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "faa5ada1-6c58-4bea-b44c-2da65621e533")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9d976c89-0929-4214-ac02-310dc6e8c7b1")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RES_VISHAY_CNS020.stp"
+		(offset
+			(xyz 0.00006 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,178 @@
+(footprint "MILL-MAX_0925-0-15-20-72-14-11-0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Probe, Low Force Surface mount Spring-Loaded Pin, 2A Continuous, 3A Peak, -55..125°C")
+	(property "Reference" "REF**"
+		(at 0 -2.375 0)
+		(layer "F.SilkS")
+		(uuid "fc5462b6-9f48-4e76-9995-a3dde44fe1b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MILL-MAX_0925-0-15-20-72-14-11-0"
+		(at 0 2.375 0)
+		(layer "F.Fab")
+		(uuid "8a58c86c-4303-4664-b65c-176b113e3c16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97022706-d396-4c96-bf66-dab7cf25d468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d07897-f2e9-4f47-ade5-b9d2d12bb54b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2b98940e-8c4e-43cd-9d7e-4e1e5d8c9238")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fa324db3-cf3f-405e-8b6e-1242289f335f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2a51d9d4-8c97-43e5-8282-4e3ada3604e1")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fd029826-fbb5-4a7e-a349-78f860d4c89c")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f1cce593-c635-4265-94ab-29afd40a428d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "4ecf46c1-39e8-46f9-986a-aa16cc43d2f8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.915)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "01e8559b-fb3a-453e-9c42-f6384df78320")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2a3f3a84-9036-4077-b149-ece023b0e18b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "05bbb98e-e756-4fca-9d17-fb32ef998ed1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "605912b4-451e-4110-b554-c264d541f767")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "2a64a194-b678-42f8-a1d3-fb182e89e349")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MILL-MAX_0925-0-15-20-72-14-11-0.stp"
+		(offset
+			(xyz 0.00009 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

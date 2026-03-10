@@ -1,0 +1,175 @@
+(footprint "JUMPER_RED_INSULATED_2.54mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Red Insulated Jumper Pitch 2.54mm W=2.5mm L=5mm H=6.5mm")
+	(property "Reference" "REF**"
+		(at 1.27 -2.07 0)
+		(layer "F.SilkS")
+		(uuid "9539a251-0998-4a41-a4cd-add532ac3ef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "JUMPER_RED_INSULATED_2.54mm"
+		(at 1.27 2.07 0)
+		(layer "F.Fab")
+		(uuid "bc536051-bcf9-49c4-b12e-f717a013cd64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66f36942-8987-4c57-8caf-cc5545e10346")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac530361-c9d1-4e06-9e7a-061aacb17945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start 1.1 -0.381)
+		(end 1.44 -0.381)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26369142-d712-41a6-91f5-da018139a485")
+	)
+	(fp_line
+		(start 1.1 0.381)
+		(end 1.44 0.381)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cef67d1-165d-40bd-8953-e349d89355dc")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e70c90a1-f999-4fa5-8dc1-f29a806625d4")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5a3b45b-f99e-4e16-9e46-1ab40d8ecc08")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "393c63a5-780c-4fae-b2c1-66be7850498d")
+	)
+	(fp_line
+		(start -0.48 -0.5)
+		(end 3.02 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf8491bc-94c5-45c1-af37-a6db71219f5e")
+	)
+	(fp_line
+		(start -0.48 0.5)
+		(end -0.48 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bc70fa5-3707-45d4-92cb-e5c8d879297e")
+	)
+	(fp_line
+		(start -0.48 0.5)
+		(end 3.02 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "730c9982-77c7-4187-b4ea-7f71719194ba")
+	)
+	(fp_line
+		(start 3.02 0.5)
+		(end 3.02 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20fc9bf7-8988-45db-943b-9609a08b23e4")
+	)
+	(fp_line
+		(start 3.81 1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9316d80e-35a2-48ec-bf5c-550463c1e649")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin -0.46)
+		(solder_paste_margin -0.46)
+		(thermal_bridge_angle 90)
+		(uuid "d6f4de41-7853-4aad-925d-cf1f32d471c8")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/JUMPER_RED_INSULATED_2.54MM.stp"
+		(offset
+			(xyz 1.23051 -0.01949 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

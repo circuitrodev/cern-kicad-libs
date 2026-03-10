@@ -1,0 +1,128 @@
+(footprint "BOSSARD_BN5281-1390341_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Round Spacer, Material : Polyamide,  External Dia. 5mm, Internal Dia. 2.6mm, Height 2mm")
+	(property "Reference" "REF**"
+		(at 0 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "1d08d548-3625-49d4-affe-5d2c8a097b84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BOSSARD_BN5281-1390341_v"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "02a2afdd-d505-4b0e-a76b-fac10ced59e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d222dec4-5b81-446c-94ed-03653439b1fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db7b5772-e60b-4a54-b438-1cf94a6a35d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "379175e4-731b-48f3-b59e-90073822c8b2")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ddc19db7-061a-4afa-bd2a-46ba4f3dc347")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f8bdf7a0-c3cf-44ad-85f4-4eba1c5f71ba")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a2d4f0a4-38ef-4c76-ba1c-47f8330f70b5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "51ab105c-953d-4048-87fe-4720280269e8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e999ad98-c8d8-44fd-9744-f17bc49943b9")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BOSSARD_BN5281-1390341_v.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

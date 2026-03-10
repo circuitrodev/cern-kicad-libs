@@ -1,0 +1,115 @@
+(footprint "QA_75_NO-VALUE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Virtual Probe For 1.905mm Pitch")
+	(property "Reference" "REF**"
+		(at 0 -1.375 0)
+		(layer "F.SilkS")
+		(uuid "1d072761-bb83-4a14-b3c6-58308fa841b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "QA_75_NO-VALUE"
+		(at 0 1.375 0)
+		(layer "F.Fab")
+		(uuid "4f4b3740-8799-4ce3-b1bc-df15b14f57dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "181a535e-1af5-44f9-9665-40b211f07ede")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed212a02-76a0-4468-b7c7-ecaa095dad56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.25 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "330b1e49-1fb3-46a7-940a-fbe1d886a151")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "cc08fa4b-31f1-4fcf-a713-fba0ceb89e00")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f029cd99-54ee-4cab-8877-707b9dd4a735")
+	)
+	(fp_line
+		(start 0 0.25)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "065b8e8e-aedf-4287-a8a1-a87907ae25e2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "a8a43477-da87-46c9-922a-32724f467146")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 0.5 0.5)
+		(drill 1.35)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.425)
+		(thermal_bridge_angle 90)
+		(uuid "3e8422b6-f9fc-4cd4-910d-960fceb891c4")
+	)
+	(embedded_fonts no)
+)

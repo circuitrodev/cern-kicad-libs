@@ -1,0 +1,192 @@
+(footprint "PEM_KFE-M3-6ET"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5.56mm Diameter, Broaching Standoffs M3, Internally Threaded for Mounting on PC Boards")
+	(property "Reference" "REF**"
+		(at 0 -5.74994 0)
+		(layer "F.SilkS")
+		(uuid "97d5fc3a-6f52-407f-9b39-fdd12b598021")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "PEM_KFE-M3-6ET"
+		(at 0 3.975 0)
+		(layer "F.Fab")
+		(uuid "764dfb1c-1373-4893-96e5-3065435d9ab0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0840a5ca-091a-4612-9020-5c814245361b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d256c4e0-857f-4d02-8add-1c139bfb7e01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "67ade391-3e3b-4b9c-9d9d-25824c4e6f2a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3122ec11-6d01-4551-b4ef-5794399651a9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b47509e8-895e-416c-b54c-55b728554bc2")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7dc2bbc1-575e-46e4-ad97-4554a72f2edc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "9a06e0ec-8aaa-4892-9622-930ebd62e6ca")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "9a7c1da9-85aa-4d71-8bab-b530577524c9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3524892d-efd4-49d6-90f9-1c97a7394321")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.2295)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "18caaedd-303b-4f6c-ba56-cde7894db226")
+	)
+	(fp_text_box "PRESS-FIT TECH."
+		(start -6.00828 -4.99994)
+		(end 6.00828 -3.60005)
+		(margins 0 0 0 0)
+		(layer "F.Fab")
+		(uuid "77a7e286-6349-44b1-9cd9-efe8fe3a802a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 4.25)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "9d8531db-0fcd-4a7a-9be7-7b35163464cb")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 0 0)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 2.25 2.25)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/PEM_KFE-M3-6ET.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

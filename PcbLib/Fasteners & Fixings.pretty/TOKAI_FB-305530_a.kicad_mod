@@ -1,0 +1,158 @@
+(footprint "TOKAI_FB-305530_a"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4.8mm Diameter, Press-Fit with Internsl Threaded Hole M3")
+	(property "Reference" "REF**"
+		(at 0 -4.475 0)
+		(layer "F.SilkS")
+		(uuid "4b54b117-0e12-4e3e-90bb-24f720e76635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TOKAI_FB-305530_a"
+		(at 0 4.475 0)
+		(layer "F.Fab")
+		(uuid "39ffc829-bdea-433c-94af-0fbf39ac4a37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33c6260d-96ef-458e-9dbd-867fe75a5824")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "816f5429-16c4-4505-b658-530b2120e70c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b64071af-44e5-472c-b2ac-1c1a3abbee85")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "69cb48b0-d73d-4120-8957-d69d8b89e8c8")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b3541fa0-091f-4bd0-8e9d-713a8466737e")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3d05bb4b-0517-4e23-9955-a881d3b7c0d4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "f4b84fed-88d9-4559-9c3c-893dbcc707f5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "b76beec8-715e-4935-9512-6153a92fa8fa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9aa9752e-037e-4f6f-8c79-eb29be5fb47e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3dfe9173-f7bb-407e-aec4-6c71b66b0703")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7 7)
+		(drill 4.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d2b22793-d97f-41ab-af1c-e6abeb89cd65")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TOKAI_FB-305530.stp"
+		(offset
+			(xyz 0.00007 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

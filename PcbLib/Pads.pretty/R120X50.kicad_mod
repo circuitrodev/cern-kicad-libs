@@ -1,0 +1,141 @@
+(footprint "R120X50"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1.2mm x  0.5mm SMD Pad")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "30a52352-4cec-4f44-9fc7-c5fbc2243e0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R120X50"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(uuid "8fd657d2-eb57-40df-94c7-6757db96d13d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1c23aaa-5ab3-46aa-b7ff-80e2dc613ecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ed74c04-3537-4bb1-92a5-623bfe791938")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.6 -0.25)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f97dc0f4-7e82-4093-a548-8ae7264954a7")
+	)
+	(fp_line
+		(start -0.6 -0.25)
+		(end 0.6 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1e712081-3e77-47a8-b4d6-44e9489287a7")
+	)
+	(fp_line
+		(start -0.6 0.25)
+		(end -0.6 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d58e87cd-736d-4f8c-9a97-ca21bfa5de14")
+	)
+	(fp_line
+		(start -0.6 0.25)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7828bcca-96a9-46ca-8094-1c300c5ed2e0")
+	)
+	(fp_line
+		(start -0.6 0.25)
+		(end 0.6 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fc2d5039-4aee-444d-9b0b-c82430d67ffb")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.6 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d6c04cba-8948-436c-b866-40cff47ba98f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.6 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fa90ff1d-20cf-4421-8a32-5f1987aa126b")
+	)
+	(fp_line
+		(start 0.6 0.25)
+		(end 0.6 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d680fed5-ddd0-405d-b59f-cd82bd0a7347")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.2 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "94ad7255-5ddc-4f9a-a99e-c3b9e22d7ca4")
+	)
+	(embedded_fonts no)
+)

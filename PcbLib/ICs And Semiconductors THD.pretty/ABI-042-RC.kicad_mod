@@ -1,0 +1,150 @@
+(footprint "ABI-042-RC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ABComponent Piezo Transducer Buzzer, Body Dia. 12mm, Pitch 7.6mm")
+	(property "Reference" "REF**"
+		(at 0 -6.9 0)
+		(layer "F.SilkS")
+		(uuid "d4160011-c900-4796-8f85-a0648addc2bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ABI-042-RC"
+		(at 0 6.9 0)
+		(layer "F.Fab")
+		(uuid "8de84e31-12fe-49bc-81e5-52a0dc178d0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ddb6471-9216-428b-9fbe-10c9467f08de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ba8df72-6e5b-4501-a6f6-6443356bbbd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9413a381-1b2f-4dd1-b81a-3c18c58fdae3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "07db23a7-0eb4-45d6-aaf3-53bd763aae90")
+	)
+	(fp_circle
+		(center -3.8 0)
+		(end -3.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "371191e9-d09e-4af1-ad90-ea4517c5a28f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3f9e6f1f-6742-4e39-9211-a44e969bb9a3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "80e16b17-f23b-4966-9845-9dcc80a41020")
+	)
+	(fp_circle
+		(center 3.8 0)
+		(end 3.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6e0ce525-256e-478e-9e8e-6da90a262d63")
+	)
+	(pad "1" thru_hole circle
+		(at -3.8 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "8ce4d731-b48c-4c33-aa68-0bd2e1127d15")
+	)
+	(pad "2" thru_hole circle
+		(at 3.8 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "2fbd9ecc-38ee-4a11-b47c-35cdc203e954")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ABI-042-RC.stp"
+		(offset
+			(xyz 0.00011 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,195 @@
+(footprint "HARWIN_M50-1900005"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Black Insulated Jumper Pitch 1.27mm W=1.5mm L=2.5mm H=3mm")
+	(property "Reference" "REF**"
+		(at 0.635165 -1.50013 0)
+		(layer "F.SilkS")
+		(uuid "222f0aee-5360-485f-9775-d8bab88883cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARWIN_M50-1900005"
+		(at 0.635165 1.49981 0)
+		(layer "F.Fab")
+		(uuid "01c6f60d-ed91-4950-9054-15fb3794587c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6370c3bf-f736-4163-afd9-4cb02a643d60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "864433fd-1bee-416f-959e-594d376db2aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b5b851c0-0b74-4936-9299-8842d62143a9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "65a52427-a686-4893-9b98-19295dcd108b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ecb8af91-477f-43fa-acf5-e2df5b46d154")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1f554aee-65d5-4586-abfb-c4cd53dfb026")
+	)
+	(fp_line
+		(start 0.77 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "861d38b1-8b59-4ffe-9743-d3c4f0a82ef6")
+	)
+	(fp_line
+		(start 1.27 0)
+		(end 1.27 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b106db03-da59-45a3-b293-35d5309a725a")
+	)
+	(fp_line
+		(start 1.27 0)
+		(end 1.77 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7d14b8ec-ce57-4c5e-8006-cf1e6d1c89d0")
+	)
+	(fp_line
+		(start 1.27 0.5)
+		(end 1.27 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e898ee87-b3a8-424e-9a19-c0c1e5922400")
+	)
+	(fp_line
+		(start -0.6148 -0.75013)
+		(end 1.88513 -0.75013)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55d1360b-2c61-4af8-a851-702df90357af")
+	)
+	(fp_line
+		(start -0.6148 0.74981)
+		(end -0.6148 -0.75013)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "407b7e1d-109a-41e9-8fc1-3d9716945e69")
+	)
+	(fp_line
+		(start -0.6148 0.74981)
+		(end 1.88513 0.74981)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2df6c16-2572-4e9f-b5aa-c7a588033b1e")
+	)
+	(fp_line
+		(start 1.88513 0.74981)
+		(end 1.88513 -0.75013)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ca5d403-7236-4ebc-b20d-30d2ba156671")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin -0.46)
+		(solder_paste_margin -0.46)
+		(thermal_bridge_angle 90)
+		(uuid "639435b2-0e11-43dc-967d-1867344e4be0")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARWIN_M50-1900005.stp"
+		(offset
+			(xyz 0.00009 0.0001 1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,161 @@
+(footprint "HARTING_09 03 000 6140"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DIN-41612 Type M, 2.8kV Special High Voltage Straight Male Contact")
+	(property "Reference" "REF**"
+		(at 0 -4.1 0)
+		(layer "F.SilkS")
+		(uuid "e4cb2c69-5e07-478d-ae96-9c241d74314b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARTING_09 03 000 6140"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(uuid "c7cbf05b-b622-401a-91a6-6a126a126ffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9001662-34d8-4fd5-9940-bb5520e31fef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1518ce81-9a6e-4a39-8138-fd9b7ebf88bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "53ed59b1-a577-4d34-8036-47eaec908411")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e567f050-fd46-443a-b3be-d63089a47b50")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9176f4fa-ac5f-4f12-a2af-739130ecc0fb")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5ece597b-a6f8-44df-8509-9f6a8d3d9598")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "632ff3d7-b3b2-4abe-864b-901d83d02b91")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "11a44f61-3e1e-42db-9a86-5bf53b489f63")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "355dcc9c-1a85-4d6e-8316-eda8b5ef4036")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dd64e5a1-64e3-4c92-8db4-673a8277e92e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f16974d6-e719-45ed-a71c-70f7dc22ce3b")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARTING_09 03 000 6140.stp"
+		(offset
+			(xyz 0.00012 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

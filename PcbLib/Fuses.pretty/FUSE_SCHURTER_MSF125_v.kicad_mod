@@ -1,0 +1,88 @@
+(footprint "FUSE_SCHURTER_MSF125_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SHURTER MSF 125 Series, Subminiature Fuse, 6.4 mm Diameter  x 8.8mm Height")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "604f8881-0bf2-4246-bbf3-07508d3551c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FUSE_SCHURTER_MSF125_v"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "952b829a-1c38-4972-98cd-c171ea3c337c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56daeb01-43f0-4fbb-863b-f4638a37893b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fef4f3e-039c-4bca-9e46-d6d39c047a56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1e8ea894-d275-419e-988b-05530a47757b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0bb750e9-c678-473d-8880-7da9c684ed6a")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FUSE_SCHURTER_MSF125_v.stp"
+		(offset
+			(xyz 0.00005 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

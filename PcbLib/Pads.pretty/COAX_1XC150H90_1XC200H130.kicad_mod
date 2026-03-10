@@ -1,0 +1,115 @@
+(footprint "COAX_1XC150H90_1XC200H130"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2 Plated Through Hole For Coaxial Cable Link: 1 X Hole Dia.=0.9mm + 1 X Hole Dia.=1.3mm")
+	(property "Reference" "REF**"
+		(at -1.6875 -2.1 0)
+		(layer "F.SilkS")
+		(uuid "742842cd-dd1a-4b41-9a5e-2c989480a2e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "COAX_1XC150H90_1XC200H130"
+		(at -1.6875 2.1 0)
+		(layer "F.Fab")
+		(uuid "3960182c-d3cf-4351-a5c6-284f384d73ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d30b11f9-877c-4fe4-9cf3-48afaec605d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b4b6580-e513-4b80-91d5-691cfe4fd5f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -2.48218 -1.1)
+		(end 0 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64e2e3a4-3afc-4bf3-96db-6cd514bbed36")
+	)
+	(fp_line
+		(start -2.48218 1.1)
+		(end 0 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa5d5d37-c67d-4c9e-96b0-98c38232148a")
+	)
+	(fp_arc
+		(start -2.48218 1.1)
+		(mid -4.475 0)
+		(end -2.48218 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15d5949d-6940-480c-bb0a-9b98dc4e3cdd")
+	)
+	(fp_arc
+		(start 0 -1.1)
+		(mid 1.1 0)
+		(end 0 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2574422a-f43b-44b5-a696-b80671ae5390")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "577c06c2-316d-4e8b-897d-1f57f6a345da")
+	)
+	(pad "2" thru_hole circle
+		(at -3.175 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "89f2b343-c5c1-4fd9-8db8-774223b43a0b")
+	)
+	(embedded_fonts no)
+)

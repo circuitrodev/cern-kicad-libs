@@ -1,0 +1,275 @@
+(footprint "OSC_FOX_FXO-HC73"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Oscillator, Side Convave, 6 Pins, 5.00x7.00mm FXO-HC73 Serie")
+	(property "Reference" "REF**"
+		(at 0 -4.99 0)
+		(layer "F.SilkS")
+		(uuid "5215045c-c101-4b65-900c-8da74654c81a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "OSC_FOX_FXO-HC73"
+		(at 0 4.575 0)
+		(layer "F.Fab")
+		(uuid "7adbed88-baa1-4437-9257-0d7e5e58ac8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6d3f89e-6840-4d82-9827-1dd9d5203a9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03385cd8-43da-498a-b668-73c565f346cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.75 -3.5)
+		(end 0.75 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25f27211-bc95-43d6-9230-e9b9af898e90")
+	)
+	(fp_line
+		(start -0.75 3.5)
+		(end 0.75 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "405ea6f2-1aa8-4817-8784-36d571a12e62")
+	)
+	(fp_circle
+		(center -3.1 -4.04)
+		(end -3.1 -4.165)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eee5f885-9860-41af-9a3c-fedf8b287fa4")
+	)
+	(fp_line
+		(start -3.35 -3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c56cdfad-1056-46f7-bcc6-1fcfd0f3cbfa")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end -3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d3d7b70-0eee-4f6d-a9c8-e16403b6bc53")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end 3.35 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "340ef7f8-faf8-4e71-a6e2-eb5457db12aa")
+	)
+	(fp_line
+		(start 3.35 3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e627f22-c479-47dc-8e53-ec59853883dd")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eaf91d16-08e8-4561-8f98-20aacbbdd421")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "938aed18-661d-449b-8024-16f2dd2d8ed5")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end 2.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4cb2cc1-4d9f-4e2f-8d47-39a88514fcec")
+	)
+	(fp_line
+		(start 2.5 3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1c1a6ef-71fb-4b9e-ae05-b186dec89b2f")
+	)
+	(fp_circle
+		(center -1.5 -2.5)
+		(end -1.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dd895a8e-ff85-4b95-87dd-5cc770cdc9a3")
+	)
+	(pad "1" smd rect
+		(at -2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47fb63b0-faa6-445d-b875-e6548aedbba4")
+	)
+	(pad "2" smd rect
+		(at -2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74c55f40-863c-4d51-8f9b-267b8bc5cb6e")
+	)
+	(pad "3" smd rect
+		(at 2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1623f9ef-fc62-4e15-be75-d00c7216b144")
+	)
+	(pad "4" smd rect
+		(at 2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5fba4f2-c05e-40ff-be80-31d52a30c70c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "1a48d5aa-c637-44d6-82ba-74330156f3ce")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.1 -0.9) (xy -1.1 -0.9) (xy -1.1 0.9) (xy -3.1 0.9)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "49ce0ebb-c4b7-4147-8c2e-8f52f4855265")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 1.1 -0.9) (xy 3.1 -0.9) (xy 3.1 0.9) (xy 1.1 0.9)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/OSC_FOX_FXO-HC73.stp"
+		(offset
+			(xyz 0.00012 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

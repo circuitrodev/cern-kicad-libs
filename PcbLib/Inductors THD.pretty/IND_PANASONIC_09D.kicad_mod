@@ -1,0 +1,106 @@
+(footprint "IND_PANASONIC_09D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Radial Leaded Wire Wound Inductor D=9.5mm")
+	(property "Reference" "REF**"
+		(at 0 -5.55 0)
+		(layer "F.SilkS")
+		(uuid "fc660ad4-09ba-4c46-88fe-53e0b32ad691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "IND_PANASONIC_09D"
+		(at 0 5.55 0)
+		(layer "F.Fab")
+		(uuid "d7b18165-1e71-4c29-bba9-29b1398794a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6561d4cb-d955-44f9-baf3-1c08141cea13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b11c264a-a4d1-4fed-9bf6-4139b45cb036")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4771082a-1aff-4c98-bd0f-7181a36fe413")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8a0a406b-165b-4ce0-b280-476a74ed766b")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "e75e6f79-8067-44fb-a9a0-d99287836d2c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b3705f5e-aaab-4fb1-bc19-b516349cf386")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/IND_PANASONIC_09D.stp"
+		(offset
+			(xyz 0.0001 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

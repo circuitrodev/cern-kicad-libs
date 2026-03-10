@@ -1,0 +1,170 @@
+(footprint "SERTITEC_SOS-M3-12"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Crimp Columns M3 - L=12mm")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "3e60e9bc-7a1e-4e99-a30f-8d7d6ea09989")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "SERTITEC_SOS-M3-12"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(uuid "651ba3ee-e150-4324-ae8d-27e9ef0be7c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c88b0f9a-2943-4147-a511-cbec1d0dab97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa0c7f8d-fa2f-4e9d-b1fa-f9b15cc436c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "3e0e45a7-17d3-43a5-96fb-a8b80c83340c")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "65cfd462-a58a-46be-a15f-f4a0547993f9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e0412f5b-db0d-4106-832e-c7542bba579f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "203aabec-5849-4c45-a759-2264e8a20866")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "06ce9781-9760-489b-9062-e4d6a53d7a5b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "97ab8c42-bd00-405b-9e97-ace2cbce17c6")
+	)
+	(fp_arc
+		(start -1.5 0)
+		(mid 1.06066 -1.06066)
+		(end 0 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "357a592c-51b0-4dd6-ac68-c49f73711591")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "893722b1-7890-423d-b408-80a97fcb741e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e9b1ee65-38f6-4dd5-ad9c-0d472196afb5")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 4.5)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1.75)
+		(thermal_bridge_angle 90)
+		(uuid "5259f91b-4671-4463-9d41-2f37c1ca2e50")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/SERTITEC_SOS-M3-12.stp"
+		(offset
+			(xyz 0.00007 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

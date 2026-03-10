@@ -1,0 +1,199 @@
+(footprint "FONDEX_18713"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Solder Fork Terminal (hole 1.3 mm)")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "9f83003b-3219-428d-abef-4c50a3ede2ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FONDEX_18713"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "93947425-ea23-4bd5-843c-ee8176c059d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6c3b811-3978-4f41-b621-ce37647660c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bbe8c28-f136-44db-9437-49c0cf11b129")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5b1ee4f2-39f9-4528-9603-e79bd273df91")
+	)
+	(fp_line
+		(start -1 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "65df250a-631d-4142-9cd1-f038c4972f92")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f6c649f2-6b1f-43cb-ab17-80e5556a1ccf")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ef106cfa-6c7b-4549-8bfd-07c8f70aebfd")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "55093eb2-294d-401b-9b0c-9435d53471f3")
+	)
+	(fp_line
+		(start -0.4 -0.44721)
+		(end -0.4 -1.18427)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ece96e13-c164-4d56-a219-19a915861d4c")
+	)
+	(fp_line
+		(start -0.4 1.18427)
+		(end -0.4 0.44721)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "012d66fe-4522-4098-95f9-f92368a75eb6")
+	)
+	(fp_line
+		(start 0.4 -0.44721)
+		(end 0.4 -1.18427)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af2f091d-d355-4187-a90b-4b422d41a030")
+	)
+	(fp_line
+		(start 0.4 1.18427)
+		(end 0.4 0.44721)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4ea5e33-dbff-46d3-b4cd-1e45963fc383")
+	)
+	(fp_arc
+		(start -0.4 -0.447214)
+		(mid 0 -0.6)
+		(end 0.4 -0.447214)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06412d82-b709-46c1-8c0d-5d69af6401a2")
+	)
+	(fp_arc
+		(start 0.4 0.447214)
+		(mid 0 0.6)
+		(end -0.4 0.447214)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5c03ae9-7ea2-4879-b301-4642d7241c0b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8dc9ee67-20a9-4438-ae92-734d22f1e091")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4271780f-67ac-4a64-adad-06d2a4f95066")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FONDEX_18713.stp"
+		(offset
+			(xyz 0.00008 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

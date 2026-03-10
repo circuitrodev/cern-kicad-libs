@@ -1,0 +1,172 @@
+(footprint "TYCO_2-332070-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Press-in HOLTITE Socket for Round Lead 0.94 to 1.02mm Diameter (3.18mm max PCB Thickness)")
+	(property "Reference" "REF**"
+		(at -0.00008 -1.97492 0)
+		(layer "F.SilkS")
+		(uuid "26871638-dd73-4504-a5cb-9bb2193f7ccd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TYCO_2-332070-3"
+		(at -0.00008 1.97508 0)
+		(layer "F.Fab")
+		(uuid "bc4c7cd1-22bd-4a28-b4e3-e87c1918d453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0b5f207-7528-42ba-a9b3-0ce50c81b42c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7897445a-a166-4d5c-8a57-ac9688abddf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.50008 0.00008)
+		(end -0.00008 0.00008)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "77f5ac4f-e444-4598-98fa-019926e19310")
+	)
+	(fp_line
+		(start -0.00008 0.00008)
+		(end -0.00008 -0.49992)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "89bb49d8-f184-4e68-9469-c231c216292a")
+	)
+	(fp_line
+		(start -0.00008 0.00008)
+		(end 0.49992 0.00008)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9b89b84b-5291-409e-b2eb-865ae0d5a145")
+	)
+	(fp_line
+		(start -0.00008 0.50008)
+		(end -0.00008 0.00008)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "cd4c4e16-172a-4e72-a3cd-e6ea84a82c1b")
+	)
+	(fp_circle
+		(center -0.00008 0.00008)
+		(end -0.00008 -1.27492)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "eb6c764e-6aa2-4da7-9d60-2dbecc9bcb13")
+	)
+	(fp_circle
+		(center -0.00008 0.00008)
+		(end -0.00008 -0.92492)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e98e2b9e-9434-4c43-be51-312c64ec439b")
+	)
+	(fp_circle
+		(center -0.00008 0.00008)
+		(end -0.00008 -1.06672)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2705e76e-0ba4-4066-a567-4bf5d82daebe")
+	)
+	(fp_circle
+		(center -0.00008 0.00008)
+		(end -0.00008 -0.53332)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f4e5a398-b7b2-4f78-a549-48de36ba289f")
+	)
+	(fp_text user "PRESS-FIT Diam=1.83mm +0.1/-0.08"
+		(at -12.5 0.6225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e46d1a4f-eb8b-474c-8b95-62a2704f337e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.00008 0.00008)
+		(size 2.55 2.55)
+		(drill 1.83)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a34517d0-33c5-49cc-b77b-4e03e0b728f8")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TYCO_2-332070-3.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,197 @@
+(footprint "COAX_2XC250H140"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2 Plated Through Hole For Coaxial Cable Link: Hole Dia.=1.4mm Pad Dia.=2.5mm")
+	(property "Reference" "REF**"
+		(at -2.765 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "5bc00897-d884-43d1-a647-44d4da4ef0f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "COAX_2XC250H140"
+		(at -2.765 2.4 0)
+		(layer "F.Fab")
+		(uuid "60a401be-a766-4df5-9277-0bdf1255c1a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8d0e21f-6e23-42e3-8a16-7d806ac4dccb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2c88cea-f922-4ee6-913c-0beb2ea00374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -5.08 -1.6)
+		(end -3.683 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1bdf932-baf1-4e31-99ed-ff84e087f0e9")
+	)
+	(fp_line
+		(start -5.08 1.6)
+		(end -3.683 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd794471-4a7c-4d00-b0ab-bf43e5785b7f")
+	)
+	(fp_line
+		(start -2.15 -0.508)
+		(end -1.5 -0.508)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c131a67-3868-428c-821f-72140c99cbce")
+	)
+	(fp_line
+		(start -2.15 0.508)
+		(end -1.5 0.508)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c188ce45-f07e-49ae-a02e-52352f7ad63d")
+	)
+	(fp_arc
+		(start -3.683 -1.6)
+		(mid -2.083 0)
+		(end -3.683 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a111688-ed25-4532-978e-007c087c9eea")
+	)
+	(fp_circle
+		(center -5.08 0)
+		(end -5.08 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fbe0c2f8-6ccc-4798-aa59-3b1932d87078")
+	)
+	(fp_line
+		(start -5.08 -1.6)
+		(end -3.683 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a76ad5b-9908-444c-9d30-bd0ff6af900b")
+	)
+	(fp_line
+		(start -5.08 1.6)
+		(end -3.683 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc8e8449-1f18-4125-be18-2c6ab99fd79f")
+	)
+	(fp_line
+		(start -2.15 -0.508)
+		(end -1.5 -0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "297342f4-05b8-467c-a81b-00137a144aa5")
+	)
+	(fp_line
+		(start -2.15 0.508)
+		(end -1.5 0.508)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a04d97a-10ce-4b39-9dc5-3190ad1ce397")
+	)
+	(fp_arc
+		(start -3.683 -1.6)
+		(mid -2.083 0)
+		(end -3.683 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6971f0b-cea5-46be-adbd-09cb2d61f43b")
+	)
+	(fp_circle
+		(center -5.08 0)
+		(end -5.08 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "04cbe412-2e6f-41c0-9353-f8f4508638ca")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "3caf7ab2-6ee5-4d62-8bb9-26a0dd6c2338")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 0)
+		(size 2.5 2.5)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b09f43ce-3fa2-42e9-bbad-2cc46450efc4")
+	)
+	(embedded_fonts no)
+)

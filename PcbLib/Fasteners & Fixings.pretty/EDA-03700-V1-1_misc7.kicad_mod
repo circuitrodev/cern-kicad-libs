@@ -1,0 +1,139 @@
+(footprint "EDA-03700-V1-1_misc7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Spacer Ring, 29.4mm Diameter With Internal Diameter 25.9mm, 10mm Height")
+	(property "Reference" "REF**"
+		(at 0 -15.5 0)
+		(layer "F.SilkS")
+		(uuid "5af4fabe-8761-4cc9-b818-47f0a5de6442")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "EDA-03700-V1-1_misc7"
+		(at 0 15.5 0)
+		(layer "F.Fab")
+		(uuid "b0a9b938-ae9b-44f6-b61a-0459daf5dcb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6874c7e-927d-4be7-b99a-36b9c1af1888")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b63c148a-5402-455e-a138-82227db7afd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -14.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5ee19f9f-1228-438c-9df8-df004462160a")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "af8e014e-cb10-46eb-8af5-8cf230d51027")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d95025ab-cf8a-471e-ab97-96df8a9e1512")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2437e05b-8828-4e40-a598-5f87c9b9bc1e")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d689bc85-b83e-427f-817a-b2230ce4178f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -14.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3c3766e8-15d2-4ebf-8d8e-48b017fd5d17")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -12.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "280490ad-ab32-422e-8a65-06925190f581")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/EDA-03700-V1-1_misc7.stp"
+		(offset
+			(xyz 0.00011 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

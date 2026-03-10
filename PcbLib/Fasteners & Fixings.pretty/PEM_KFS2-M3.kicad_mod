@@ -1,0 +1,214 @@
+(footprint "PEM_KFS2-M3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4.4mm Diamemter x5.8mm Bush with Threaded Hole M3, Full Plain Pin-Plate")
+	(property "Reference" "REF**"
+		(at 0 -5.74994 0)
+		(layer "F.SilkS")
+		(uuid "b42aeb98-3ae6-41d2-a7de-254e53d86b56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "PEM_KFS2-M3"
+		(at 0 4.125 0)
+		(layer "F.Fab")
+		(uuid "eca7e4b6-dca7-49c3-806c-f83bc7d4fbe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "115c2b4b-468b-4db5-8981-598d3d958385")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6249618a-9f5e-4488-955f-85b29ca9ab14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7628ebb4-2b97-429f-ae6c-422143ec5e6a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f1cdf2cd-b0da-43df-9b48-26359ea7e230")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fb8d5fcd-9c80-48bc-bcd4-74e5b30fc86e")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d3e9f26e-a814-4829-9560-0f4a756b208d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "cd793c65-2e80-46f1-83d4-cbc12a106489")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "ca5c5d18-d731-491f-a705-cdb3317b0606")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "302cb397-8d9d-46a8-a2c6-bdeef4a7e7ed")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.6688)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "57432fa8-90b1-4d8d-857c-d87cd702bd3b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.4515)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "93b9b682-e65f-4928-ba10-261d542fca31")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.2538)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e9a73956-73ac-4379-bd07-55f501331acd")
+	)
+	(fp_text_box "PRESS-FIT TECH."
+		(start -6.00828 -4.99994)
+		(end 6.00828 -3.60005)
+		(margins 0 0 0 0)
+		(layer "F.Fab")
+		(uuid "3717c3ab-9237-4506-9778-1c45e41bc427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify top)
+		)
+		(border no)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5.8 5.8)
+		(drill 4.3)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0)
+		(thermal_bridge_angle 90)
+		(uuid "2a9da06f-c762-47e0-93b2-b26d8865e4c4")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 0 0)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 0 0)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/PEM_KFS2-M3.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

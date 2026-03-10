@@ -1,0 +1,159 @@
+(footprint "TYCO_380598-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Reuseable Component Receptacle (Mating Pin Dia. Range 0.46 to1.02mm) With Closed Bottom Sleeve")
+	(property "Reference" "REF**"
+		(at 0 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "e8d3cc1a-1b8a-4ddf-a48b-8df89d2117dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TYCO_380598-2"
+		(at 0 3.1 0)
+		(layer "F.Fab")
+		(uuid "d334cdb5-c5b3-4a2c-84c0-f7e05e20c866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e19c90-46a8-4005-ab6b-ba02f0f009af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb3e1ebe-682c-4b8b-9671-12a4e816b6c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c253e231-963d-49d1-b20c-809e29d88d84")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c1cc75f9-c285-4784-80a6-12eae5e6205d")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "848d86f7-d15e-440c-9370-fe02f680a681")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "416048ba-ff51-4fa2-9b00-b0c41c0e2503")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f71f888f-d91f-491e-a8be-dcc1fdc7ca64")
+	)
+	(fp_circle
+		(center 0 -0.00635)
+		(end 0 -1.59385)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4aa2d1e6-8631-4608-93b2-305178651c1d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.1176)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9655cd77-4bf2-4831-a2a4-086c30163776")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.66675)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6b8e14f-db05-41e6-9831-67d310680049")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 2.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "236f1aaf-95a6-4fdd-a7aa-038b5d50d66b")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TYCO_380598-2.stp"
+		(offset
+			(xyz 0.0001 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,88 @@
+(footprint "TYCO_4-1437514-5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Press-in HOLTITE Socket for Round Lead 0.64 to 0.89mm Diameter or 0.64mm² Rectangular Lead (3.56mm max PCB Thickness)")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(layer "F.SilkS")
+		(uuid "ab1348df-c162-43be-8704-32f1879dc2fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TYCO_4-1437514-5"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "bcac3d9c-370c-40a3-ac97-93cad8c92edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b55d195-05c0-4938-8f11-60e603c8d44c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "336a066d-dd68-41c7-9580-7324d31a4672")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_text user "PRESS-FIT Diam=1.6mm +0.02/-0.07"
+		(at -12.5 0.6225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52e07ab7-e9a1-4ae9-8688-b5e0cbee834a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "5d5d8699-bc9c-41c3-93d0-0c09f844b724")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TYCO_7-1437514-0.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

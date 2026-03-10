@@ -1,0 +1,159 @@
+(footprint "MILL-MAX_0294-0-15-15-06-27-10-0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pin Receptacle with No Tail for Round Lead 0,559 to 0,813mm Diameter, 16A")
+	(property "Reference" "REF**"
+		(at -0.00432 -2.03828 0)
+		(layer "F.SilkS")
+		(uuid "d2eee474-df6b-403f-9901-29be6369042a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MILL-MAX_0294-0-15-15-06-27-10-0"
+		(at -0.00432 2.06172 0)
+		(layer "F.Fab")
+		(uuid "5793e8cd-6532-4d90-8f87-ce8cd3b9c218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85b69ee4-cf5d-4a4c-9c78-c9d2e0110c3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e1b79ab-38db-4eb4-a1d5-db6552b98834")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.50432 0.01172)
+		(end -0.00432 0.01172)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ce69c1d0-7484-41ea-9494-f98648df17cc")
+	)
+	(fp_line
+		(start -0.00432 0.01172)
+		(end -0.00432 -0.48828)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5c44e345-5095-4aba-8c54-5ef81e607849")
+	)
+	(fp_line
+		(start -0.00432 0.01172)
+		(end 0.49568 0.01172)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "66d3d70c-8c89-4f7b-bac7-57aeca52a6dd")
+	)
+	(fp_line
+		(start -0.00432 0.51172)
+		(end -0.00432 0.01172)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "397d3cd4-b3c5-48c2-8213-0bda9ca73c06")
+	)
+	(fp_circle
+		(center -0.00432 0.01172)
+		(end -0.00432 -1.33828)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "50d5d35e-d3a8-49ab-91a7-1a3b7c52b1b2")
+	)
+	(fp_circle
+		(center -0.00432 0.01172)
+		(end -0.00432 -0.98828)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "bed8cdfa-dd39-4ae1-9a21-18983cce160d")
+	)
+	(fp_circle
+		(center -0.00432 0.01172)
+		(end -0.00432 -1.13828)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fd191c4e-dcfa-4c95-a92b-08cb9b83d35a")
+	)
+	(fp_circle
+		(center -0.00432 0.01172)
+		(end -0.00432 -0.68828)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7c7c3fb8-6ef3-46cc-9019-13186b6d0049")
+	)
+	(pad "1" thru_hole circle
+		(at -0.00432 0.01172)
+		(size 2.7 2.7)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b9e91d84-0707-4d70-b937-804035d54b61")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MILL-MAX_0294-0-15-15-06-27-10-0.stp"
+		(offset
+			(xyz -0.00422 -0.01163 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

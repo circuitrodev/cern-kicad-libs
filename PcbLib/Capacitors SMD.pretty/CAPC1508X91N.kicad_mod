@@ -1,0 +1,157 @@
+(footprint "CAPC1508X91N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Capacitor, Body 1.52 x 0.76mm IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.41 0)
+		(layer "F.SilkS")
+		(uuid "34cc2694-83b6-48d5-931f-ba4690c944a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "CAPC1508X91N"
+		(at 0 1.41 0)
+		(layer "F.Fab")
+		(uuid "6b274b14-6634-4449-96bc-d1486d1faf40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa8963bf-ccc3-4412-84c7-2ea76a2c8613")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd7c1b3f-45d6-4ce1-b52c-87c99cf1d919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -1.25 -0.67)
+		(end 1.25 -0.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df6107fd-96a9-462c-b136-e9e02b47d501")
+	)
+	(fp_line
+		(start -1.25 0.67)
+		(end -1.25 -0.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a46a4791-3669-4d16-be22-42a2899ca550")
+	)
+	(fp_line
+		(start -1.25 0.67)
+		(end 1.25 0.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd7df231-3317-492e-a3e2-1e5cfc458740")
+	)
+	(fp_line
+		(start 1.25 0.67)
+		(end 1.25 -0.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ca52ef7-5272-46be-aee9-38716c66d4b3")
+	)
+	(fp_line
+		(start -1.24 -0.66)
+		(end 1.24 -0.66)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e475707c-6d3a-4ded-8f86-91c42bd39211")
+	)
+	(fp_line
+		(start -1.24 0.66)
+		(end -1.24 -0.66)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a25a7315-43d6-4764-9eea-e006d02e2019")
+	)
+	(fp_line
+		(start -1.24 0.66)
+		(end 1.24 0.66)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31705665-a451-4889-b931-14a20443e3a9")
+	)
+	(fp_line
+		(start 1.24 0.66)
+		(end 1.24 -0.66)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c50bf69c-23fb-4fbd-a09e-30c78dfa9024")
+	)
+	(pad "1" smd rect
+		(at -0.72 0 90)
+		(size 1.03 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6f0c934-d964-4db5-88cb-4cfbbba0d7e0")
+	)
+	(pad "2" smd rect
+		(at 0.72 0 90)
+		(size 1.03 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10825f68-add6-4808-9848-4fc47848386d")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/CAPC1508X91N.stp"
+		(offset
+			(xyz 0.00008 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

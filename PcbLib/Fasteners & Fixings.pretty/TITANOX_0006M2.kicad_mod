@@ -1,0 +1,183 @@
+(footprint "TITANOX_0006M2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Microbarb M5 Insert for Hot or Cold Press-fitting with Micro Knurling")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "cd8706ad-2656-4a78-b847-5ae7f1d9cfcb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TITANOX_0006M2"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "ea5c8dde-c79f-44c4-8822-9b2cf8fe76cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29087fc3-cfbd-4178-856e-318d03fd4bd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72cce9bd-ca8e-4e08-86da-68408d80d0a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_poly
+		(pts
+			(xy -2.5 0) (xy -2.5 0.24623) (xy -2.40393 0.72922) (xy -2.21547 1.18419) (xy -1.94188 1.59366) (xy -1.59366 1.94188) (xy -1.18419 2.21547) (xy -0.72922 2.40393) (xy -0.24623 2.5) (xy 0 2.5) (xy 0.24623 2.5) (xy 0.72922 2.40393) (xy 1.18419 2.21547) (xy 1.59366 1.94188) (xy 1.94188 1.59366) (xy 2.21547 1.18419) (xy 2.40393 0.72922) (xy 2.5 0.24623) (xy 2.5 0) (xy 2.5 -0.24623) (xy 2.40393 -0.72922) (xy 2.21547 -1.18419) (xy 1.94188 -1.59366) (xy 1.59366 -1.94188) (xy 1.18419 -2.21547) (xy 0.72922 -2.40393) (xy 0.24623 -2.5) (xy 0 -2.5) (xy -0.24623 -2.5) (xy -0.72922 -2.40393) (xy -1.18419 -2.21547) (xy -1.59366 -1.94188) (xy -1.94188 -1.59366) (xy -2.21547 -1.18419) (xy -2.40393 -0.72922) (xy -2.5 -0.24623)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "d1fddf75-8cbb-4755-8a47-7869278d33d3")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0ea0b39e-d5ea-47fe-936f-15a66f77a56e")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d6a83f2d-9fe0-49d8-a9e6-38bb46c40098")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "b02a12ed-f226-4478-99bb-548d6da428ce")
+	)
+	(fp_arc
+		(start 0 1.285)
+		(mid -0.908632 -0.908632)
+		(end 1.285 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50f68da0-9ab1-4c92-8a88-b46709dccf37")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "90918062-709c-442e-9238-3a12c46a7b01")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.785)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7ec4d340-0a0d-4f68-966c-43d5e7f586d7")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 3.3)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1.15)
+		(thermal_bridge_angle 90)
+		(uuid "a579d685-2e31-44a4-8037-afd91cf1c14c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "eb23b83d-4d4f-4805-af95-0563e48e6333")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.5 0) (xy -2.5 0.24623) (xy -2.40393 0.72922) (xy -2.21547 1.18419) (xy -1.94188 1.59366) (xy -1.59366 1.94188) (xy -1.18419 2.21547) (xy -0.72922 2.40393) (xy -0.24623 2.5) (xy 0 2.5) (xy 0.24623 2.5) (xy 0.72922 2.40393) (xy 1.18419 2.21547) (xy 1.59366 1.94188) (xy 1.94188 1.59366) (xy 2.21547 1.18419) (xy 2.40393 0.72922) (xy 2.5 0.24623) (xy 2.5 0) (xy 2.5 -0.24623) (xy 2.40393 -0.72922) (xy 2.21547 -1.18419) (xy 1.94188 -1.59366) (xy 1.59366 -1.94188) (xy 1.18419 -2.21547) (xy 0.72922 -2.40393) (xy 0.24623 -2.5) (xy 0 -2.5) (xy -0.24623 -2.5) (xy -0.72922 -2.40393) (xy -1.18419 -2.21547) (xy -1.59366 -1.94188) (xy -1.94188 -1.59366) (xy -2.21547 -1.18419) (xy -2.40393 -0.72922) (xy -2.5 -0.24623)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TITANOX_0006M2.stp"
+		(offset
+			(xyz 0.00007 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

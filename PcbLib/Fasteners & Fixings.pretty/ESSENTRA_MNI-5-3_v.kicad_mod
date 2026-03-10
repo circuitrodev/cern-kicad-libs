@@ -1,0 +1,128 @@
+(footprint "ESSENTRA_MNI-5-3_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "M3 Nylon Bush, Outside Diameter 9.4mm, Shoulder Diameter 6mm")
+	(property "Reference" "REF**"
+		(at 0 -5.45 0)
+		(layer "F.SilkS")
+		(uuid "7f2f6fea-5fb9-4520-baaa-ed0391f39b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ESSENTRA_MNI-5-3_v"
+		(at 0 5.45 0)
+		(layer "F.Fab")
+		(uuid "891df58f-7a55-43dd-8acd-ae0d4bb08913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdcbcdcf-baf9-448d-9f84-b349a7a2a17b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "686ccd59-75d4-401d-bfd4-c08ec814342b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3594441d-1e30-4ec8-87e5-ff999398c536")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "edc748d4-135f-4e63-b3e5-8e2c1aa03b02")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "42d97fc8-c889-49f4-8600-db7c01bb0164")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9006d4d7-09d8-4663-bd30-545692c2a7d3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5ca6edc8-ef71-44e1-9183-df9e45dcbf63")
+	)
+	(fp_circle
+		(center 0.05 0)
+		(end 0.05 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "66754620-34ee-4b81-a9fa-6c284a80787c")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ESSENTRA_MNI-5-3_v.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

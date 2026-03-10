@@ -1,0 +1,128 @@
+(footprint "FUSE_5X20_CERAMIC_V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Generic 5x20mm Cylindrical Ceramic Fuse (Vertical Mount)")
+	(property "Reference" "REF**"
+		(at 0 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "d43ec97b-b9f8-404d-aa34-4eb0f5d86519")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FUSE_5X20_CERAMIC_V"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "b8912c1e-b621-466f-8778-0b8bfd12915e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eed98d8d-9cec-49c4-a7ea-27c905ab8284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52a5142b-ef07-4873-8981-e86aa0a09ec1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -1 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a607e298-a590-4ef5-98c0-8b26efa2876a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7a85a3a9-32ec-4348-b867-ba3bd6a0b89d")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "66552f25-bc9f-4b46-aec9-f9829e804806")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4b58085f-fcde-45f1-bd63-d4d958ef951d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cfea2592-f21b-4bcd-9f7b-297febef6075")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FUSE_5X20_CERAMIC_v.stp"
+		(offset
+			(xyz 0.00005 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+	(model "${CERN_3DMODEL_DIR}/FUSE_5X20_GLASS_v_Part3.stp"
+		(offset
+			(xyz 0.00005 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

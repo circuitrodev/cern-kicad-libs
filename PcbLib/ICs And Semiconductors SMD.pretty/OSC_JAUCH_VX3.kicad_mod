@@ -1,0 +1,281 @@
+(footprint "OSC_JAUCH_VX3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Oscillator, Side Convave, 4 pins, 5.00x7.00mm, VX3 Serie")
+	(property "Reference" "REF**"
+		(at 0 -4.89 0)
+		(layer "F.SilkS")
+		(uuid "e02bc0e7-f188-4d94-8387-dfd873276ad7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "OSC_JAUCH_VX3"
+		(at 0 4.575 0)
+		(layer "F.Fab")
+		(uuid "699f4412-8045-4eb9-8289-1e972af60597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7ad5999-9148-423b-956c-9be648c2dc28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ed18062-5657-46e5-9312-a981571c7147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.7 -3.6)
+		(end 0.7 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca47d608-2056-4425-a72e-75d48151fbee")
+	)
+	(fp_line
+		(start -0.7 -3.4)
+		(end -0.5 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33adf49f-cd31-4082-8bec-bb85bcedd609")
+	)
+	(fp_line
+		(start -0.7 -3.2)
+		(end -0.3 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66a750d0-ac57-4950-9fd9-64867f6ebbb2")
+	)
+	(fp_line
+		(start -0.7 -3)
+		(end -0.1 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfe8d040-0452-4c41-8a8c-a551de552d10")
+	)
+	(fp_line
+		(start -0.7 -2.8)
+		(end 0.1 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "186a9bc2-f4ea-4a6a-8fd0-dbc4748f6f84")
+	)
+	(fp_line
+		(start -0.7 -2.6)
+		(end 0.3 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7f86e4f-2e17-4547-aadb-a34110fc4aa0")
+	)
+	(fp_line
+		(start -0.7 3.6)
+		(end -0.7 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68f4b8fe-4cdd-470b-b9f2-a93d5a54ee2e")
+	)
+	(fp_line
+		(start -0.7 3.6)
+		(end 0.7 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "391a4159-5f4f-4bbe-b8ba-1dff1b224ee5")
+	)
+	(fp_line
+		(start 0.7 3.6)
+		(end 0.7 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c285a843-f513-4d7d-8035-baa48b3d1d2d")
+	)
+	(fp_circle
+		(center -3.1 -3.94)
+		(end -3.1 -4.065)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1df218db-e18e-4508-82e9-77447cde7e01")
+	)
+	(fp_line
+		(start -3.35 -3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41c736e8-89f7-4b3c-b31b-f12d39211a73")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end -3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15e0e3d7-2375-491a-a802-cb2803d5990a")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end 3.35 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d7c9f20-82dc-44b8-a795-3d33a53b886b")
+	)
+	(fp_line
+		(start 3.35 3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8eba3b79-949b-4785-a73b-32e9a7756085")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6510cac2-e439-4779-b486-58ce50b1fa46")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bef75e44-655a-419d-b939-c0d53770cbc1")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end 2.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee6ce45a-7039-4e61-a39c-b5e49cfc4008")
+	)
+	(fp_line
+		(start 2.5 3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6401e93b-fe99-490b-a51e-33835f32fbfc")
+	)
+	(fp_circle
+		(center -1.5 -2.5)
+		(end -1.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a4f772ec-f5dd-4434-83a7-873582f118b5")
+	)
+	(pad "1" smd rect
+		(at -2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b239101-ba4b-4bc8-acf9-8857c6a3d93b")
+	)
+	(pad "2" smd rect
+		(at -2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ceb0e85f-b340-433a-8375-e1c139df0b5e")
+	)
+	(pad "3" smd rect
+		(at 2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3211df3-65cc-4561-a69e-310c4b91bd0e")
+	)
+	(pad "4" smd rect
+		(at 2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6bc34e93-ddd9-42da-96cd-006bfb33095f")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/OSC_JAUCH_VX3.stp"
+		(offset
+			(xyz 0.00009 0.00012 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

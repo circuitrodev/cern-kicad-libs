@@ -1,0 +1,128 @@
+(footprint "BOSSARD_BN675-1254081_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Serrated Lock Washer for M3 Screw, Stainless Steel")
+	(property "Reference" "REF**"
+		(at 0 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "85626118-b178-499a-8b6e-8d81906d2125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BOSSARD_BN675-1254081_v"
+		(at 0 3.75 0)
+		(layer "F.Fab")
+		(uuid "7c11ef28-fe07-47be-bf69-c327903b83fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d556fbce-884e-459f-8883-8d8ec79f76ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca75b8f5-2f44-4a09-9da0-d1f846b6e206")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e69ea5a7-4589-4237-94e7-3ab01a4ba3ed")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b49557c2-2277-44e4-981f-10cdd14980c4")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "36259465-9fd0-49a7-b6e2-25c5a3fe0e0e")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "16d6fe4b-2bb9-4567-92f9-21f23b17b1b7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b18aa974-fd3e-4806-ad87-db0f6c132fff")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5228dc69-dfd7-4ce6-b7a2-e5db73a1e1d1")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BOSSARD_BN675-1254081_v.stp"
+		(offset
+			(xyz 0.00012 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

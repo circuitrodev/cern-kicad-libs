@@ -1,0 +1,139 @@
+(footprint "BIVAR_TO-5-100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.100\" (2.54mm) Thickness TO-5 Wash-Away Sapcer")
+	(property "Reference" "REF**"
+		(at 0 -5.5625 0)
+		(layer "F.SilkS")
+		(uuid "f2107ef5-680b-4b69-8842-0fe3ae9a233f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BIVAR_TO-5-100"
+		(at 0 5.5625 0)
+		(layer "F.Fab")
+		(uuid "12625c40-ae70-4922-b4f8-bad299c2447d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "339abe24-f4dc-43e4-b5eb-dd970cb915ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00330f13-1128-42ed-866a-d4e6c98619a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4.7625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9fd396a8-72b9-4b71-ac44-a04951ce82da")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c803fe62-9fde-4a3f-a174-3fba4e645191")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0989b84c-e2a7-4a99-9614-9f7d7b491b39")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4a82ed7c-e24a-4a30-a96d-52dc93cebaf7")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f35d9fb6-fbe5-42e5-8562-0812e831902e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4.7625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "82b494c9-5d6a-44cf-96de-633abb7573c7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.8575)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "403946c1-48ad-488c-b8ef-744897f4f2ac")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BIVAR_TO-5-100.stp"
+		(offset
+			(xyz 0.00004 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

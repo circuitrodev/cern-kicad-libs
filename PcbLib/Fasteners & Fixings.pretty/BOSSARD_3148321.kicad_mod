@@ -1,0 +1,159 @@
+(footprint "BOSSARD_3148321"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Microbarb M6 Insert for Hot or Cold Press-fitting with Micro Knurling")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "af55fb5a-b436-4883-8f2b-47d1e5cf0ab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BOSSARD_3148321"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "271983f9-cd63-42e0-bcd8-41bab93182b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bfaf0b6-cf08-430f-81c1-a72a70617bef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19c39444-c641-4b4b-aa5b-92633736fd10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "30a6eea3-f4f1-41db-b6fa-1e659a1854a7")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c1451d5a-283a-4a2c-85a3-252ddce7248b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1dc9fcb9-c9ab-4d9b-b169-e25eff0a48c5")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e5add9c3-5da5-47d8-8ffa-c8dc9c528636")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "f23e8b1c-9928-4141-9bbf-b402c39ffc25")
+	)
+	(fp_arc
+		(start 0 1.25)
+		(mid -0.883883 -0.883883)
+		(end 1.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88ffc892-660d-433a-a2f7-3ab8d0bc7813")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "30acfa24-a3c2-4ee7-b096-d4cc922688c0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.0065)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "afeb6b84-bb33-4b3d-86b4-4ef8f6b876c3")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 3.8)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1.4)
+		(thermal_bridge_angle 90)
+		(uuid "b089cd93-f57d-457d-8466-aee83aa1b051")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BOSSARD_3148321.stp"
+		(offset
+			(xyz 0.00007 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

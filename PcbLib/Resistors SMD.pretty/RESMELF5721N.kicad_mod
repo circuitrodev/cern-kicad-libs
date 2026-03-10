@@ -1,0 +1,177 @@
+(footprint "RESMELF5721N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MELF Resistor, 2-Leads, Body 5.7x2.1mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -2.175 0)
+		(layer "F.SilkS")
+		(uuid "3ef4e07c-387d-4ab1-b2f2-6d2b8125c8d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RESMELF5721N"
+		(at 0 2.175 0)
+		(layer "F.Fab")
+		(uuid "af3ad2cc-f125-42a7-ad15-894fd1041b11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d34efa0-6143-462c-bb80-4e4d4ccd0fbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9b70486-c164-425b-b21e-76ffc5f809ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -1.1 -1.05)
+		(end 1.1 -1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c38ab10-3520-4da5-be0c-487571f2f2e5")
+	)
+	(fp_line
+		(start -1.1 1.05)
+		(end 1.1 1.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c0dc0e0-67fd-496a-8850-c099d9b35eb0")
+	)
+	(fp_line
+		(start -3.6 -1.45)
+		(end 3.6 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cde42f05-1275-4969-b68c-fd9aaa3f37a6")
+	)
+	(fp_line
+		(start -3.6 1.45)
+		(end -3.6 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "891f56d6-e92a-4c2a-b2c9-1f144baece88")
+	)
+	(fp_line
+		(start -3.6 1.45)
+		(end 3.6 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b340d72f-3854-43b9-986c-d1df9194a8d5")
+	)
+	(fp_line
+		(start 3.6 1.45)
+		(end 3.6 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be915a8a-b8b3-4277-8f6b-b5e0d5278b95")
+	)
+	(fp_line
+		(start -2.85 -1.05)
+		(end 2.85 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27504f83-f3b6-443f-83c5-7b0bba0438a4")
+	)
+	(fp_line
+		(start -2.85 1.05)
+		(end -2.85 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c67a21ac-d527-4983-9d40-3e1ff75e3ef6")
+	)
+	(fp_line
+		(start -2.85 1.05)
+		(end 2.85 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbf9ebd4-29e1-4415-924e-a810fa1fcec3")
+	)
+	(fp_line
+		(start 2.85 1.05)
+		(end 2.85 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09a12278-4907-4076-8bac-b9b79ad1adeb")
+	)
+	(pad "1" smd rect
+		(at -2.4 0 90)
+		(size 2.35 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "accd3168-45c7-46f4-927d-f4854b10ff02")
+	)
+	(pad "2" smd rect
+		(at 2.4 0 90)
+		(size 2.35 1.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a9e4ca82-b675-441e-b72f-d7b11a21fad0")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RESMELF5822N.stp"
+		(offset
+			(xyz 0.00008 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

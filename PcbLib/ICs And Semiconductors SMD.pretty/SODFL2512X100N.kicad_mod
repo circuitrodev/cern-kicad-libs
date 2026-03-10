@@ -1,0 +1,200 @@
+(footprint "SODFL2512X100N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SODFL Diode; 1.70mm W X 1.25mm L X 1.00mm H body, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.68 0)
+		(layer "F.SilkS")
+		(uuid "a0ae280d-db03-4a99-bcd5-77270de78b27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "SODFL2512X100N"
+		(at 0 1.575 0)
+		(layer "F.Fab")
+		(uuid "d870bf9a-9fe5-4721-be3a-f5a7d1d23658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b766e1e-1c6e-4557-9b4f-d8b9785f6dd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32726a0d-9c98-4c3a-9a0d-83f7825895d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.85 -0.65)
+		(end 0.85 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27b8a47f-11cf-45fa-aa5c-c5e8e3cad651")
+	)
+	(fp_line
+		(start -0.85 0.65)
+		(end 0.85 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53d3dcb9-aefb-42d4-9e7f-db9f2f8138ea")
+	)
+	(fp_circle
+		(center -1.35 -0.73)
+		(end -1.35 -0.855)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b569aaba-16df-475f-8232-7cc91aaadfa9")
+	)
+	(fp_line
+		(start -1.75 -0.85)
+		(end 1.75 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35e61d74-fbb1-4be9-a348-68673503ec56")
+	)
+	(fp_line
+		(start -1.75 0.85)
+		(end -1.75 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa156dfd-9510-42fa-8e04-ac31fcc887bf")
+	)
+	(fp_line
+		(start -1.75 0.85)
+		(end 1.75 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3609b2d6-4801-43c4-a602-4defc1e94857")
+	)
+	(fp_line
+		(start 1.75 0.85)
+		(end 1.75 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cc49735-33e0-4dd7-bfcb-727f2a5c0d10")
+	)
+	(fp_line
+		(start -0.85 -0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afa44abf-409a-4598-9d0f-72c6493cb243")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end -0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6807db15-ac6f-4fdf-9f08-874e398d0d14")
+	)
+	(fp_line
+		(start -0.85 0.625)
+		(end 0.85 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da396045-db2d-4871-8034-16145e143da4")
+	)
+	(fp_line
+		(start 0.85 0.625)
+		(end 0.85 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab1194fd-07fa-42a8-a5a2-ec4ea3982c8b")
+	)
+	(fp_poly
+		(pts
+			(xy -0.85 0.625) (xy -0.05 0.625) (xy -0.05 -0.625) (xy -0.85 -0.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "1a367da6-86d3-432d-9f08-97c06e5ade43")
+	)
+	(pad "1" smd rect
+		(at -1.14 0)
+		(size 0.84 0.46)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1deb5898-1052-4cac-a934-0d97d89782df")
+	)
+	(pad "2" smd rect
+		(at 1.14 0)
+		(size 0.84 0.46)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04e9c027-d787-4ea5-a82a-c24815963ee0")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/SODFL2512X100N.stp"
+		(offset
+			(xyz 0.00011 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

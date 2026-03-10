@@ -1,0 +1,233 @@
+(footprint "ETTINGER_05.60.422_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cube Standoff Threaded 3xM2.5/12 Brass Nickel-Plated")
+	(property "Reference" "REF**"
+		(at 0 -3.45 0)
+		(layer "F.SilkS")
+		(uuid "a42d1fde-62df-4175-b635-3bcc6930bcec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ETTINGER_05.60.422_v"
+		(at 0 3.45 0)
+		(layer "F.Fab")
+		(uuid "5a8783dd-3cea-4a85-ab73-93e4d8b60410")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7d1d0d9-4392-4a6b-a4de-06999640686e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7661dfa-b132-4041-8a63-a42deb54fdf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "95cc8d88-47f4-4e97-9084-50f558f98b07")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "41255b10-868d-45af-98c9-95dd875048c9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "30a0d60c-5d9d-4e53-9831-1e9e0bc40164")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e17fb865-6ddf-4429-9ca1-42f73c2a302e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "3acbd26f-5a8a-4a2b-b0f8-ea3e7219b2ec")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e4eb3482-5025-4969-ba75-c3529dffbeae")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c742eb0f-e556-438b-84eb-f457799de264")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb547bb9-5567-42f2-a00a-cf05f7a2674a")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b368557f-0cc6-4b7d-be3b-81f5950e92fc")
+	)
+	(fp_line
+		(start 1.3 2.5)
+		(end 1.3 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53211d1c-c57f-4b8c-84e4-ab1f28b34396")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e329a658-8bf5-479f-9fce-e9ab6398ba30")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b90361ce-76b2-4668-ad5e-2a64114c987a")
+	)
+	(pad "1" smd custom
+		(at -2.5 -2.49998)
+		(size 0.000001 0.000001)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0) (xy 5 -0.00001) (xy 5 4.99998) (xy 0 4.99998)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "70df4413-a7c3-434a-9af1-8369761594a9")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "39cc0a86-1d9f-463b-90b5-41bc772160c0")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 3.5 3.5)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 5.5 5.5)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ETTINGER_05.60.422_v.stp"
+		(offset
+			(xyz 0.00011 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

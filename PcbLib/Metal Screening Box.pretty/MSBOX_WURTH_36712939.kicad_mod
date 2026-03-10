@@ -1,0 +1,190 @@
+(footprint "MSBOX_WURTH_36712939"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RF Shield/EMI Surface Mount Shield Frame (Two Piece), External Dimensions 47.7 x 18.2mm")
+	(property "Reference" "REF**"
+		(at 0 -9.2 0)
+		(layer "F.SilkS")
+		(uuid "bf6b329e-04db-4a2d-9509-fe901b2f8210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MSBOX_WURTH_36712939"
+		(at 0 9.2 0)
+		(layer "F.Fab")
+		(uuid "04df5a77-7e72-4e78-926a-083aceae896f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a21bcd97-577d-421c-967c-1d0ef612ff55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a09a717f-da01-4011-9f54-ed6ff49d7806")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "af930aac-4ad7-411a-bc4f-b13d5e5186fc")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "abeada4a-93ba-444d-9e4e-c2d5a2ccee87")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "854d337d-d57b-4a5b-a3e3-b2e858f085f9")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ddb24215-f569-4bff-b377-f0b5af77bd49")
+	)
+	(fp_line
+		(start -14.95 6.45)
+		(end -14.95 -6.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51d135dd-6a0f-471b-8c84-78f265899bf6")
+	)
+	(fp_line
+		(start -12.95 -8.45)
+		(end 12.95 -8.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c6847ca-22fc-47bd-99e1-1fb95af1a637")
+	)
+	(fp_line
+		(start -12.95 8.45)
+		(end 12.95 8.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37f42fec-1a88-419e-9360-39363b486ea2")
+	)
+	(fp_line
+		(start 14.95 6.45)
+		(end 14.95 -6.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b44ddff-b0b9-43bf-b66c-c43cdf4a8a28")
+	)
+	(fp_arc
+		(start -14.95 -6.45)
+		(mid -14.364214 -7.864214)
+		(end -12.95 -8.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f278600-fc32-4bc4-8c66-c0155ff4c203")
+	)
+	(fp_arc
+		(start -12.95 8.45)
+		(mid -14.364214 7.864214)
+		(end -14.95 6.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd8aaaeb-ab47-405b-9e10-c649972f16a6")
+	)
+	(fp_arc
+		(start 12.95 -8.45)
+		(mid 14.364214 -7.864214)
+		(end 14.95 -6.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11637334-c4c5-401d-97d8-aeb8950f9d7d")
+	)
+	(fp_arc
+		(start 14.95 6.45)
+		(mid 14.364214 7.864214)
+		(end 12.95 8.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af5bea13-297d-4a20-aba7-a94d495c0329")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MSBOX_WURTH_36712939.stp"
+		(offset
+			(xyz 0.00005 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

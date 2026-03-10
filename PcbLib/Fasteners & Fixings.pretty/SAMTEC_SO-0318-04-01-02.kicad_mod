@@ -1,0 +1,195 @@
+(footprint "SAMTEC_SO-0318-04-01-02"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.18mm Length, Precision Board Stacking Standoff M3 Female/Female")
+	(property "Reference" "REF**"
+		(at 0 -4.975 0)
+		(layer "F.SilkS")
+		(uuid "00f208ff-70e2-4657-a792-4c6f6865380c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "SAMTEC_SO-0318-04-01-02"
+		(at 0 4.975 0)
+		(layer "F.Fab")
+		(uuid "8cbfcfbe-c79c-408a-a2b6-fde7d3deb4ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d8d5a8e-d451-45b1-9f9a-10500d648040")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9f1d1a8-de0e-4411-a7c6-2cdaa916a79d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "104f8ddc-30e2-4050-9aab-be0fd231384e")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fa2034be-16ce-45c5-8a42-4eb93e8f9992")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c406a756-33ca-4c4c-b308-f2bf058950e8")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0b7dbb48-a51f-4647-a66a-d7b23bdab7e1")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1c71d165-3f97-4dad-83b7-beadf56ab16d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "947288e7-ed37-4bbd-9290-0c19ce6611da")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "081f66c5-892e-4d4c-b101-e9db4eea24d2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.71255)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0fc7910f-224b-4d2a-b55c-07934ac65608")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.07823)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9dad8b92-29c0-413e-b5fa-c8ee324cfb89")
+	)
+	(fp_text user "diam. 4.25 +/-0.08"
+		(at -6.9 5.2225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a04c3ae-800c-4308-9ef3-3062536d4dd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "PRESS-FIT TECH."
+		(at -5.7 -3.9775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f00b02d-84e3-4465-9fcc-6df37f4ab3ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.4 6.4)
+		(drill 4.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "91a0987f-0938-4277-b4b8-fd6cdbf1ba0a")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/SAMTEC_SO-0318-04-01-02.stp"
+		(offset
+			(xyz 2.35 0.0032 0.87)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

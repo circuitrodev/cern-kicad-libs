@@ -1,0 +1,128 @@
+(footprint "HARWIN_R6162-02"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Metric Female Unthreaded Round Brass Spacer/Pillar, Length 6mm, External Dia. 4.76mm, Internal Dia. 2.54mm")
+	(property "Reference" "REF**"
+		(at 0 -3.13 0)
+		(layer "F.SilkS")
+		(uuid "2582b638-61cb-409e-aed8-de315af39524")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARWIN_R6162-02"
+		(at 0 3.13 0)
+		(layer "F.Fab")
+		(uuid "9c7043bb-ef10-4b47-bee6-69001fbdfac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "347a6999-0328-4abe-bf85-1fb96a47a2b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2a85d86-9b11-4500-bd83-5dafd1cfa4e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "166417b4-3ede-4a7a-9d31-860a6163b82e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1551c419-791c-4e8c-bf86-b623c209b768")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1e40c7e7-4f53-49a1-9dd6-a029fa73a830")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "30afb39e-6d6d-442b-9f5d-46246294383a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4ab56839-a202-4088-9309-d8a76a5f5af0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3e4aea58-ae46-4e7d-a817-73a4e606a7e8")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARWIN_R6162-02.stp"
+		(offset
+			(xyz 0.00008 0.00012 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

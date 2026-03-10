@@ -1,0 +1,177 @@
+(footprint "INDM4532X340N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Molded Body; 4.5mm L X 3.2mm W, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -2.675 0)
+		(layer "F.SilkS")
+		(uuid "63d7027b-b377-4d4a-bfd7-5740da160168")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "INDM4532X340N"
+		(at 0 2.675 0)
+		(layer "F.Fab")
+		(uuid "919fa860-ba32-4303-bc27-6fc172dc7e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "819f6729-c283-47c9-addd-a8f263e4a216")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4aea40d0-1e78-491d-a413-4176a6026872")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -2.25 -1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d280ec6f-dc85-45b8-b9e8-83ebf1aeff4a")
+	)
+	(fp_line
+		(start -2.25 1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7708fd75-3f6e-495c-a9a0-38af9d3d6443")
+	)
+	(fp_line
+		(start -3.15 -1.95)
+		(end 3.15 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3c2a773-7be3-497f-9b0a-a332436a76a6")
+	)
+	(fp_line
+		(start -3.15 1.95)
+		(end -3.15 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a0d782e-2f98-4e63-8713-dcee77847ba6")
+	)
+	(fp_line
+		(start -3.15 1.95)
+		(end 3.15 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f090c319-f4de-4864-8d93-4c66955697a1")
+	)
+	(fp_line
+		(start 3.15 1.95)
+		(end 3.15 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dae6562-add2-46ce-b742-874120b9766f")
+	)
+	(fp_line
+		(start -2.25 -1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1632849d-4a97-4ce7-9b73-797441c7336a")
+	)
+	(fp_line
+		(start -2.25 1.6)
+		(end -2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5c12ad2-af3a-4c7d-beb5-4c910b0f85f7")
+	)
+	(fp_line
+		(start -2.25 1.6)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "482e5b7a-3b90-47fc-951d-2b2019290e3a")
+	)
+	(fp_line
+		(start 2.25 1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ba58711-48bc-4747-871b-1daf193c99bd")
+	)
+	(pad "1" smd rect
+		(at -2.1 0 90)
+		(size 2.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "15cb7632-18c7-4067-9fa0-d37e086dc1bc")
+	)
+	(pad "2" smd rect
+		(at 2.1 0 90)
+		(size 2.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35b34819-1939-47e5-a8fb-f18040c8c61b")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/INDM4532X340N.stp"
+		(offset
+			(xyz 0.00005 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

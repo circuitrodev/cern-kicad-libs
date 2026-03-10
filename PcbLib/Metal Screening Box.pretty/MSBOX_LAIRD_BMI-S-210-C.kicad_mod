@@ -1,0 +1,146 @@
+(footprint "MSBOX_LAIRD_BMI-S-210-C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cover for Frame of Standard Surface Mount Shield (Two Piece), External Dimensions 44.6 x 31.1mm")
+	(property "Reference" "REF**"
+		(at 0 -16.3 0)
+		(layer "F.SilkS")
+		(uuid "64eb0f15-8b9f-4324-97da-08807a2e06f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MSBOX_LAIRD_BMI-S-210-C"
+		(at 0 16.3 0)
+		(layer "F.Fab")
+		(uuid "c158440d-6847-49e8-9af5-cfafb0247046")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2aa9e0d-0b1e-41a1-aa96-f2e6e8a8f776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6e35998-6625-45e9-b922-fa70f8f59563")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "251514f5-9c22-443e-9537-060c057fc20f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a2506004-2516-45e0-9761-9c818f8f5768")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0931d379-a634-499e-9f29-681e0f52acbc")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1831e85e-b7fb-4e7e-98ac-313a6c1e05c3")
+	)
+	(fp_line
+		(start -22.3 -15.55)
+		(end 22.3 -15.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8414949e-558d-460b-9933-3371f93b89c7")
+	)
+	(fp_line
+		(start -22.3 15.55)
+		(end -22.3 -15.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70843f27-35ac-4bd1-8171-a263208b141b")
+	)
+	(fp_line
+		(start -22.3 15.55)
+		(end 22.3 15.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e2be448-3eba-4b79-b4ad-8ed6305aea91")
+	)
+	(fp_line
+		(start 22.3 15.55)
+		(end 22.3 -15.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7eabfb9-f4dc-46a7-b94a-1821c983c9ea")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MSBOX_LAIRD_BMI-S-210-C.stp"
+		(offset
+			(xyz 0.00006 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

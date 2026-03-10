@@ -1,0 +1,305 @@
+(footprint "BIVAR_ELM 5-280"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.280\" (7.11mm) Black Spacer For 2 Lead 3mm LED - BIVAR ELM 5 Series")
+	(property "Reference" "REF**"
+		(at 0 -2.765 0)
+		(layer "F.SilkS")
+		(uuid "77b85549-f6b7-432a-b846-d98c642c7bba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BIVAR_ELM 5-280"
+		(at 0 2.765 0)
+		(layer "F.Fab")
+		(uuid "26edeb31-9d2a-45c0-92d6-5fd78d902f4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "456a0921-ea02-4777-8053-81f548e1dc6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86804514-0202-4fe8-8c01-cf55f955919a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_arc
+		(start -1.691516 -1)
+		(mid 0 -1.965)
+		(end 1.691516 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a751a666-2c85-4bb4-8ab3-6089612eb9f0")
+	)
+	(fp_arc
+		(start 1.691516 1)
+		(mid 0 1.965)
+		(end -1.691516 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b89a0b03-587a-44c2-a118-db2ddbe26bba")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "516a710e-e85f-46fb-9a15-53509bf5c590")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e19b144e-6571-49b9-a152-342c7d5958f0")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6743a1bd-b060-4318-b2c5-ba63b729c7bd")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "eb9734fa-46b9-4ed7-b7b7-f4546e09c294")
+	)
+	(fp_line
+		(start -1.4605 -0.254)
+		(end -1.016 -0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2f31151-79af-438a-80a9-0952d9a2f66d")
+	)
+	(fp_line
+		(start -1.4605 0.254)
+		(end -1.016 0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f97f6ded-8913-42d8-a284-e255c8acf4e0")
+	)
+	(fp_line
+		(start -1.016 -0.3302)
+		(end -0.381 -0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "078e57bd-89e2-4556-9062-24bac936d15d")
+	)
+	(fp_line
+		(start -1.016 0.3302)
+		(end -0.381 0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc1a1a8d-47a7-4b0f-8c47-80b51f0f72d3")
+	)
+	(fp_line
+		(start -0.127 0.0762)
+		(end -0.127 -0.0762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edab0b88-13e9-4b93-b63f-c446eb0c62f2")
+	)
+	(fp_line
+		(start 0.127 0.0762)
+		(end 0.127 -0.0762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e3ff88f-4998-48a0-9dea-e74c17d4365e")
+	)
+	(fp_line
+		(start 0.381 -0.3302)
+		(end 1.016 -0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a676f50-8c4d-4137-8508-6967b395213a")
+	)
+	(fp_line
+		(start 0.381 0.3302)
+		(end 1.016 0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "654c7535-dd60-42e6-949b-2e9ddf62f47c")
+	)
+	(fp_line
+		(start 1.016 -0.3302)
+		(end 1.4605 -0.254)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12859ea3-9e7b-4ecd-b3db-3073554b2ab4")
+	)
+	(fp_line
+		(start 1.016 0.3302)
+		(end 1.4605 0.254)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9057291-c5ac-410f-8c6f-d215ba1f8295")
+	)
+	(fp_arc
+		(start -1.4605 0.254)
+		(mid -1.7145 0)
+		(end -1.4605 -0.254)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1425ed06-ae55-42ef-b151-bc7d4243f447")
+	)
+	(fp_arc
+		(start -0.381 -0.3302)
+		(mid -0.201395 -0.255805)
+		(end -0.127 -0.0762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f7cee4e-2711-4c50-b75d-4a992c7d1171")
+	)
+	(fp_arc
+		(start -0.127 0.0762)
+		(mid -0.201395 0.255805)
+		(end -0.381 0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f4ce84b-fb0e-4fc0-8c4c-72ab9547c0c0")
+	)
+	(fp_arc
+		(start 0.127 -0.0762)
+		(mid 0.201395 -0.255805)
+		(end 0.381 -0.3302)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cb9c728-33b6-4e8f-888f-3d2905a386ba")
+	)
+	(fp_arc
+		(start 0.381 0.3302)
+		(mid 0.201395 0.255805)
+		(end 0.127 0.0762)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c83b708b-1807-4333-bf48-d1e8152a7243")
+	)
+	(fp_arc
+		(start 1.4605 -0.254)
+		(mid 1.7145 0)
+		(end 1.4605 0.254)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb7b783e-cf6b-40bc-83db-00db0d3d991e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.965)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5befb964-76d3-4b52-aa9f-2b411094ecc9")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BIVAR_ELM 5-280.stp"
+		(offset
+			(xyz 0.00006 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

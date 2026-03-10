@@ -1,0 +1,223 @@
+(footprint "OSC_IQD_CFPV-45"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Oscillator, Side Concave, 2.54mm Pitch, 6 Pins, 5.00mm L X 7.00mm W X 1.70mm H, CFPV-45 Series")
+	(property "Reference" "REF**"
+		(at 0 -4.99 0)
+		(layer "F.SilkS")
+		(uuid "a218f39c-1889-4e86-8893-b2507c49d48c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "OSC_IQD_CFPV-45"
+		(at 0 4.575 0)
+		(layer "F.Fab")
+		(uuid "0f7dd9af-3189-4010-839f-926f0791f1b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b55047ea-6730-401e-863c-2ffd260b3cd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3b85d2d-28d2-4a40-8603-eafe3415d69c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.75 -3.5)
+		(end 0.75 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea674f18-af64-4ed6-89d9-9546ff6dc884")
+	)
+	(fp_line
+		(start -0.75 3.5)
+		(end 0.75 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fdd77061-f404-4e85-ae52-87ef0fb60186")
+	)
+	(fp_circle
+		(center -3.1 -4.04)
+		(end -3.1 -4.165)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "01ed435f-75ae-4a1c-a6ad-c6899a27d59b")
+	)
+	(fp_line
+		(start -3.35 -3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9dcb163-2143-4ed2-96db-9555a1af36ec")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end -3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "268d2969-38f3-4a51-99ca-0af00f4d1935")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end 3.35 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5483846-cf98-4b7c-92fd-d94c45ab3d36")
+	)
+	(fp_line
+		(start 3.35 3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03ae13bb-7c8a-447c-88b1-57fda040b35a")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afab8898-7b7c-4990-ba64-a01e1c27193a")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24012795-ee35-4bed-b492-53458636c601")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end 2.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9806d6e8-3ca7-4900-9a75-029bcf47f6c4")
+	)
+	(fp_line
+		(start 2.5 3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f8f0636-9654-4750-9b37-8df8fd824f3e")
+	)
+	(fp_circle
+		(center -1.5 -2.5)
+		(end -1.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3bae7f42-fb4c-44de-871c-cd598fac8d48")
+	)
+	(pad "1" smd rect
+		(at -2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "545318df-ccb9-4eb4-a8e3-9e62bd749da6")
+	)
+	(pad "2" smd rect
+		(at -2.1 0)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ee8de3a0-27ff-4ad3-8af2-097bdb3f3c78")
+	)
+	(pad "3" smd rect
+		(at -2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c082c35c-2e79-4fc5-bbfe-3a2e06a00227")
+	)
+	(pad "4" smd rect
+		(at 2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d4e9e0f0-f53c-4a9a-8b40-e04731a23235")
+	)
+	(pad "5" smd rect
+		(at 2.1 0)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5d34595b-e428-4b22-8260-7ef3c83e3e23")
+	)
+	(pad "6" smd rect
+		(at 2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "feaa8a14-c99b-4d7b-9001-71ba2239f3c7")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/OSC_IQD_CFPV-45.stp"
+		(offset
+			(xyz 0.00012 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

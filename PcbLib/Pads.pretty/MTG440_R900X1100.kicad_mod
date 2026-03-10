@@ -1,0 +1,63 @@
+(footprint "MTG440_R900X1100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole: Hole Dia.=4.4mm Pad Rect. 9mm x 11mm")
+	(property "Reference" "REF**"
+		(at 0 -6.2 0)
+		(layer "F.SilkS")
+		(uuid "d2324dd0-e503-479c-888d-96c2d6ca8023")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MTG440_R900X1100"
+		(at 0 6.2 0)
+		(layer "F.Fab")
+		(uuid "980ce4a1-7a31-4e63-9226-99f53cae1b74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b83f600-ed10-4400-a51e-8fe4b317e0b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cae21e91-afdf-4be3-80a7-b8ee00c36ec9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 9 11)
+		(drill 4.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f60a1e5a-b318-48b3-aff9-90fdd24a5214")
+	)
+	(embedded_fonts no)
+)

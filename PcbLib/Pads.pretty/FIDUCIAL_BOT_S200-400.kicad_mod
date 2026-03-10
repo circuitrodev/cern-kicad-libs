@@ -1,0 +1,95 @@
+(footprint "FIDUCIAL_BOT_S200-400"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Scare Fiducial Target, Bottom Layer,  2.0mm, Bot Sloder 4.0mm, Keepout =4.0mm")
+	(property "Reference" "REF**"
+		(at -0.01079 -3.53922 0)
+		(layer "F.SilkS")
+		(uuid "3d6f9c73-49bf-4cf7-ab17-9aee5a3756b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FIDUCIAL_BOT_S200-400"
+		(at -0.01079 3.51764 0)
+		(layer "F.Fab")
+		(uuid "5fe8af03-14b3-4ef8-87c1-3a4cddc8893f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c4bb4e1-8a4d-452f-806a-0772cd665ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1200d13-eb80-4161-9019-f72d0aa49e8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at 0 0 45)
+		(size 2 2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(solder_mask_margin 1)
+		(solder_paste_margin -1.01)
+		(uuid "22bae029-1ede-44d1-8c9a-89c3ea46976e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "71fa34b1-fe8f-4c9b-919c-19f15b194f80")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.83922 -0.01079) (xy -0.01079 -2.83922) (xy 2.81764 -0.01079) (xy -0.01079 2.81764)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

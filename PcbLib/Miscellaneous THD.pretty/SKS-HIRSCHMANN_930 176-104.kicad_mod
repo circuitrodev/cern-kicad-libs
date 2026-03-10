@@ -1,0 +1,141 @@
+(footprint "SKS-HIRSCHMANN_930 176-104"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Green Socket For Banana 4mm")
+	(property "Reference" "REF**"
+		(at 0.00008 -8.80008 0)
+		(layer "F.SilkS")
+		(uuid "a2370f41-6777-45a8-9885-3858630b8b9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "SKS-HIRSCHMANN_930 176-104"
+		(at 0.00008 8.79992 0)
+		(layer "F.Fab")
+		(uuid "e0596a4a-788b-49ea-9574-ee23175c0182")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "419a2f2e-ba2a-4cf4-b4fc-68dcbcad7a89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7e1de10-87dd-41fb-a75c-f26c22554046")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9fa94b59-6bec-42cd-8872-0d33a4b93a09")
+	)
+	(fp_circle
+		(center 0.00008 -0.00008)
+		(end 0.00008 -8.00008)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "667dca7d-cdc6-40b8-8807-a231dd26b714")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "031c6250-9e9c-44f1-840f-926fa1565a5b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2e28e7ec-0e7a-4855-ac30-98af8f5efd37")
+	)
+	(fp_circle
+		(center 0.00198 -0.00294)
+		(end 0.00198 -3.00294)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3b9abeff-938b-4fbc-82fd-520706511fc9")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 10.5 10.5)
+		(drill 6.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "1a1b03b9-0ff0-452d-8510-7db182cd2a57")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/SKS-HIRSCHMANN_930 176-104_Part2.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+	(model "${CERN_3DMODEL_DIR}/SKS-HIRSCHMANN_930 176-104_Part1.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

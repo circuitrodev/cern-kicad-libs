@@ -1,0 +1,99 @@
+(footprint "ESSENTRA_LEDS1E-4-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6.4mm Vertical Spacer For 3mm LED - LEDS1E Serie")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "8f3c9fe7-4ef5-4851-ba28-a691beb65e32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ESSENTRA_LEDS1E-4-01"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "694196e6-0a03-4662-b663-bfc5c3a9bc57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91ea21b0-984d-4e34-a5df-5f22600d6aa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7882aeec-e3da-4a73-8e88-a50860baacce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_arc
+		(start -1.295344 -1.249834)
+		(mid 0 -1.8)
+		(end 1.295344 -1.249834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68166e1a-481e-4560-bcf9-8802590faf6a")
+	)
+	(fp_arc
+		(start 1.295522 1.249649)
+		(mid 0 1.8)
+		(end -1.295522 1.249649)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc435c6d-d200-4d7d-8598-eba52dc0a868")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b719ce65-b0a3-455a-9d23-c323855947fa")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ESSENTRA_LEDS1E-4-01.stp"
+		(offset
+			(xyz 0.00008 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

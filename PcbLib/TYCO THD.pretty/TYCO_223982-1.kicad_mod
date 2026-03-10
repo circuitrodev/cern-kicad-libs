@@ -1,0 +1,208 @@
+(footprint "TYCO_223982-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Universal Vertical Male Power Module Guide Pin,Keyed No Flat")
+	(property "Reference" "REF**"
+		(at 0 -4.7 0)
+		(layer "F.SilkS")
+		(uuid "07db5c81-4508-4ea1-be16-81bce9711b34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TYCO_223982-1"
+		(at 0 4.7 0)
+		(layer "F.Fab")
+		(uuid "d3baadd3-9079-4cd8-831e-6cb7aed5ffba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "072002cb-3cc4-4ec6-9137-1e3e945a5270")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4db48448-0cdf-41d5-b669-a42d8778376e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a35e6139-b6f5-4435-a64c-35e6e8565888")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e6e332d9-57e0-40e9-8344-37fc722dc304")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "18abb1ab-3872-4d26-857a-b342e9d2c6b3")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8562c5f0-be62-4611-b572-b748c7577e41")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5541f7bb-754f-4641-aa1a-2c1504ae6c37")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0c1b0c7f-395b-48f5-b609-380368c08cdb")
+	)
+	(fp_line
+		(start -3.175 -1.83309)
+		(end 0 -3.66618)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6e50b9bf-8973-4874-afe9-cdab561d06a2")
+	)
+	(fp_line
+		(start -3.175 1.83309)
+		(end -3.175 -1.83309)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44e0391b-66fe-4893-a602-f4f6e9264820")
+	)
+	(fp_line
+		(start -3.175 1.83309)
+		(end 0 3.66618)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a176a1b6-74e4-42a6-beb1-489c368736c5")
+	)
+	(fp_line
+		(start 0 -3.66618)
+		(end 3.175 -1.83309)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b81f8d5-9716-43aa-88ea-b7c48f1aec63")
+	)
+	(fp_line
+		(start 0 3.66618)
+		(end 3.175 1.83309)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b37477df-9c00-4faa-881b-64a675bd5938")
+	)
+	(fp_line
+		(start 3.175 1.83309)
+		(end 3.175 -1.83309)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "590cd4cb-204d-4848-8aed-d5117c3f9eb7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "06aa25af-df66-4bfd-80d5-16888f16b96f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 8 8)
+		(drill 4.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "dd30bc59-9c1c-44be-ac2b-f53c7467fa8d")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TYCO_223982-1.stp"
+		(offset
+			(xyz 0.0001 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

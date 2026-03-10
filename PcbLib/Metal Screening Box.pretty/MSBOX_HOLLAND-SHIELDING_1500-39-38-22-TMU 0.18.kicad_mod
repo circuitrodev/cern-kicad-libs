@@ -1,0 +1,186 @@
+(footprint "MSBOX_HOLLAND-SHIELDING_1500-39-38-22-TMU 0.18"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Custom 1500 Series Clip-on EMI Shielding Cans for PCBs")
+	(property "Reference" "REF**"
+		(at 0 -19.75 0)
+		(layer "F.SilkS")
+		(uuid "9d81b5fe-dee4-4ff7-8e5c-b1e4194bcbed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MSBOX_HOLLAND-SHIELDING_1500-39-38-22-TMU 0.18"
+		(at 0 19.75 0)
+		(layer "F.Fab")
+		(uuid "c32f0ad2-18d0-4eed-ba5c-f6f3769e33e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd3d5717-d9a7-4d86-a996-8e9e08252875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "051658d5-e0bc-4a3c-ac83-4356ce06cd9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -19.41014 -18.91018)
+		(end -19.41014 18.91017)
+		(stroke
+			(width 0.18)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "10d14e6d-ca91-4f4a-a04d-90df1d5640db")
+	)
+	(fp_line
+		(start -19.41014 -18.91018)
+		(end 19.41013 -18.91018)
+		(stroke
+			(width 0.18)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3090d6a3-f2df-49d2-94c0-1d879469ee5b")
+	)
+	(fp_line
+		(start -19.41014 18.91017)
+		(end 19.40981 18.91018)
+		(stroke
+			(width 0.18)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "64e301a4-f322-4ec5-b0af-b101762f6598")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c4b56e15-3cc0-4d33-95db-a932a4228961")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "665a19b5-fc2b-4c26-b1b8-63c1ab286d4f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1dca70b4-743d-4855-b5c4-572098ce38fb")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "43b26cb4-9ad9-4452-948b-0a5b45480227")
+	)
+	(fp_line
+		(start 19.40981 -18.91016)
+		(end 19.40981 18.91018)
+		(stroke
+			(width 0.18)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7d6114c4-d08f-44a0-a7ff-7063188eae06")
+	)
+	(fp_line
+		(start -19.5 -19)
+		(end 19.5 -19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb7a44c9-f58f-450a-a557-c54213870c50")
+	)
+	(fp_line
+		(start -19.5 19)
+		(end -19.5 -19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34ebe35a-7c01-435f-8321-8144e348f0e1")
+	)
+	(fp_line
+		(start -19.5 19)
+		(end 19.5 19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c68a323-426f-490e-a57f-72156dc0f2bf")
+	)
+	(fp_line
+		(start 19.5 19)
+		(end 19.5 -19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "238dffd0-7ca2-43e7-bde4-5a8df3bbd0df")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MSBOX_HOLLAND-SHIELDING_1500-39-38-22-TMU 0.18.stp"
+		(offset
+			(xyz 0.00008 0.0001 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

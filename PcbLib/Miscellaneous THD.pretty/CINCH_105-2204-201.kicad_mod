@@ -1,0 +1,188 @@
+(footprint "CINCH_105-2204-201"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Green Tip Jack, Vertical For Banana 2mm")
+	(property "Reference" "REF**"
+		(at 0 -3.39 0)
+		(layer "F.SilkS")
+		(uuid "68841874-ae5e-4b3e-8e1b-b741bf4e4e27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "CINCH_105-2204-201"
+		(at 0 3.39 0)
+		(layer "F.Fab")
+		(uuid "6ede23ed-1dd2-470f-b205-e7b10ffea496")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a8b8ba6-f043-42b7-83e9-5ccdf4df53d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0153fdd4-62b1-4665-a055-7ee328b158c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "13db3613-ee27-4798-af7f-17da614b7d0f")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "47e3396e-7376-4c2a-b3fc-abb0324c73d8")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e4f9d5c9-6403-47a9-9e3b-33d165ad3f68")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "61752523-5044-46fd-b195-637ea1f5a3d9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9f1478e5-e8ec-4a4b-85da-3991a3927439")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9f813bbd-7efd-45de-9207-c5ad6ea0fff5")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "dd8c6f91-d852-43f0-86c7-11d1a87d124e")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "13e47c33-7ae0-4e33-9d7a-48b0ac6e6753")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8ac98022-d284-49f8-bd4d-1321ade6e9fd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "984f90ef-51ba-44ac-9364-79f679432b2a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "149664e7-fabc-4b26-943e-f9f80954c0b0")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.1 2.1)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6f4b1f56-f306-4b61-8e35-98adbe3be165")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/CINCH_105-2204-201.stp"
+		(offset
+			(xyz 0.00007 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

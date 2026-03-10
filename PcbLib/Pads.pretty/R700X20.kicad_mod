@@ -1,0 +1,61 @@
+(footprint "R700X20"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "7mm x  0.2mm SMD Pad")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "b3889828-f4b8-44f2-a0db-adfbf633a747")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R700X20"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(uuid "25eac8e8-b9e0-41b9-8704-8e7078f94cd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6894f249-3007-401f-898d-b3a270fa98e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a487e77b-fa1a-426d-8b5e-ab90a24d4cf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 7 0.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e3567585-0cd5-4a57-95d0-bb2c461ef4c5")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,164 @@
+(footprint "RES_OHMITE_SM10403"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Radial, Pad spacing 22.86mm - Body 2.54mm X 27.43mm X 8.64mm H")
+	(property "Reference" "REF**"
+		(at 0.00007 -2.07006 0)
+		(layer "F.SilkS")
+		(uuid "e31f16d4-6f87-4a49-a6f1-a55a94ecd429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RES_OHMITE_SM10403"
+		(at 0.00007 2.06994 0)
+		(layer "F.Fab")
+		(uuid "e38ec840-c934-40c2-97b5-80898242465f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d907c777-4ce3-40a9-8231-f63c0950ec54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "093e6f26-f298-4876-9361-1372ecd20ef0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -13.71493 -1.27006)
+		(end 13.71507 -1.27006)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54b50731-e3c9-4598-a879-0e70cb87a184")
+	)
+	(fp_line
+		(start -13.71493 1.26994)
+		(end -13.71493 -1.27006)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "758e67ac-49fb-47f3-805b-966cd084c087")
+	)
+	(fp_line
+		(start -13.71493 1.26994)
+		(end 13.71507 1.26994)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac3c5e11-09a5-4a38-9fbd-76c423033c15")
+	)
+	(fp_line
+		(start 13.71507 1.26994)
+		(end 13.71507 -1.27006)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "517b1369-0377-4e12-bbc7-c804ff9939f8")
+	)
+	(fp_line
+		(start -13.71493 -1.27006)
+		(end 13.71507 -1.27006)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd155657-177e-4671-8d74-63be95e0f75d")
+	)
+	(fp_line
+		(start -13.71493 1.26994)
+		(end -13.71493 -1.27006)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a023889-2682-4783-89c1-6ab4d5b56595")
+	)
+	(fp_line
+		(start -13.71493 1.26994)
+		(end 13.71507 1.26994)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56093789-6592-4932-9d49-34787e6cd2b6")
+	)
+	(fp_line
+		(start 13.71507 1.26994)
+		(end 13.71507 -1.27006)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c4169e8-de0d-4fde-89ab-6bff61166991")
+	)
+	(pad "1" thru_hole circle
+		(at -11.43 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9c1d5f8a-8b36-4477-85e6-6a48c5c10ec3")
+	)
+	(pad "2" thru_hole circle
+		(at 11.43 0)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b1bb2fd4-a4a9-4258-bd27-003fcdcde79d")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RES_OHMITE_SM10403.stp"
+		(offset
+			(xyz 0.00007 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

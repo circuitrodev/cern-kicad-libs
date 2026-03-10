@@ -1,0 +1,97 @@
+(footprint "HARTING_09 03 000 6225"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DIN-Signal Female Contact, High Current FS40A, Straight Solder M-flat")
+	(property "Reference" "REF**"
+		(at 0 -3.925 0)
+		(layer "F.SilkS")
+		(uuid "e2436e62-0cbf-4618-ac50-02a64a09cd19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARTING_09 03 000 6225"
+		(at 0 3.925 0)
+		(layer "F.Fab")
+		(uuid "f0f7af1c-7c29-48c4-801e-a5d6d130f78f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8680b320-dd58-4efc-b2fd-3ece0b0c1b0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bf58dfc-0331-486d-aeee-9f78f4f42d5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.125)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6cb1a5ad-c5e3-437d-a70a-ec399c9257b0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f972dbe1-a098-4cea-a307-7a0e16fcbec2")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.6 5.6)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "28de0b35-c00f-4667-a81f-4ee74eb42fd4")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARTING_09 03 000 6225.stp"
+		(offset
+			(xyz 0.0001 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

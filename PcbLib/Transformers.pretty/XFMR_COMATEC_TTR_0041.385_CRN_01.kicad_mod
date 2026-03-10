@@ -1,0 +1,192 @@
+(footprint "XFMR_COMATEC_TTR/0041.385/CRN/01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "230VAC to 15VAC and 15.5VAC and 8VAC, 41VA Toroidal Transformer")
+	(property "Reference" "REF**"
+		(at 0 -40.8 0)
+		(layer "F.SilkS")
+		(uuid "c311ae79-68f8-4095-8102-225c88a9432b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "XFMR_COMATEC_TTR/0041.385/CRN/01"
+		(at 0 40.8 0)
+		(layer "F.Fab")
+		(uuid "01dad561-9a90-4d2f-a8ed-5b7faf0804c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbde9314-9a59-420f-ad30-ef8e5091affe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3625190b-5150-4956-b8bf-0d56679459ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -40)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fdacfa1b-9991-4106-8b6a-9fd545effa92")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -16.25279)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8094656b-b258-4f7c-a3f0-d1b98c0f1d21")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -8.65278)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ebe2ac5b-6f87-486d-8f47-f9133be17c78")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "44681211-4dbf-44f8-af95-632b2699237a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "de22fdd6-1acc-4f2d-8b3c-feae0416f7ac")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e7ba6576-1f93-44d2-8a1e-d4e19386e758")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "42cbaede-8ac4-4d29-b8f1-160156094076")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -40)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6b50bd4d-f39a-4a9b-84fa-ecded43f5fe6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -16.25279)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "28e221a0-c1c7-4b73-b5b0-9da5a8a25ab5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -8.65278)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f08a5dba-5c6f-4e5b-8bc4-dd0b177decf4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f7b66a59-622d-40dd-a05e-0f6aac1299cc")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9 9)
+		(drill 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "48e41e7e-1fb8-4495-ac70-434a6dd522d4")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/XFMR_COMATEC_TTR.0041.385.CRN.01.stp"
+		(offset
+			(xyz 0.00009 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

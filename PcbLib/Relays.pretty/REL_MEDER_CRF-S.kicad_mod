@@ -1,0 +1,366 @@
+(footprint "REL_MEDER_CRF-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "10 Pin SPST BGA Relay, MEDER CRF Series, Body 8.6mm x 4.4mm")
+	(property "Reference" "REF**"
+		(at 0 -3.175 0)
+		(layer "F.SilkS")
+		(uuid "8b457e19-ac47-4e7a-bb61-62afeee76577")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "REL_MEDER_CRF-S"
+		(at 0 3.71569 0)
+		(layer "F.Fab")
+		(uuid "3c126da7-017b-4507-9ecb-41b9fc0a3bf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2f68d5e-167b-415a-b69f-5d1f0b7d6f33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35214b34-15a1-46bc-8fdf-0180b7d55011")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -4.3 -2.2)
+		(end 4.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55c3657e-e772-4f55-88d2-e31611fe6695")
+	)
+	(fp_line
+		(start -4.3 2.2)
+		(end -4.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe3ad73a-84d4-44a8-8007-9fc7ec43edcf")
+	)
+	(fp_line
+		(start -4.3 2.2)
+		(end 4.3 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cee3f94-a7ce-4b7a-882b-5825fc7444b0")
+	)
+	(fp_line
+		(start 4.3 2.2)
+		(end 4.3 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9c5c9c9-2f4b-43aa-9612-c16e59745167")
+	)
+	(fp_circle
+		(center -4.01716 2.76569)
+		(end -4.01716 2.64069)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "de2132a4-f8f0-41d9-9cb9-f1c63327e407")
+	)
+	(fp_line
+		(start -4.55 -2.45)
+		(end 4.55 -2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "707060af-2cef-4e43-a78d-8290b55e6baf")
+	)
+	(fp_line
+		(start -4.55 2.45)
+		(end -4.55 -2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fd1e7fb-3c38-4fbd-a2f2-9793463ac7cd")
+	)
+	(fp_line
+		(start -4.55 2.45)
+		(end 4.55 2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97bd9702-0320-4115-9752-b85d86c995ff")
+	)
+	(fp_line
+		(start 4.55 2.45)
+		(end 4.55 -2.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d339c1c7-3fdb-476d-906e-b12ba43361ae")
+	)
+	(fp_line
+		(start -4.3 -2.2)
+		(end 4.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44f9cd2e-a23b-462d-9074-5bd709aa6ae4")
+	)
+	(fp_line
+		(start -4.3 1.2)
+		(end -3.3 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5118d3d-de21-4dc9-98c4-e556e6ea5acd")
+	)
+	(fp_line
+		(start -4.3 1.3)
+		(end -3.4 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba1b977f-c80c-40d3-88f4-61f4e1f33e6f")
+	)
+	(fp_line
+		(start -4.3 1.4)
+		(end -3.5 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16c1ca0b-eb09-4f10-a6b4-f77ae0f19dfb")
+	)
+	(fp_line
+		(start -4.3 1.5)
+		(end -3.6 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "241eaf17-0206-4867-9aab-e39ea13d2754")
+	)
+	(fp_line
+		(start -4.3 1.6)
+		(end -3.7 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0776930-963c-46e5-b5a2-77afe4adc408")
+	)
+	(fp_line
+		(start -4.3 1.7)
+		(end -3.8 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e82a16ec-344c-4411-8849-189da8d72252")
+	)
+	(fp_line
+		(start -4.3 1.8)
+		(end -3.9 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e162a993-8de9-48b8-983f-8f55da3dd193")
+	)
+	(fp_line
+		(start -4.3 1.9)
+		(end -4 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e591889f-6458-4d5b-96ce-a1b82be51352")
+	)
+	(fp_line
+		(start -4.3 2)
+		(end -4.1 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88325d21-789c-407e-82e0-30297e261b3a")
+	)
+	(fp_line
+		(start -4.3 2.1)
+		(end -4.2 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23b8b560-4501-4dcc-8c76-ff651badd9e3")
+	)
+	(fp_line
+		(start -4.3 2.2)
+		(end -4.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dab5836-fc61-4e03-a3a4-c8e49775203f")
+	)
+	(fp_line
+		(start -4.3 2.2)
+		(end 4.3 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49470957-7d2a-4199-9578-db239ea40de9")
+	)
+	(fp_line
+		(start 4.3 2.2)
+		(end 4.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1106d4a7-1fa6-40f7-a077-4d89314b43cf")
+	)
+	(pad "1" smd circle
+		(at -3.6 1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "aaa83a7a-858e-44dc-904e-7fa9ed426a94")
+	)
+	(pad "2" smd circle
+		(at -1.2 1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "e526d4fd-9105-487e-a99d-daa444d0c012")
+	)
+	(pad "3" smd circle
+		(at 1.2 1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "bd866624-2309-4daf-80aa-c1c81849d84c")
+	)
+	(pad "4" smd circle
+		(at 3.6 1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "a264c5cc-d4df-446a-ad56-acf7f410c282")
+	)
+	(pad "5" smd circle
+		(at 3.6 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "fcfe4c61-69ac-44e5-9c01-8727d9a2f9fd")
+	)
+	(pad "6" smd circle
+		(at 3.6 -1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "8fde45b6-e00b-4f24-9785-4ca96124d329")
+	)
+	(pad "7" smd circle
+		(at 1.2 -1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "cf508c66-449a-457b-ba30-772302ac69e5")
+	)
+	(pad "8" smd circle
+		(at -1.2 -1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "e629d269-fcdc-4005-b8eb-9782ac2e47ac")
+	)
+	(pad "9" smd circle
+		(at -3.6 -1.5)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "e928d6fb-7b86-4d41-b36e-d44cf312a968")
+	)
+	(pad "10" smd circle
+		(at -3.6 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(uuid "7b0cabdb-b718-46a6-80e0-f727c516134f")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/REL_MEDER_CRF-S.stp"
+		(offset
+			(xyz 0.00007 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

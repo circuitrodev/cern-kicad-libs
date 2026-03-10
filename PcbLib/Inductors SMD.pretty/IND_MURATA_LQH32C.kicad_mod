@@ -1,0 +1,189 @@
+(footprint "IND_MURATA_LQH32C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Inductor, 3.40mm L X 2.50mm W X 2.20mm H, MURATA LQH32 Series")
+	(property "Reference" "REF**"
+		(at 0 -2.325 0)
+		(layer "F.SilkS")
+		(uuid "00165138-695e-42dd-9519-a9ada8ceb057")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "IND_MURATA_LQH32C"
+		(at 0 2.325 0)
+		(layer "F.Fab")
+		(uuid "b56db122-73e7-4f41-9584-e679bff9b278")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8ce4b24-2ce3-4619-82d3-55b4c136001f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31e703cb-26ee-497f-9db9-52da610380f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -2.05 -1.4)
+		(end 2.05 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77dfa929-d8e1-4592-be42-fdea84c3124d")
+	)
+	(fp_line
+		(start -2.05 1.4)
+		(end 2.05 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "761c5424-24aa-4ef1-a306-aad51d3e77c7")
+	)
+	(fp_line
+		(start -2.45 -1.6)
+		(end 2.45 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "059e751d-589d-4043-acba-000d42c227fa")
+	)
+	(fp_line
+		(start -2.45 1.6)
+		(end -2.45 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8333c8a9-055b-4e91-872c-4d908a9b8867")
+	)
+	(fp_line
+		(start -2.45 1.6)
+		(end 2.45 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a109b5c-a99f-4459-a13e-f941a659224a")
+	)
+	(fp_line
+		(start 2.45 1.6)
+		(end 2.45 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdab744c-8c6e-4ace-8c45-863b092b93e5")
+	)
+	(fp_line
+		(start -1.85 -1.35)
+		(end 1.85 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e67e639-794e-49f2-8fd4-5559c87e0620")
+	)
+	(fp_line
+		(start -1.85 1.35)
+		(end -1.85 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4e0369a-910e-4a4f-84ba-99fa794032fe")
+	)
+	(fp_line
+		(start -1.85 1.35)
+		(end 1.85 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bffbdca4-c510-46f1-89e9-6cf971652edf")
+	)
+	(fp_line
+		(start 1.85 1.35)
+		(end 1.85 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd163c2a-6342-4f5c-86ab-9d798c80c51f")
+	)
+	(pad "1" smd rect
+		(at -2.15 0)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c622ee9f-fb0e-4691-bd7d-12ba95aba8fe")
+	)
+	(pad "1" smd rect
+		(at -1.15 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d00a59cb-d9bb-4d9e-a6b3-75bcc82a3bca")
+	)
+	(pad "2" smd rect
+		(at 1.15 0)
+		(size 1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a689974-51b6-4b77-a42a-f3a41087baac")
+	)
+	(pad "2" smd rect
+		(at 2.15 0)
+		(size 1.2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a492976e-3d2c-4bc1-b280-90f8e13e1b6e")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/IND_MURATA_LQH32C.stp"
+		(offset
+			(xyz 0.00011 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

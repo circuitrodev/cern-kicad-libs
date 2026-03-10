@@ -1,0 +1,376 @@
+(footprint "FUSR_LITTELFUSE_RHEF100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Radial-Leaded PolySwitch® PTC Resettable Fuse, Diameter 9.7mm Width 3mm")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "461262ad-6174-4ea4-9cdf-fa63c729693b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FUSR_LITTELFUSE_RHEF100"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "057970f5-b646-4608-80ba-fb2e12037110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ada7256-9f6a-4282-9791-3d11ed5a8e43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b57ffccd-56db-4817-a1aa-77e557c454f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -3.35 1.5)
+		(end 1.65627 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebbce02a-b224-41b3-b443-a330dc09824c")
+	)
+	(fp_line
+		(start -1.65627 -1.5)
+		(end 3.35 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dfa5f51-bfa3-47f9-9a6b-041fb836b909")
+	)
+	(fp_arc
+		(start -4.85 -0.000001)
+		(mid -4.436894 -1.033761)
+		(end -3.425119 -1.498118)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9e7db75-3429-4e8c-9a7b-69acbf94cb93")
+	)
+	(fp_arc
+		(start -3.35 1.5)
+		(mid -4.41066 1.06066)
+		(end -4.85 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc5b7cf5-8c14-4688-886a-c098e4504351")
+	)
+	(fp_arc
+		(start 3.35 -1.5)
+		(mid 4.41066 -1.06066)
+		(end 4.85 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eef3db23-92e3-4557-a4c0-9e29fcf84dc5")
+	)
+	(fp_arc
+		(start 4.85 0.000001)
+		(mid 4.436894 1.033761)
+		(end 3.425119 1.498118)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "268f05ab-c3ea-422f-ac1b-2541b0c9ff18")
+	)
+	(fp_line
+		(start -3.04 -0.845)
+		(end -2.54 -0.845)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e9d42928-bd00-4d57-8258-553fc17dcfce")
+	)
+	(fp_line
+		(start -2.54 -0.845)
+		(end -2.54 -1.345)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3d358db6-8db9-4652-aea7-59e704bc6e2b")
+	)
+	(fp_line
+		(start -2.54 -0.845)
+		(end -2.04 -0.845)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9e467461-e127-4c48-9270-778460eeb716")
+	)
+	(fp_line
+		(start -2.54 -0.345)
+		(end -2.54 -0.845)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2565eb15-da05-476f-8730-70eb977a7140")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0eca95b9-a66b-408a-a1fa-cf8c99ebf504")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ac8c082e-b4c3-4a42-af0a-e728dcd15dc9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e60b04c4-2892-45dc-84ab-a3a7c8a7cc37")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e8c2a58a-c7f8-4a28-b184-ab9731ef2326")
+	)
+	(fp_line
+		(start 2.04 0.845)
+		(end 2.54 0.845)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a722966c-49a6-414d-bf66-15cb48dcfddb")
+	)
+	(fp_line
+		(start 2.54 0.845)
+		(end 2.54 0.345)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "72619631-f03a-4151-bb00-011f7e61b87a")
+	)
+	(fp_line
+		(start 2.54 0.845)
+		(end 3.04 0.845)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "cbffbeb1-e078-494b-a46d-a5255dca76a7")
+	)
+	(fp_line
+		(start 2.54 1.345)
+		(end 2.54 0.845)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9502a31f-c9fa-4507-9ac2-ec549508faee")
+	)
+	(fp_circle
+		(center -2.54 -0.845)
+		(end -2.54 -1.245)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0638c23d-b7ff-4c24-8e6c-57d4024f1c2a")
+	)
+	(fp_circle
+		(center -2.54 -0.845)
+		(end -2.54 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "0eefe938-a5a6-498a-8d3b-64a753c9a80b")
+	)
+	(fp_circle
+		(center 2.54 0.845)
+		(end 2.54 0.445)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "5bb99a45-f02a-4bb3-ae25-01cd2c8da35a")
+	)
+	(fp_circle
+		(center 2.54 0.845)
+		(end 2.54 0.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2f8b4e3a-d572-4b6b-95d9-fcbcdf255c6c")
+	)
+	(fp_line
+		(start -3.35 -1.5)
+		(end 3.35 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "020f3d0b-03d1-41b8-b4da-91846a632e2f")
+	)
+	(fp_line
+		(start -3.35 1.5)
+		(end 3.35 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7be0e5e3-f8ca-4850-934d-f1b8895643c9")
+	)
+	(fp_arc
+		(start -4.85 0)
+		(mid -4.41066 -1.06066)
+		(end -3.35 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2523099e-b240-4707-b9e2-b016e0309bcf")
+	)
+	(fp_arc
+		(start -3.35 1.5)
+		(mid -4.41066 1.06066)
+		(end -4.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c730aa2-9e4f-4581-87ab-c15713f29d54")
+	)
+	(fp_arc
+		(start 3.35 -1.5)
+		(mid 4.41066 -1.06066)
+		(end 4.85 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2eb71ee-9af7-4848-81e4-9b0747215017")
+	)
+	(fp_arc
+		(start 4.85 0)
+		(mid 4.41066 1.06066)
+		(end 3.35 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23db4226-6dd0-4ee4-80bb-c960e5dfeeba")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 -0.845)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c3aaa389-0ee4-45de-9f3a-ecb699840fa8")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0.845)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "8b6716d7-fa84-4343-8406-87aef174e3e4")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FUSR_LITTELFUSE_RHEF100.stp"
+		(offset
+			(xyz 0.00011 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,130 @@
+(footprint "SKS-HIRSCHMANN_930 176-101_a"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Red Socket For Banana 4mm")
+	(property "Reference" "REF**"
+		(at 0 -6.3 0)
+		(layer "F.SilkS")
+		(uuid "f7975efd-7926-4e09-a693-88ab3fdfab85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "SKS-HIRSCHMANN_930 176-101_a"
+		(at 0 6.3 0)
+		(layer "F.Fab")
+		(uuid "997ba542-a295-447e-a845-4712fc4f90fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb339506-9f4b-4e79-a3a1-19daf9b00d3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d974838-d9ab-4d0e-873c-da492946f62d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0363e796-28e1-43bd-9909-c321f3a0dd4e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "84f91898-97e0-43b6-b37c-1772b2dcab80")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6aa27f9b-7761-4019-a1cf-f2e30647aad2")
+	)
+	(fp_circle
+		(center 0.00294 0.00198)
+		(end 0.00294 -2.99802)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8e9079b0-38b4-453a-b68f-1a3736eed8c5")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 10 10)
+		(drill 8.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "60e920ec-5c16-41a6-bb5d-7ca260aafd09")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/SKS-HIRSCHMANN_930 176-101_a_Part2.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+	(model "${CERN_3DMODEL_DIR}/SKS-HIRSCHMANN_930 176-101_a_Part1.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

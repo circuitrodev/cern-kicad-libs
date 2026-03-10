@@ -1,0 +1,137 @@
+(footprint "MILL-MAX_0985-0-15-20-71-14-11-0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Probe, Spring-Loaded Pin, 2A Continuous, 3A Peak, -55..125°C (Soldered Pin 2.61mm)")
+	(property "Reference" "REF**"
+		(at 0 -1.3 0)
+		(layer "F.SilkS")
+		(uuid "4aaa7784-626d-4cc1-bdc7-4bb6e8f8ad53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MILL-MAX_0985-0-15-20-71-14-11-0"
+		(at 0 1.3 0)
+		(layer "F.Fab")
+		(uuid "0dc4d61a-5c74-497a-9c86-8a7613540078")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df0af9f0-9b39-4e9a-a84b-7a92fca2efcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d4a3441-2715-4708-9c1b-85f2edf5d978")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c1418b55-43a4-4bc2-a986-4f56248ea886")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "24a8a7a2-572d-405c-9201-ea02af3d87ed")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "19c37de9-5146-4905-8ddf-ed4c0e018898")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7988e252-7d25-45e6-98b8-43ae7bd79ddf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6a37a323-5e3b-4249-b88d-f08ac441cda3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "19fd565f-a243-489b-a057-ac4549354b2f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.15 1.15)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "784b9d5a-bb64-4704-ab46-1147f203293a")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MILL-MAX_0985-0-15-20-71-14-11-0.stp"
+		(offset
+			(xyz 0.00009 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

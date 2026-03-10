@@ -1,0 +1,72 @@
+(footprint "BONDING_C30"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.3mm diameter Bonding Pad")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "ff8b8bd3-1122-4179-8a2b-b728d8e82a41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BONDING_C30"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(uuid "ac47ea99-4eca-4934-b064-247367825791")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85d2b88b-a175-4e0b-85a2-879d25eb890f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4b69b48-81c6-4afd-8406-56cebc0330d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.15)
+		(thermal_bridge_angle 90)
+		(uuid "ad0c818d-9706-4082-b1d1-75ce7e149c55")
+	)
+	(pad "L" smd circle
+		(at 0 0)
+		(size 0.3 0.3)
+		(layers "In1.Cu")
+		(solder_paste_margin -0.15)
+		(thermal_bridge_angle 90)
+		(uuid "20e293e7-0620-4da3-8bcb-88ecb2f5e845")
+	)
+	(embedded_fonts no)
+)

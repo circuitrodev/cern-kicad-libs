@@ -1,0 +1,94 @@
+(footprint "FIDUCIAL_TOP_S200-400"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Square Fiducial Target, Top Layer, 2.0mm, Top Solder 4.0mm, Keepout =4.0mm")
+	(property "Reference" "REF**"
+		(at -0.00007 -3.52843 0)
+		(layer "F.SilkS")
+		(uuid "f2a61845-6b50-4aa0-9d4f-f3fe8680f786")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FIDUCIAL_TOP_S200-400"
+		(at -0.00007 3.52843 0)
+		(layer "F.Fab")
+		(uuid "5f41574d-b5bf-4f9e-99b1-3d106161234b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88b588b6-cf66-4230-87cb-7f94aee33ef6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1ca3afb-2488-426e-b9de-99f527ebc233")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at 0 0 45)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 1)
+		(uuid "7bdbd2c2-6b68-48d5-8082-6968a0d03abc")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "916ee0fa-313b-4954-98b4-26507f952de3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.8285 0) (xy -0.00007 -2.82843) (xy 2.82836 0) (xy -0.00007 2.82843)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

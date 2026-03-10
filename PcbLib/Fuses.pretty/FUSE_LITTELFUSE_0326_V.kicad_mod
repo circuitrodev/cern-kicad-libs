@@ -1,0 +1,117 @@
+(footprint "FUSE_LITTELFUSE_0326_V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "326 Series Axial Lead & Cartridge Fuses, Body 6.35x31.75mm")
+	(property "Reference" "REF**"
+		(at 0 -4.075 0)
+		(layer "F.SilkS")
+		(uuid "538af3c2-0ef8-4f34-a9fe-0e5f80ddb1fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FUSE_LITTELFUSE_0326_V"
+		(at 0 4.075 0)
+		(layer "F.Fab")
+		(uuid "37b0126a-26db-4736-8479-fa093616a243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2bba480-bcc5-4945-89bc-fbc5195216b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f44e563f-6a60-4848-983c-645bf5eebffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0eb7ab16-cdab-4fe7-9259-12ff8882fb13")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f6e598bf-11bf-4004-8f4a-30f6a8624935")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8e3d1e6c-b80e-4d80-b264-d544f67586b1")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "58de3c69-2e6a-4f07-ad3e-fef997753708")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e43dc96a-e719-4559-9ddd-c177c7ee9314")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FUSE_LITTELFUSE_0326_v.stp"
+		(offset
+			(xyz 0.00005 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

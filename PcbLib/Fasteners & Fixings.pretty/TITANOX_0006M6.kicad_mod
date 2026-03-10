@@ -1,0 +1,128 @@
+(footprint "TITANOX_0006M6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Microbarb M6 Insert for Hot or Cold Press-fitting with Micro Knurling")
+	(property "Reference" "REF**"
+		(at 0 -7.1 0)
+		(layer "F.SilkS")
+		(uuid "53e73a2b-e37e-4dc2-ae6f-1a36bfea23ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TITANOX_0006M6"
+		(at 0 7.1 0)
+		(layer "F.Fab")
+		(uuid "58b2dde4-ca78-4835-b7b4-155b491c601c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20a2ef8e-77ed-4b92-92d1-9d457dc64695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cab2963-9397-44b6-a6ff-7c72b6aa7051")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9d116e90-4120-4244-b1dc-43a2126d1cf3")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0d1ef152-c7b4-49ed-bac6-0966f28c3e4c")
+	)
+	(fp_arc
+		(start 0 3)
+		(mid -2.12132 -2.12132)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e52b0a57-a221-4114-b19e-4d953fc72a7c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2d2d1086-33e1-40f0-b18c-b89d4218707a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d838ccd4-53bb-4426-944a-f5db95ba765d")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 9.75)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 4.275)
+		(thermal_bridge_angle 90)
+		(uuid "203b04cd-7ddd-4c3c-9a2a-ead9d730ac74")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TITANOX_0006M6.stp"
+		(offset
+			(xyz 0.00007 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,151 @@
+(footprint "LEDLP_BIVAR_PLP2-1200"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3mm Dome Leens, Single Station Vertivcal Round Lightpipe Height 1.2 in. (30.5mm)")
+	(property "Reference" "REF**"
+		(at 0 -2.451 0)
+		(layer "F.SilkS")
+		(uuid "f5145130-110a-49f4-91fc-1f48a681d374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "LEDLP_BIVAR_PLP2-1200"
+		(at 0 2.451 0)
+		(layer "F.Fab")
+		(uuid "87b8d5ed-3b46-49d2-a3f0-f4fcdf6f2861")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07e11381-3b78-4daa-8919-ad28e7528966")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "784ddbc0-9fbf-43d7-a301-6c9b4e60a394")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.651)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8ab14ca8-c08a-419f-81d4-721322f9a480")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5621)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e38ff4eb-1d34-43c8-b932-e0c83899ea24")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "291ab035-5d40-489c-bce8-ba7b1035e87a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7f18fecf-a847-4c6b-87ea-d2c7b3cca096")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1392d83f-5520-4e9d-9344-66f8bb1221c0")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "42b706ec-7a94-44db-8ae5-ee01e592e6f4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.651)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8a9ec86f-5b95-4062-9a22-98632ec1d586")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5621)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5763f593-a32b-41b7-858a-429a24c69bec")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/LEDLP_BIVAR_PLP2-1200.stp"
+		(opacity 0.0000)
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

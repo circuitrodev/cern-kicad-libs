@@ -1,0 +1,139 @@
+(footprint "WURTH_7461082"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "12mm Diameter, Support Element Bush with Internal Hole 5.2mm")
+	(property "Reference" "REF**"
+		(at 0 -6.75 0)
+		(layer "F.SilkS")
+		(uuid "6c614b1c-b34a-499f-8727-234a47fadc58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "WURTH_7461082"
+		(at 0 6.75 0)
+		(layer "F.Fab")
+		(uuid "a9a616b0-d967-4352-98a9-bbf3256ffc6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9178626b-b1d2-4a6d-9b25-33dd275ceee7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0b687c3-79ee-41e0-af2c-c7fd740a387b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "22f07fb3-290a-4ded-9747-507c78ddaf5c")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0fa4054b-7dcf-466e-8254-cb50e4b2bc7e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4346e16d-c743-4716-b946-2e7e7fb6be6b")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f2ecea4d-bb33-4ea4-8b7c-b3fdb6f61a2b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c848ab13-70e4-40ed-9715-03eee4c50f69")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e0ab2bee-f26d-479e-867d-f7e10b6be8eb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3350acdb-6742-431d-8860-2fee680624c3")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/WURTH_7461082.stp"
+		(offset
+			(xyz 0.0001 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

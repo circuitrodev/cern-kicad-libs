@@ -1,0 +1,79 @@
+(footprint "REL_OMRON_G3VM-101LR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD MOS FET Relay in SSOP Package, Body 3.8mm x 2.04mm")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "2d0a728b-b92b-4cc7-a1fb-debb6842f485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "REL_OMRON_G3VM-101LR"
+		(at 0 4.1 0)
+		(layer "F.Fab")
+		(uuid "a18ec741-67d5-422a-8dc2-7e44317c3f1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3d54f19-ece4-4068-94ba-1a7927b3d40f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79e264ba-8878-4cfb-ab8f-343f05495c9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at -5.25 -2.5)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6fb21a53-c51a-4e1a-8131-623ae9bee96f")
+	)
+	(pad "2" smd rect
+		(at -5.75 2.75)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c885f66c-8ed2-4f12-9f5f-bafef2169b4f")
+	)
+	(pad "3" smd rect
+		(at 5.5 3)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "52cf1119-6552-48cb-9298-0c2fe78528c1")
+	)
+	(pad "4" smd rect
+		(at 5.75 -1.75)
+		(size 0.95 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b98beea9-b13f-4df5-9bac-19020384c641")
+	)
+	(embedded_fonts no)
+)

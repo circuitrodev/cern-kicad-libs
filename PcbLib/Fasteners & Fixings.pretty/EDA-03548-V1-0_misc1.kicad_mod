@@ -1,0 +1,137 @@
+(footprint "EDA-03548-V1-0_misc1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5mm Diameter, 2.5mm Height Wedge, Part For TE/EPC Beds Of Nails")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(layer "F.SilkS")
+		(uuid "dc74c053-5a3c-481f-bb38-e0be3cae5e90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "EDA-03548-V1-0_misc1"
+		(at 0 3.3 0)
+		(layer "F.Fab")
+		(uuid "e7789807-8b33-4e1f-b712-1b57225b94ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2ea0276-9c3d-4e64-8e24-7809d03659b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55d5cc5c-dce5-4fa2-b4b0-cbad0c7f9fc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7afa35c4-10d4-4dce-8e93-43a515e46d07")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2e9d502f-8694-488d-8aeb-a5c398cbdbb0")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c105c487-7082-4acd-875a-4e1bae3e0db3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "76815563-90fd-41d9-b732-5a6c35fc45f7")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1d989746-879b-4ac0-ac00-25eeb72a82de")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "97d7c9c8-53e5-4fff-a37e-69af8f8de4df")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1)
+		(thermal_bridge_angle 90)
+		(uuid "14c4c4fe-d075-4781-97ad-2617e89676cd")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/EDA-03548-V1-0_misc1.stp"
+		(offset
+			(xyz 0.00008 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

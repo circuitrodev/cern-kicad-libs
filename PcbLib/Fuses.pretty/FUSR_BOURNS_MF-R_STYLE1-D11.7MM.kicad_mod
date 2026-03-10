@@ -1,0 +1,168 @@
+(footprint "FUSR_BOURNS_MF-R_STYLE1-D11.7MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PTC Resettable Fuse, MF-R Series, Case style 1 Diametre 11.7mm")
+	(property "Reference" "REF**"
+		(at 0 -2.35 0)
+		(layer "F.SilkS")
+		(uuid "082dd95b-69ae-4947-b936-1c50b665e992")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FUSR_BOURNS_MF-R_STYLE1-D11.7MM"
+		(at 0 2.35001 0)
+		(layer "F.Fab")
+		(uuid "897d5150-c0c5-4858-b192-4342a7f07a01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e19dcbb-c1ff-40db-bc68-f94661f40908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb966f4e-9c36-49ec-825f-caed2929edce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -4.3 -1.55)
+		(end 4.3 -1.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d35ae0-20d3-4646-8535-7d64b45b7021")
+	)
+	(fp_line
+		(start -4.3 1.55001)
+		(end 4.3 1.55001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "164d9d4d-d82c-4f89-abd3-c8cb30317578")
+	)
+	(fp_arc
+		(start -4.3 1.55)
+		(mid -5.85 0)
+		(end -4.3 -1.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "229f5816-9daf-403e-a733-b5004aae0ee7")
+	)
+	(fp_arc
+		(start 4.3 -1.54999)
+		(mid 5.85 0.00001)
+		(end 4.3 1.55001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38531498-5ef8-476e-b4b3-f07cdb88ab7a")
+	)
+	(fp_line
+		(start -4.3 -1.55)
+		(end 4.3 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db2679c4-554e-4cb9-a34e-a6127b516eb4")
+	)
+	(fp_line
+		(start -4.3 1.55)
+		(end 4.3 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92d3678d-4e4b-465c-8995-7f3db40f91d7")
+	)
+	(fp_arc
+		(start -4.3 1.55)
+		(mid -5.85 0)
+		(end -4.3 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "744951ee-bdf1-4b6a-9663-d3f58fbdf372")
+	)
+	(fp_arc
+		(start 4.3 -1.55)
+		(mid 5.85 0)
+		(end 4.3 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "310954ee-b832-4169-b787-0d249448f350")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a1b09a50-8893-4a40-a02f-6463d8f43cfc")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "cab88251-16e3-4462-ad2d-675585f9aaac")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FUSR_BOURNS_MF-R_STYLE1-D11.7MM.stp"
+		(offset
+			(xyz 0.00005 0.00012 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

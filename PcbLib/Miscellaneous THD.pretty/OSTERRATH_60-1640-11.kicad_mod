@@ -1,0 +1,154 @@
+(footprint "OSTERRATH_60-1640-11"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Soldering Tag for Printed Circuit")
+	(property "Reference" "REF**"
+		(at 0 -2.175 0)
+		(layer "F.SilkS")
+		(uuid "25a1785c-1b91-4e6b-bf83-7436adfa14bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "OSTERRATH_60-1640-11"
+		(at 0 2.175 0)
+		(layer "F.Fab")
+		(uuid "4a0c26df-e373-4ff5-8364-790972de6795")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5a23db3-d3b4-4724-abc0-5c32f01dc26a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a551562-7556-4c9b-8dbd-b6c374a4dd83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -1.63 0.3)
+		(end -1.63 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9f406dc-58ae-4879-ac6c-c8f30db6aca6")
+	)
+	(fp_line
+		(start 1.63 0.3)
+		(end 1.63 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea83305a-9171-4901-927b-15b1dcd9937e")
+	)
+	(fp_line
+		(start -1.4 -0.3)
+		(end 1.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffd8221d-b85a-49bd-a089-1319e1f2c165")
+	)
+	(fp_line
+		(start -1.4 0.3)
+		(end -1.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f2cc183-ae47-4566-b119-9dfde54fbebf")
+	)
+	(fp_line
+		(start -1.4 0.3)
+		(end 1.4 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44c81e8c-c875-406c-b018-78122d00af16")
+	)
+	(fp_line
+		(start -0.9 0.3)
+		(end -0.9 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb6f79a1-f6bf-45c5-9fa8-c1a976903114")
+	)
+	(fp_line
+		(start 0.9 0.3)
+		(end 0.9 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d30be83-dfbb-4c96-8adb-a557c5dadc7d")
+	)
+	(fp_line
+		(start 1.4 0.3)
+		(end 1.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0614f2c0-69a5-4d7d-95d9-f6c20d23940f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.65 2.65)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "09963f1e-5b5a-4a85-8fda-68276c82998c")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/OSTERRATH-60-1640-11.stp"
+		(offset
+			(xyz 0.00005 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

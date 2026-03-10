@@ -1,0 +1,97 @@
+(footprint "ADVANCED-INTER_2527-3G"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Single Male/Male Board Stacking Male Terminal adapter")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "b51e094d-e074-4e86-b50d-158a58b1a058")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ADVANCED-INTER_2527-3G"
+		(at 0 1.4 0)
+		(layer "F.Fab")
+		(uuid "fefc27dd-7e2b-4508-b45e-e5496bf9e569")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aec660c1-49d8-4ea1-a673-e9cf64b36bfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faf02853-d4d8-40bc-902e-75489f9c3e13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.47)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c1353806-03c5-49e3-b5a9-741757b3df40")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.23)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "770b6c2e-ca0e-495f-bda7-07e07ee7ddc2")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "91c5ac18-0772-4710-8134-71e8f0232cc5")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ADVANCED-INTER_2527-2.stp"
+		(offset
+			(xyz 0.00006 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

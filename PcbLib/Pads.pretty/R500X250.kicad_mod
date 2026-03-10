@@ -1,0 +1,61 @@
+(footprint "R500X250"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5mm x  2.5mm SMD Pad")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "6b2b71b9-2758-41aa-8776-614d2025ce4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R500X250"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "00978fbb-f5e3-4bf0-8cb0-f7eb104d4c7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb553f00-cc60-4083-8cac-01840625ed81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4226690-6f4a-4511-a4ed-9df3c46caf3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5 2.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "01a6c150-7d72-4889-81bf-029ba7258363")
+	)
+	(embedded_fonts no)
+)

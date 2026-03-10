@@ -1,0 +1,86 @@
+(footprint "c170h100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole: Hole Dia.=1mm Pad Dia.=1.7mm, IPC-7251 Level A")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "33a8698e-2455-4e5b-994d-8e286a58ee02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "c170h100"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "52de6715-32a2-4585-ad16-07e550041b84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7035a66f-9420-44af-98e1-0c495d953112")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778c77fd-f817-4597-84b0-7a7c8df32878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "77d82213-d75b-4fbc-a5e4-a98f96663486")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "043d2c2e-81db-4ca1-8d4b-3aa4342cd444")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "29f0462f-47fb-44d5-98c2-8b2d2fe35465")
+	)
+	(embedded_fonts no)
+)

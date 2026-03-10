@@ -1,0 +1,82 @@
+(footprint "Net Tie 3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Net Tie")
+	(property "Reference" "REF**"
+		(at 0.25 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "70e03ed3-3393-46d8-9835-037711a7ff0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Net Tie 3"
+		(at 0.25 0.95 0)
+		(layer "F.Fab")
+		(uuid "76953548-e905-40dd-9d73-9d0078f6fae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "060cd5cd-5892-44e3-9519-4b3c050692ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc11d140-752f-4c8e-b427-e86a677dfdc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard allow_soldermask_bridges)
+	(net_tie_pad_groups "1,2")
+	(fp_line
+		(start 0 0)
+		(end 0.6 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "ecec5667-4a9c-445c-b615-4523479d0dad")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin -0.0635)
+		(solder_paste_margin -2147.483637)
+		(uuid "452d8a21-5a25-4a77-9904-7aa98c981a7e")
+	)
+	(pad "2" smd rect
+		(at 0.6 0)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Paste")
+		(solder_mask_margin -0.0635)
+		(solder_paste_margin -2147.483637)
+		(uuid "8436bce0-37eb-4cb6-93e6-14f3ff8021e9")
+	)
+	(embedded_fonts no)
+)

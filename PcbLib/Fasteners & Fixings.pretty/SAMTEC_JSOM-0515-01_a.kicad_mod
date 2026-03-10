@@ -1,0 +1,153 @@
+(footprint "SAMTEC_JSOM-0515-01_a"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5.15mm Length, Precision Board Stacking Standoff  Press-In/Female")
+	(property "Reference" "REF**"
+		(at 0 -4.725 0)
+		(layer "F.SilkS")
+		(uuid "16b87e72-3ff3-49e2-9e6b-e66b4687305c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "SAMTEC_JSOM-0515-01_a"
+		(at 0 4.725 0)
+		(layer "F.Fab")
+		(uuid "1a171316-abee-499b-adf6-ef08fdf052cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f9e6ca2-6c0c-4700-8c1d-5a347af35d2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de4752b7-941d-4fdf-b8ad-f48849ddc3c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "685a88fb-a73a-4e94-80af-192fbcb26e5a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "73a09eba-2e0a-4a55-93b4-e75cf18907da")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5a004a4e-b088-49d0-94e7-90dc089597e1")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "83e0117d-cbc3-47f1-9050-98a92d006665")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "56b2fb7c-7054-4dc8-9d41-8f793eb2a97a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7f56c0ff-068b-4982-b200-f1a499e260fb")
+	)
+	(fp_text user "PRESS-FIT TECH."
+		(at -5.7 -3.9775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "238aa231-dbe1-49dd-90ee-84b3430c6514")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "diam. 4.45mm"
+		(at -5 5.4225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "32b9039b-799f-412a-8e22-157933704d4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/SAMTEC_JSOM-0515-01.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

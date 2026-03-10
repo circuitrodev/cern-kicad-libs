@@ -1,0 +1,128 @@
+(footprint "BOSSARD_BN1074-1964453_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Flat Washer Without Chamfer for M6 Screw, Polyamide")
+	(property "Reference" "REF**"
+		(at 0 -6.75 0)
+		(layer "F.SilkS")
+		(uuid "7496353d-c968-4f90-a619-03755eacb498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BOSSARD_BN1074-1964453_v"
+		(at 0 6.75 0)
+		(layer "F.Fab")
+		(uuid "afb2a34d-fa39-48ac-90a7-aedac441ec13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9ebf87e-d81e-4bb3-9b04-46745120b4ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e91e2f6-1fad-4644-a9b6-55c66909c5b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9991156e-1cf3-47dc-9f61-80830077ba35")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "46444807-1802-4224-8cbe-12357200b48f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "444b25b6-e2b4-4e2a-b30a-6f7e3175e22a")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a7d073a0-25c0-4e53-8d76-681022240e70")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a6aa8458-c9c8-4b11-842a-45b107546339")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "33d1bb49-d9ac-4c54-b7ef-542ed990f7fb")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BOSSARD_BN1074-1964453_v.stp"
+		(offset
+			(xyz 0.00005 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

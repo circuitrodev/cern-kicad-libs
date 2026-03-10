@@ -1,0 +1,288 @@
+(footprint "LED_OSRAM_LGN971"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Green Chip LED, 2-Leads, Body 3.2 x1.6mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at -0.2375 -1.875 0)
+		(layer "F.SilkS")
+		(uuid "ecd5dc75-d9c0-46c9-a4ea-d38c7a44e151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "LED_OSRAM_LGN971"
+		(at -0.2375 1.875 0)
+		(layer "F.Fab")
+		(uuid "4383852d-df41-45ae-871e-c112fa02d44f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6cc40dd-9339-4244-8402-86ee4e4c27a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97a787e2-d011-4faf-97a7-35b3c60cd0d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.65 -0.8)
+		(end 0.65 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c8b0857-99d6-4167-be38-4c1ba81232a1")
+	)
+	(fp_line
+		(start -0.65 0.8)
+		(end -0.65 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b7df9b8-a418-4352-b8b1-c61718726b88")
+	)
+	(fp_line
+		(start -0.65 0.8)
+		(end 0.65 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d697ee3-2c33-46c8-ad74-e474a8e4426a")
+	)
+	(fp_line
+		(start -0.45 0.8)
+		(end -0.45 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a98980de-a0d6-436e-be88-b30c7d02dff1")
+	)
+	(fp_line
+		(start -0.25 0.8)
+		(end -0.25 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb9d510e-fd7a-49a7-8376-6da1546c92c5")
+	)
+	(fp_circle
+		(center -2.5 0)
+		(end -2.5 -0.125)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3288ecd8-3149-4e95-a6ec-957513e5f210")
+	)
+	(fp_line
+		(start -2.25 -1.15)
+		(end 2.25 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b741de17-0cde-420d-a50f-d23237d4bc4c")
+	)
+	(fp_line
+		(start -2.25 1.15)
+		(end -2.25 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bdf0722-1e00-4b81-aa43-ec420e76467e")
+	)
+	(fp_line
+		(start -2.25 1.15)
+		(end 2.25 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cea216b6-da7d-4c53-bb2e-00c01a110d27")
+	)
+	(fp_line
+		(start 2.25 1.15)
+		(end 2.25 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "960e8483-b6b6-4102-8185-43853305d74f")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d51d94c4-fc5e-4fd7-b043-01de33989555")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "596ba30d-b092-4ea5-9351-5a3942c0e1f5")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2607a16-d46a-43b9-b250-0e48cdd78624")
+	)
+	(fp_line
+		(start -1.5 0.8)
+		(end -1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8bf7460-39fd-4794-9499-5a8e6d11e9e4")
+	)
+	(fp_line
+		(start -1.4 0.8)
+		(end -1.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "128639c9-fe60-49c2-b76d-2be13eb5e8a8")
+	)
+	(fp_line
+		(start -1.3 0.8)
+		(end -1.3 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7c6fc4f-181a-48b9-9c7a-fd70a57175b2")
+	)
+	(fp_line
+		(start -1.2 0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8d8682a-5960-444b-b247-ca31f70a3fba")
+	)
+	(fp_line
+		(start -1.1 0.8)
+		(end -1.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f3a7c13-cb75-4c03-b43f-9d07f2850be4")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc14c2fa-69ff-48ec-bba2-3fb6b14e593d")
+	)
+	(fp_line
+		(start -0.9 0.8)
+		(end -0.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36515e64-21cc-46db-9cc3-604d2717ae7f")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c894c352-5551-4ba9-8dfa-3692e2d04cbd")
+	)
+	(pad "1" smd rect
+		(at -1.5 0 90)
+		(size 1.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf60afdc-6bcb-4577-b301-1408ee624519")
+	)
+	(pad "2" smd rect
+		(at 1.5 0 90)
+		(size 1.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d384a304-cd34-4702-8797-6b7ecbccc2e4")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/LED_OSRAM_LGN971.stp"
+		(offset
+			(xyz 0.00008 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

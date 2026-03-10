@@ -1,0 +1,200 @@
+(footprint "KEYSTONE_11320"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PTFE Insulated Solder Terminal (Top Mount)")
+	(property "Reference" "REF**"
+		(at 0 -2.985 0)
+		(layer "F.SilkS")
+		(uuid "b255e0d0-4558-4c32-bb9b-1fbe9195eaf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_11320"
+		(at 0 2.985 0)
+		(layer "F.Fab")
+		(uuid "eec96dbb-e7f1-45ae-9f94-f96cdf336787")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd44cf86-5a9a-4d8f-b8f8-1c0e32b62037")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3b49c44-a04e-41e7-8655-df0e8b1656d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d1ed0147-b9f9-4ab0-814d-d6fb369f3987")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c5fd13b4-4b7e-4424-805a-3f565a45d74e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6543f25f-fd8b-4ef2-b3e6-e82f62d58ca6")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e6bfafdd-fac8-4d92-b329-a395d670396a")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9809e783-7841-4493-99bd-fe68c429bb60")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5bd23e65-25f2-4ee4-a354-2a4b46fbcf27")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f6eab5dc-a4bb-4131-965c-41faa0297447")
+	)
+	(fp_text user "Use with 11320"
+		(at -4.4 -0.702 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "3d40d5cc-3dfd-4dbf-9425-86efbac58cc3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Drill-Drawing"
+		(at -3.3 1.398 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "f6e7b5f4-8b94-4df2-afd8-c9de8a436793")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "See"
+		(at -1.2 -0.9775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4bdcb61d-dd40-4dc6-aae3-e2d39c6dbbde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Detail A"
+		(at -2.6 2.2225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c706e9f1-e0cf-435f-bf5a-5b19fb4ae53e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 3.45)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1.225)
+		(thermal_bridge_angle 90)
+		(uuid "e2042d54-221b-40a2-9d89-5dbe12bf39b7")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/KEYSTONE_11320.stp"
+		(offset
+			(xyz 0.00011 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

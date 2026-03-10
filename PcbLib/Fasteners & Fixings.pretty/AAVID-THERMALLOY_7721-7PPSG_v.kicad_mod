@@ -1,0 +1,128 @@
+(footprint "AAVID-THERMALLOY_7721-7PPSG_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Polyphenylene Sulfide PPS Shoulder Washer")
+	(property "Reference" "REF**"
+		(at 0 -3.48 0)
+		(layer "F.SilkS")
+		(uuid "26142f3f-4030-45c6-ae6c-a42045781363")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "AAVID-THERMALLOY_7721-7PPSG_v"
+		(at 0 3.48 0)
+		(layer "F.Fab")
+		(uuid "01a02db2-8af7-4138-9831-f1e4cd7d9b33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b01a57c-f282-4784-bb20-34f3de13536c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91943f2a-6110-492b-936e-1a4babda08ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fb72bd0e-3568-4973-b7ee-c4ea626ab4ef")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d44180e4-fc22-4822-a213-426373b583d4")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b7a24ff3-2ccb-47a2-b00c-f819639657f0")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "832b308b-f0f3-4b41-8778-a8ff453cd215")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b549dbdf-455c-4678-8237-51d6c5087828")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6bbbc18d-33db-4d24-ba08-2d89ebf60412")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/AAVID-THERMALLOY_7721-7PPSG_v.stp"
+		(offset
+			(xyz 0.00009 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,63 @@
+(footprint "C75"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.75mm Diameter SMD Pad")
+	(property "Reference" "REF**"
+		(at 0 -1.075 0)
+		(layer "F.SilkS")
+		(uuid "b5458887-b6d6-4e2d-ac3c-c1bef56e3289")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C75"
+		(at 0 1.075 0)
+		(layer "F.Fab")
+		(uuid "29c06c6e-2b61-4031-b8a3-d3c7e1e2a21b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b88fc713-98fe-43f5-862e-5ba7220400ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "579ba20b-7e0f-404d-87c3-e72e06062b8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.75 0.75)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "8b12fd6b-4592-4b45-904f-11162a1940ca")
+	)
+	(embedded_fonts no)
+)

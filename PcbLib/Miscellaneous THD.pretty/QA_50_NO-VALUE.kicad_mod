@@ -1,0 +1,115 @@
+(footprint "QA_50_NO-VALUE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Virtual Probe For 1.27mm Pitch")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "afeffb68-b01e-43b1-86a1-d80a65762187")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "QA_50_NO-VALUE"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(uuid "a6922784-7485-4099-84cb-30788aff8a84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71cff4c9-4ac4-4c36-8087-309fc1fd8f1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16264956-ab01-4b4e-aec3-bad7e3b8150f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.25 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6a606efa-f156-4c97-b092-80edf4b1121e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c6fa4580-4aa1-45e6-abcd-8269cdfb7093")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d0eb0a1a-c327-4c3e-ae36-d3cd9a6bd6e8")
+	)
+	(fp_line
+		(start 0 0.25)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4f3898bd-bfc3-46ae-b617-48848197d6ee")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "38f85a9a-02f9-4dfe-af3d-b369b1eb3af1")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 0.5 0.5)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.25)
+		(thermal_bridge_angle 90)
+		(uuid "5d68f60d-6c16-4360-830d-0ae471066424")
+	)
+	(embedded_fonts no)
+)

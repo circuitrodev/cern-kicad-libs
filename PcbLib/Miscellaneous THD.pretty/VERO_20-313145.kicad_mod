@@ -1,0 +1,97 @@
+(footprint "VERO_20-313145"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Black Bead PCB Terminal Test Pin (1.32 mm hole) for 2.4mm  PCB Thickness")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "338c11df-fe1f-40b8-85ad-7dc2d291a2b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "VERO_20-313145"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "d1180640-ac9a-4f93-b7ce-8f62e53342e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15d5daf4-034a-444f-81b1-6d62e7d9378f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88fd8f13-729a-4318-8fc2-5ec47ee62ecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fdfdd97b-dca8-4087-8c55-c06034fd7706")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "15ec4827-686c-4354-93ae-f6e618f2bcb4")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "475295bc-05e2-4277-92ac-72ce40e0ddf3")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/VERO_20-313145.stp"
+		(offset
+			(xyz 0.00004 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

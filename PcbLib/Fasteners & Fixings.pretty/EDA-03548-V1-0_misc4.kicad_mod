@@ -1,0 +1,202 @@
+(footprint "EDA-03548-V1-0_misc4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Centering Pin, Part For TE/EPC Beds Of Nails")
+	(property "Reference" "REF**"
+		(at 0 -5.8 0)
+		(layer "F.SilkS")
+		(uuid "e101f4ca-b4c0-4e69-a0cd-79ea60abe762")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "EDA-03548-V1-0_misc4"
+		(at 0 5.8 0)
+		(layer "F.Fab")
+		(uuid "d406a967-d87e-4038-98e9-b6ebfe12dd05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f492ed35-9967-431f-b144-ba4e8801e32a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e9d89f1-1469-4e06-979b-13d07ac4293d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bc8b48ca-e41f-454c-8969-2b9bf31e4391")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "16ce8ded-1532-47df-a75f-a157c48e093b")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "910661b9-761a-45b3-a562-dc1f302f304f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fd66ad47-1a96-4836-9465-3c4548e8932a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d4b4bc23-49ba-48aa-a70a-add6aaf08866")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7bc7b608-ee43-4635-8f70-dcf481ea29ed")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "e5ac0dfc-a7ce-4bac-b171-11d7bea379c9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "c86169e7-4626-4023-8abc-ce0872301f24")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "16467da9-7f31-427a-8427-01e11d1dc15f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 5)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 2)
+		(thermal_bridge_angle 90)
+		(uuid "55ea56f0-3d60-4e94-a8ad-2703342039d9")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "4650b743-2ed1-414a-8038-e5fe5ef09a05")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.652631 -4.957224) (xy 1.082198 -4.88148) (xy 1.503529 -4.768585) (xy 1.913417 -4.619398) (xy 2.308743 -4.435054) (xy 2.686498 -4.216957) (xy 3.043807 -3.966767) (xy 3.377951 -3.686387) (xy 3.686387 -3.377951) (xy 3.966767 -3.043807) (xy 4.216957 -2.686498) (xy 4.435054 -2.308743) (xy 4.619398 -1.913417) (xy 4.768585 -1.503529) (xy 4.88148 -1.082198) (xy 4.957224 -0.652631) (xy 4.995241 -0.218097) (xy 4.995241 0.218097) (xy 4.957224 0.652631) (xy 4.88148 1.082198) (xy 4.768585 1.503529) (xy 4.619398 1.913417) (xy 4.435054 2.308743) (xy 4.216957 2.686498) (xy 3.966767 3.043807) (xy 3.686387 3.377951) (xy 3.377951 3.686387) (xy 3.043807 3.966767) (xy 2.686498 4.216957) (xy 2.308743 4.435054) (xy 1.913417 4.619398) (xy 1.503529 4.768585) (xy 1.082198 4.88148) (xy 0.652631 4.957224) (xy 0.218097 4.995241) (xy -0.218097 4.995241) (xy -0.652631 4.957224) (xy -1.082198 4.88148) (xy -1.503529 4.768585) (xy -1.913417 4.619398) (xy -2.308743 4.435054) (xy -2.686498 4.216957) (xy -3.043807 3.966767) (xy -3.377951 3.686387) (xy -3.686387 3.377951) (xy -3.966767 3.043807) (xy -4.216957 2.686498) (xy -4.435054 2.308743) (xy -4.619398 1.913417) (xy -4.768585 1.503529) (xy -4.88148 1.082198) (xy -4.957224 0.652631) (xy -4.995241 0.218097) (xy -4.995241 -0.157806) (xy -2.81 -0.157806) (xy -2.81 0.157806) (xy -2.774663 0.471434) (xy -2.704433 0.779134) (xy -2.600192 1.077035) (xy -2.463253 1.361392) (xy -2.295337 1.628629) (xy -2.098556 1.875384) (xy -1.875384 2.098556) (xy -1.628629 2.295337) (xy -1.361392 2.463253) (xy -1.077035 2.600192) (xy -0.779134 2.704433) (xy -0.471434 2.774663) (xy -0.157806 2.81) (xy 0.157806 2.81) (xy 0.471434 2.774663) (xy 0.779134 2.704433) (xy 1.077035 2.600192) (xy 1.361392 2.463253) (xy 1.628629 2.295337) (xy 1.875384 2.098556) (xy 2.098556 1.875384) (xy 2.295337 1.628629) (xy 2.463253 1.361392) (xy 2.600192 1.077035) (xy 2.704433 0.779134) (xy 2.774663 0.471434) (xy 2.81 0.157806) (xy 2.81 -0.157806) (xy 2.774663 -0.471434) (xy 2.704433 -0.779134) (xy 2.600192 -1.077035) (xy 2.463253 -1.361392) (xy 2.295337 -1.628629) (xy 2.098556 -1.875384) (xy 1.875384 -2.098556) (xy 1.628629 -2.295337) (xy 1.361392 -2.463253) (xy 1.077035 -2.600192) (xy 0.779134 -2.704433) (xy 0.471434 -2.774663) (xy 0.157806 -2.81) (xy -0.157806 -2.81) (xy -0.471434 -2.774663) (xy -0.779134 -2.704433) (xy -1.077035 -2.600192) (xy -1.361392 -2.463253) (xy -1.628629 -2.295337) (xy -1.875384 -2.098556) (xy -2.098556 -1.875384) (xy -2.295337 -1.628629) (xy -2.463253 -1.361392) (xy -2.600192 -1.077035) (xy -2.704433 -0.779134) (xy -2.774663 -0.471434) (xy -2.81 -0.157806) (xy -4.995241 -0.157806) (xy -4.995241 -0.218097) (xy -4.957224 -0.652631) (xy -4.88148 -1.082198) (xy -4.768585 -1.503529) (xy -4.619398 -1.913417) (xy -4.435054 -2.308743) (xy -4.216957 -2.686498) (xy -3.966767 -3.043807) (xy -3.686387 -3.377951) (xy -3.377951 -3.686387) (xy -3.043807 -3.966767) (xy -2.686498 -4.216957) (xy -2.308743 -4.435054) (xy -1.913417 -4.619398) (xy -1.503529 -4.768585) (xy -1.082198 -4.88148) (xy -0.652631 -4.957224) (xy -0.218097 -4.995241) (xy 0.218097 -4.995241)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/EDA-03548-V1-0_misc4.stp"
+		(offset
+			(xyz 0.00008 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

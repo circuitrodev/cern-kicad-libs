@@ -1,0 +1,197 @@
+(footprint "INSUL_FISCHER_WS-220_h"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220 Transistor Case Insulator, L 18mm x W 13mm x H 0.3mm, Horizontal Mount")
+	(property "Reference" "REF**"
+		(at 0 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "790d42a6-83e1-44b0-9ebc-5d6e4006a9c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "INSUL_FISCHER_WS-220_h"
+		(at 0 14.3 0)
+		(layer "F.Fab")
+		(uuid "c2c28d05-f831-4294-884a-a0c54bca409e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "117ef532-a60e-473c-b86b-32d812e521e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "703a7873-09e1-4e86-8728-84a24fb977f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -6.5 -4.5)
+		(end 6.5 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5113045d-a9be-4de4-8d5c-7c2adf540d8b")
+	)
+	(fp_line
+		(start -6.5 13.5)
+		(end -6.5 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9112993-2595-400a-ae01-56927868dd34")
+	)
+	(fp_line
+		(start -6.5 13.5)
+		(end 6.5 13.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cffc962-db2a-47db-839b-5670e59cf31f")
+	)
+	(fp_line
+		(start 6.5 13.5)
+		(end 6.5 -4.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94326d2e-b4b3-4d00-ae3a-59487c7b8b31")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "cc835aa9-831c-4c3a-9d0c-5c6615de4e03")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5cd4988d-36cf-49fc-bdef-c53d6ba0870a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f90890c3-abb9-46c3-aa4b-cdecd9c9ba3c")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "62ac0752-4581-4355-8dd7-b7f15dab6915")
+	)
+	(fp_line
+		(start -6.5 -4.5)
+		(end 6.5 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06ec1440-53d7-44b1-b47d-bbe1e5b06238")
+	)
+	(fp_line
+		(start -6.5 13.5)
+		(end -6.5 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e77e22e0-e85e-4d51-8a24-6d72651d7d9e")
+	)
+	(fp_line
+		(start -6.5 13.5)
+		(end 6.5 13.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7b6186e-674d-4446-94dc-d91f3cd851f4")
+	)
+	(fp_line
+		(start 6.5 13.5)
+		(end 6.5 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35852319-0f0f-4270-b64d-87aa0775cd80")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "35505a61-7b3b-42a9-98be-175b12900719")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/INSUL_FISCHER_WS-220_h.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

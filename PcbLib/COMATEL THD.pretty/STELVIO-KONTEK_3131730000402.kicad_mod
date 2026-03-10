@@ -1,0 +1,175 @@
+(footprint "STELVIO-KONTEK_3131730000402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Red Insulated Jumper Pitch 2.54mm W=2.5mm L=5mm H=6.5mm")
+	(property "Reference" "REF**"
+		(at 1.27 -2.07 0)
+		(layer "F.SilkS")
+		(uuid "32276b3d-01c4-480c-8cc6-dc431c695d2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "STELVIO-KONTEK_3131730000402"
+		(at 1.27 2.07 0)
+		(layer "F.Fab")
+		(uuid "273b04eb-8f01-4c17-9908-884fa64af0f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1186d27d-534c-4263-a3c0-ec73005cd077")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46832ca3-e055-440f-b61f-25150320470c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start 1.1 -0.381)
+		(end 1.44 -0.381)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba76b558-6f42-42e9-8063-dc8daeac29e0")
+	)
+	(fp_line
+		(start 1.1 0.381)
+		(end 1.44 0.381)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a17b9a96-1bec-4cdd-9cb8-bf76d663acc9")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46d7416a-df23-43e5-ae31-e56e3c1ba8b4")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efd6a433-c2b3-476f-8565-d55e31237982")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "41c9448f-529d-4ae8-8a6f-fb2ee313ccb5")
+	)
+	(fp_line
+		(start -0.48 -0.5)
+		(end 3.02 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df514ba5-354a-4536-9f5f-4a6ad645eabb")
+	)
+	(fp_line
+		(start -0.48 0.5)
+		(end -0.48 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ab9f45d-ec79-4ace-a18a-db0bfcfba4cb")
+	)
+	(fp_line
+		(start -0.48 0.5)
+		(end 3.02 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "beecfa58-9cf2-4c50-9493-c2a82e978b84")
+	)
+	(fp_line
+		(start 3.02 0.5)
+		(end 3.02 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03336f51-f801-48e5-b75e-dac488d4395f")
+	)
+	(fp_line
+		(start 3.81 1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa2f2419-3852-45b0-8cf0-2e25cc08ce69")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin -0.46)
+		(solder_paste_margin -0.46)
+		(thermal_bridge_angle 90)
+		(uuid "c266e8b8-74f7-459d-9d24-7e58ec8dc8c0")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/STELVIO-KONTEK_3131730000402.stp"
+		(offset
+			(xyz 0.00008 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

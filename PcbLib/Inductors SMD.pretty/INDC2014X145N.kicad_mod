@@ -1,0 +1,167 @@
+(footprint "INDC2014X145N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Inductor, EIA 0805, Metric 2014, Body 2.05x1.4mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at -0.0375 -1.775 0)
+		(layer "F.SilkS")
+		(uuid "33fe01fe-b1ae-43aa-9e25-9c759f13d2f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "INDC2014X145N"
+		(at -0.0375 1.775 0)
+		(layer "F.Fab")
+		(uuid "0a940519-d24a-47bf-afba-c8864f3916a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4e1e685-c977-42f5-ae0f-ea440eaaa50c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "807b698d-9a4c-4f8b-a675-3cb116582817")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start 0 0.55)
+		(end 0 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df5211ed-7d65-4256-8881-a37419d3aa06")
+	)
+	(fp_line
+		(start -1.75 -1.05)
+		(end 1.675 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ababfb3-2dc0-4ed0-9f5e-e7e7ea16b4d9")
+	)
+	(fp_line
+		(start -1.75 1.05)
+		(end -1.75 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9b3416d-efdd-40c2-a2f9-6b38efe77cba")
+	)
+	(fp_line
+		(start -1.75 1.05)
+		(end 1.675 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62c76aac-7987-4a5a-8aef-ba7d11233cff")
+	)
+	(fp_line
+		(start 1.675 1.05)
+		(end 1.675 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28c3b7e6-3af3-4b47-94b7-ec5919ece574")
+	)
+	(fp_line
+		(start -1.125 -0.775)
+		(end 1.125 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6566d314-8654-40cb-bc7a-466b9cf45756")
+	)
+	(fp_line
+		(start -1.125 0.775)
+		(end -1.125 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd70d966-17b6-4c83-b7be-99379bb4876a")
+	)
+	(fp_line
+		(start -1.125 0.775)
+		(end 1.125 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9ea9045-c1c5-46a7-9076-663d1604e433")
+	)
+	(fp_line
+		(start 1.125 0.775)
+		(end 1.125 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63af1102-c00d-4fe7-94eb-01ac8877c617")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 1.05 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b93f4be8-d713-4ad9-8241-5b2b8de89ce3")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 1.05 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7aa38b7-6e97-4b58-8d91-c30917130c1e")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/INDC2014X145N.stp"
+		(offset
+			(xyz 0.00006 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

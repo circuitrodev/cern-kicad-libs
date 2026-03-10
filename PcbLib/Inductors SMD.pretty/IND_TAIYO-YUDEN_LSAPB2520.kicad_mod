@@ -1,0 +1,167 @@
+(footprint "IND_TAIYO-YUDEN_LSAPB2520"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Inductor, EIA 1008, Metric 2520, Body 2.50mm L X 2.00mm W X 1.20mm H body")
+	(property "Reference" "REF**"
+		(at 0 -1.975 0)
+		(layer "F.SilkS")
+		(uuid "236fc2bd-955b-4de4-962d-6b0d2d386d99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "IND_TAIYO-YUDEN_LSAPB2520"
+		(at 0 1.975 0)
+		(layer "F.Fab")
+		(uuid "63a406db-b827-44d6-87f5-fb4c0f6c2eee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "521ae39d-767b-4d59-a723-8193a64f1e79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ea84737-35c9-4ebf-8e68-0f103b2ff944")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start 0 -1)
+		(end 0.00016 0.99983)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d459314-c6e7-4f1b-bfe7-8e88f8bf8c9b")
+	)
+	(fp_line
+		(start -1.65 -1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62e471cb-37cb-4cfa-8a2a-96ca4dc1830b")
+	)
+	(fp_line
+		(start -1.65 1.25)
+		(end -1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c439df6-7b87-493e-8c20-8ff0532de9ca")
+	)
+	(fp_line
+		(start -1.65 1.25)
+		(end 1.65 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75c0c1d0-cc6c-4608-861a-968a8092b892")
+	)
+	(fp_line
+		(start 1.65 1.25)
+		(end 1.65 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1c0e29c1-9dcf-49ee-a361-1c1caee0b0a3")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb010e0b-d80f-494e-9e05-1d6ff0a4fcad")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba0ff12e-add8-4689-bea8-ad84f3e250f7")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c498dd83-8868-49a7-ad13-bcfe28e09609")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af95ba3b-7ede-4e8f-8ba1-be58121d691e")
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8319d10c-7e34-4002-af88-6a9d0ae5e153")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a7e9958-aeb3-4e71-bc9f-7b61749ebb88")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/IND_TAIYO-YUDEN_LSAPB2520.stp"
+		(offset
+			(xyz 0.00005 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

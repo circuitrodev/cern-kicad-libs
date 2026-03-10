@@ -1,0 +1,177 @@
+(footprint "THERMC1608X95N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PTC Thermistors, Chip; 1.6mm L X 0.8mm W X 0.95mm H, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "1f371926-29a9-48b5-a814-64d0ac7f38a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "THERMC1608X95N"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "93216610-ad35-4afd-89a4-1133ef470249")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "984cdc99-bb55-4f63-9516-30bb473ff02f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19e1f23a-8869-4af3-b84d-37cd04523993")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -1.55 -0.775)
+		(end 1.55 -0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "095d2176-45d0-414f-87a6-a153e57943a9")
+	)
+	(fp_line
+		(start -1.55 0.775)
+		(end -1.55 -0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee2dd6b3-8c2c-463c-bd87-b209586e0cbc")
+	)
+	(fp_line
+		(start -1.55 0.775)
+		(end 1.55 0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2f483fe-6cd0-486f-ace8-1507aa221d62")
+	)
+	(fp_line
+		(start 1.55 0.775)
+		(end 1.55 -0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a24e7079-b424-49d2-95b4-08a32c0e8d4c")
+	)
+	(fp_line
+		(start -0.87494 -0.47504)
+		(end -0.87489 -0.47509)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47556c20-a196-4a70-8fc6-1881f7a1d9f6")
+	)
+	(fp_line
+		(start -0.87494 0.47472)
+		(end -0.87494 -0.47504)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16f2aeff-b425-4d0f-988f-0437f197cee4")
+	)
+	(fp_line
+		(start -0.87494 0.47472)
+		(end -0.87474 0.47491)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a295dd89-a9cb-466a-a709-c776e4cf696f")
+	)
+	(fp_line
+		(start -0.87489 -0.47509)
+		(end 0.87507 -0.47509)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe674334-e18a-42e3-9a20-58b571c41bca")
+	)
+	(fp_line
+		(start -0.87474 0.47491)
+		(end 0.87507 0.47491)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b912175-3906-4edc-ad93-3b3f7bd01eb8")
+	)
+	(fp_line
+		(start 0.87507 0.47491)
+		(end 0.87507 -0.47509)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04038583-206d-4f2f-9bc2-7384fca557fa")
+	)
+	(pad "1" smd rect
+		(at -0.85 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c47b8dba-6d83-42f6-8f86-4a86cc9472c7")
+	)
+	(pad "2" smd rect
+		(at 0.85 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2070eaf-440c-4ab5-913c-2012ffb26013")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/THERMC1608X95N.stp"
+		(offset
+			(xyz 0.00006 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

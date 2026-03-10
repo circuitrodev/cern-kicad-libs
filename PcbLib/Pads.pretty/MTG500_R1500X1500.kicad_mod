@@ -1,0 +1,63 @@
+(footprint "MTG500_R1500X1500"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole: Hole Dia.=0.5mm Square Pad 1.5mm x 1.5mm")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "c297eae2-fdbf-4260-a292-d18e8d9af50c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MTG500_R1500X1500"
+		(at 0 1.45 0)
+		(layer "F.Fab")
+		(uuid "a1711b03-128d-496a-a03d-669897b1dac5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09d7f061-a37f-41ac-9347-6d91c3493be8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49929416-0f47-4d37-a82c-f50eb1829214")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a612e30-d464-4c62-8d42-0ed24825452b")
+	)
+	(embedded_fonts no)
+)

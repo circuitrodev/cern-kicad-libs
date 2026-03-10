@@ -1,0 +1,181 @@
+(footprint "MIL-MAX_0856-0-15-20-82-14-11-0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1 Position Spring Piston Connector Through Hole")
+	(property "Reference" "REF**"
+		(at 0.00001 -2.74313 0)
+		(layer "F.SilkS")
+		(uuid "4d7c2b51-e6b3-45dd-9b96-4b20d68d2f7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MIL-MAX_0856-0-15-20-82-14-11-0"
+		(at 0.00001 2.74307 0)
+		(layer "F.Fab")
+		(uuid "cba062e0-55b7-4ada-90c2-4dcc44a46be3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad77d7f6-a6d4-418d-93ac-ed8dccd558d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3f1ae91-1df5-4afc-a344-f4a4f1bcc138")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0.00001 -0.00003)
+		(end 0.00001 -1.94313)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "449dcb26-9916-4ea7-8ace-aabd05b7cd92")
+	)
+	(fp_line
+		(start -0.49999 -0.00003)
+		(end 0.00001 -0.00003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d05f9934-a7e4-4b79-ab28-ec965de40b3e")
+	)
+	(fp_line
+		(start 0.00001 -0.00003)
+		(end 0.00001 -0.50002)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c36114d0-2d6f-49d5-a87c-41eb270bb9f5")
+	)
+	(fp_line
+		(start 0.00001 -0.00003)
+		(end 0.5 -0.00003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a3c6a1fc-de8d-46f4-bf06-035aa94eec50")
+	)
+	(fp_line
+		(start 0.00001 0.49997)
+		(end 0.00001 -0.00003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "79ea1ad3-b123-4a1e-9674-afbe65bc7a62")
+	)
+	(fp_circle
+		(center 0.00001 -0.00003)
+		(end 0.00001 -0.95003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "ff690f86-2402-4cfb-aa7e-9e81172bbfa8")
+	)
+	(fp_circle
+		(center 0.00001 -0.00003)
+		(end 0.00001 -0.60003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "92c3061a-b219-44ec-9fc5-e8b76e3b9f1f")
+	)
+	(fp_circle
+		(center 0.00001 -0.00003)
+		(end 0.00001 -1.94313)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8a1eddec-a832-4a57-8ac2-91c3b24c6478")
+	)
+	(fp_circle
+		(center 0.00001 -0.00003)
+		(end 0.00001 -1.20653)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "466878ea-978c-474b-86c6-7f8d3502c667")
+	)
+	(fp_circle
+		(center 0.00001 -0.00003)
+		(end 0.00001 -0.63503)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bcb4d3b8-9668-4326-b3be-3ff139ad8cce")
+	)
+	(pad "1" thru_hole circle
+		(at 0.00001 -0.00003)
+		(size 1.9 1.9)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "874ccbea-afd0-4828-acc5-b56d268ea858")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MIL-MAX_0856-0-15-20-82-14-11-0.stp"
+		(offset
+			(xyz 0.0001 0.00012 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

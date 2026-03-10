@@ -1,0 +1,190 @@
+(footprint "HARWIN_H2071Z01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Slotted Turret Lug")
+	(property "Reference" "REF**"
+		(at 0 -3.45 0)
+		(layer "F.SilkS")
+		(uuid "28eaf2e7-5a41-4e5f-bdf8-ca28d797cac4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARWIN_H2071Z01"
+		(at 0 3.45 0)
+		(layer "F.Fab")
+		(uuid "8954d929-051c-45f1-9682-2cf4edf63f9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddcc8b95-14dd-46df-a88a-b97f6cfdc25f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27cd276c-00ff-41a3-803d-58ecbd3e6cd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "503e6564-69bd-4b43-89f2-c4ffe03e5267")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "77dbdfc0-0195-4eaf-9a23-0ab09d75d1bd")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3df8b092-97db-4df6-ac4b-2743d98147ff")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "997c65c9-fa98-460a-8fcb-6f4366e92ddc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2c9e64b9-f8a2-4646-8a6a-a7ad8e14f76a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "a0146e70-e08a-45b9-be50-3eaf6d16ffe8")
+	)
+	(fp_line
+		(start -1.34373 0.85)
+		(end 1.34373 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8bf2a0a-c920-42d4-832e-93bac6a5fe04")
+	)
+	(fp_line
+		(start -1.34236 -0.85)
+		(end 1.34373 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "073438c3-f671-4ec8-ab32-4936b2d3d76f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "59f4a530-4792-4b0f-ae43-331e86a51ac3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "05014671-7b1d-4d69-94d1-29b77d6b67aa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "22bce514-d8d8-4132-80bc-06ba339c053f")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 5.5 5.5)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "10e97555-a387-4a28-866b-718cc81fc533")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARWIN_H2071Z01.stp"
+		(offset
+			(xyz 0.0001 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

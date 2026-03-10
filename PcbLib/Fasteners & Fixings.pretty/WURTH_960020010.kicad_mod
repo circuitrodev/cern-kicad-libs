@@ -1,0 +1,128 @@
+(footprint "WURTH_960020010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Round Spacer, Material : Polyamide,  External Dia. 4mm, Internal Dia. 2.2mm, Height 2mm")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(layer "F.SilkS")
+		(uuid "ca714a38-1b19-4466-946b-48fa36c10797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "WURTH_960020010"
+		(at 0 2.75 0)
+		(layer "F.Fab")
+		(uuid "5a4e5aed-8133-4cd8-8249-746b215d95ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9e3b889-c290-45cb-be9d-9dd3d1db3605")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14779dc7-ce02-4fef-8873-0b6303609cc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "060f2428-b4f0-40e3-aa67-c56e331d5019")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2ccaa283-65e7-456e-989a-18e45bf4d5ff")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3b135f8b-821a-4ba9-81fd-b3ebe775f2eb")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "89087537-6379-4e03-bbf2-dfd08cd52dfe")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e454c242-83d5-49f8-9a1b-48d857cf53cf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0ac450e4-6efb-4a4c-94bb-e9339aa3b750")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/WURTH_960020010.stp"
+		(offset
+			(xyz 0.0001 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

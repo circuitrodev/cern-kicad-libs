@@ -1,0 +1,128 @@
+(footprint "EDA-03700-V1-0_misc6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Spacer Ring, 46mm Diameter With Internal Diameter 36.2mm, 3.2mm Height")
+	(property "Reference" "REF**"
+		(at 0 -23.75 0)
+		(layer "F.SilkS")
+		(uuid "30611bb7-e2a4-4881-9d13-176f1d4ce340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "EDA-03700-V1-0_misc6"
+		(at 0 23.75 0)
+		(layer "F.Fab")
+		(uuid "b75aea01-3aa0-470e-93ce-076b287dd2f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ccdae5f-075a-4d97-a6fe-275c5393cde0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd14fb3e-0c1b-49a0-bbc4-c5e4826e703a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "24e32aa9-bfa4-4074-8990-d6cc6fb1e5a0")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2020f510-f7f7-42bb-8ce2-7edc9401141b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b5045b87-34ee-4412-81af-391adad31e44")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1911c748-dc5e-4051-8a30-5bbf485b1871")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -23)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ee1e8eb-734f-41c5-bd80-1951be99682a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -18.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3c071982-82b6-46f6-b951-e39cf81a6ac9")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/EDA-03700-V1-0_misc6.stp"
+		(offset
+			(xyz 0.00011 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

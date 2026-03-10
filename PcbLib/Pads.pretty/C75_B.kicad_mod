@@ -1,0 +1,96 @@
+(footprint "C75_B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.75mm Diameter SMD Test Point with Filled and Capped Via.")
+	(property "Reference" "REF**"
+		(at 0 -1.475 0)
+		(layer "F.SilkS")
+		(uuid "418bb5a7-3488-4b39-b64c-6ea926fc1f49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "C75_B"
+		(at 0 1.475 0)
+		(layer "F.Fab")
+		(uuid "ed97e952-b53f-4ef1-99a1-afcff67e20e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1eac9aac-4930-4670-9881-e2b3e35f4184")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae76591b-4e47-4e66-8ae9-061985b66a7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.1875)
+		(stroke
+			(width 0.375)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "32efa19e-6efe-4f5d-822c-cd6f45d0f8e7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.675)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "257fd06e-f534-49b9-b023-94c8e744b772")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0)
+		(tenting back)
+		(uuid "a449076a-3564-4188-8377-3a767bdfb25e")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.75 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin -2147.48364)
+		(solder_paste_margin -2147.48364)
+		(thermal_bridge_angle 90)
+		(uuid "78f0a2cd-b26c-4cda-bee0-0f7d3799fafa")
+	)
+	(embedded_fonts no)
+)

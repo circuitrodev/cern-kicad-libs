@@ -1,0 +1,202 @@
+(footprint "XFMR_SCHURTER_IT_35-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Pulse Transformer, Serie IT, Case 35-3,  Body 15.2mm x 13mm")
+	(property "Reference" "REF**"
+		(at 0 -8.4 0)
+		(layer "F.SilkS")
+		(uuid "321ecd67-75fd-4833-ba0f-dd27f0cbe761")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "XFMR_SCHURTER_IT_35-3"
+		(at 0 8.4 0)
+		(layer "F.Fab")
+		(uuid "5bda3166-efbe-4a35-b0cd-f7bd17761f18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3538a4c9-8ee8-46de-9ba9-1c94d6cec8a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe856507-9092-4c1a-87df-d748d054b05e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -6.5 -7.6)
+		(end 6.5 -7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3018e972-e502-47b5-901b-669ee7c046d6")
+	)
+	(fp_line
+		(start -6.5 5.1)
+		(end 6.5 5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31ad3545-a6d6-4d48-a3b1-ee1490b1afcd")
+	)
+	(fp_line
+		(start -6.5 7.6)
+		(end -6.5 -7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5491704-f1b6-4cee-b3a0-61a17cf10eed")
+	)
+	(fp_line
+		(start -6.5 7.6)
+		(end 6.5 7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00195ba3-7a72-4eb3-8031-d8f2ea6ebaaf")
+	)
+	(fp_line
+		(start 6.5 7.6)
+		(end 6.5 -7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2054ce6a-0167-4486-a1ef-4c2f1511c029")
+	)
+	(fp_line
+		(start -6.5 -7.6)
+		(end 6.5 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d4a71b3-c30b-4a7e-9262-80317dc5f2f6")
+	)
+	(fp_line
+		(start -6.5 5.1)
+		(end 6.5 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b86f9780-8c89-493e-a5af-9313181a2c43")
+	)
+	(fp_line
+		(start -6.5 7.6)
+		(end -6.5 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "912b2bb0-72c7-4cdf-a2fa-f51484060dd1")
+	)
+	(fp_line
+		(start -6.5 7.6)
+		(end 6.5 7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21c8d54c-b408-4a41-8d0b-dc733e833531")
+	)
+	(fp_line
+		(start 6.5 7.6)
+		(end 6.5 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f84b8f8-9ca1-4f68-85b9-84c2c467177d")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 6.35 180)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "9fc9ff2c-97eb-4cd6-8b12-1983f827cdcb")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 6.35 180)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6eaae2da-45ca-4245-84ee-30814a73da9e")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 -6.35 180)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "bc829659-38d6-4c29-929f-2044a55d69e8")
+	)
+	(pad "5" thru_hole circle
+		(at -2.54 -6.35 180)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "413f40dd-6960-41f6-8cb9-0b2ba87ad9fb")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/XFMR_SCHURTER_IT_35-3.stp"
+		(offset
+			(xyz 0.00006 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

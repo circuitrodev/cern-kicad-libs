@@ -1,0 +1,142 @@
+(footprint "TPS060"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.6 x  0.6mm SMD Test Point Area")
+	(property "Reference" "REF**"
+		(at 0.025 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "0d8997bb-0bde-4dcb-a267-4c39f91f45bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TPS060"
+		(at 0.025 1.45 0)
+		(layer "F.Fab")
+		(uuid "6a0f0540-440c-4203-b072-e3fdb2362a3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f26e8411-c855-4c81-8738-06b0b6fa854a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce2fe449-6d7a-49ec-b555-cdae13ef9733")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.65 -0.65)
+		(end 0.7 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "513480e1-14e3-4352-a1ac-69cdc00d9b11")
+	)
+	(fp_line
+		(start -0.65 0.65)
+		(end -0.65 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a639c84-f402-4118-98bb-26faa3c25eee")
+	)
+	(fp_line
+		(start -0.65 0.65)
+		(end 0.7 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efc588c4-94d8-4bd3-933c-7d8a93571678")
+	)
+	(fp_line
+		(start 0.7 0.65)
+		(end 0.7 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56dcbeb4-fce3-4b1c-9efb-52ce23a9fb40")
+	)
+	(fp_line
+		(start -0.3 -0.3)
+		(end 0.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e242b70-c71b-40fe-b453-8fbcec83db0d")
+	)
+	(fp_line
+		(start -0.3 0.3)
+		(end -0.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad4195a3-2d2a-4199-9a3d-26f6f8b583a0")
+	)
+	(fp_line
+		(start -0.3 0.3)
+		(end 0.3 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "411bd488-113e-468a-8fd0-712e32ba2d32")
+	)
+	(fp_line
+		(start 0.3 0.3)
+		(end 0.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19c9c6b5-a6f4-474d-bff8-a6ec5d7626f0")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -1.27)
+		(uuid "bff1de08-d8f8-4cdb-a903-c1e736e58ce7")
+	)
+	(embedded_fonts no)
+)

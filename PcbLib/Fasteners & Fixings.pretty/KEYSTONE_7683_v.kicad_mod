@@ -1,0 +1,128 @@
+(footprint "KEYSTONE_7683_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "M3 Nylon Shoulder Washer/Bushings, Outside Diameter 6.4mm, Shoulder Diameter 4.7mm")
+	(property "Reference" "REF**"
+		(at 0 -3.95 0)
+		(layer "F.SilkS")
+		(uuid "59764fa2-11d3-4e1c-8988-d25385f2e25f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_7683_v"
+		(at 0 3.95 0)
+		(layer "F.Fab")
+		(uuid "5aea79d3-a0e1-416a-b4cb-2f1174f2b70e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "235929f9-0646-4abc-b758-775fd3c7c0ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74700bbe-de6b-4544-8cdb-2922f5fda5f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3cc63ea4-b411-41af-af02-524755970883")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e54f2968-3e79-4006-8bc9-64b3407c6b83")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7872ba4d-d217-4e2f-99b4-78a2a0f2ca09")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "55cd8e64-c588-45b1-ac5d-de7aabb138ac")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "59c263cf-34e3-417f-b4a5-46f047682939")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c16715f9-4d8c-4d6e-9669-51069130e0dd")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/KEYSTONE_7683_v.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

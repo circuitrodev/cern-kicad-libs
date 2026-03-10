@@ -1,0 +1,190 @@
+(footprint "THERM_VISHAY_2381 640 5XXXX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RM_VISHAY_2381 640 5xxxx, Body 3.4x3mm")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "eff0649a-6909-47fe-ad62-d6b83548690c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "THERM_VISHAY_2381 640 5XXXX"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "fafbc5a5-6033-432c-9f72-de1451c654b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e752e719-9d9d-413b-aaa3-03e0616b0412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d520dc2-5abd-4695-ac65-b8edf529ad27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.30752 1.5)
+		(end 0.2 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e203b0b6-ecfc-4b0c-bd31-53a7079a6934")
+	)
+	(fp_line
+		(start -0.2 -1.5)
+		(end 0.2 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3314bcb0-0f8e-4daf-a3d8-ea012d678b77")
+	)
+	(fp_arc
+		(start -1.164181 -1.149067)
+		(mid -0.713029 -1.409539)
+		(end -0.199999 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4b02250-a5ac-4082-b711-c76fba3d0eda")
+	)
+	(fp_arc
+		(start -0.30752 1.5)
+		(mid -0.803019 1.401439)
+		(end -1.223082 1.120762)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "748538ff-8d9e-40b6-a421-fcb76961a45a")
+	)
+	(fp_arc
+		(start 0.2 -1.5)
+		(mid 0.71303 -1.409539)
+		(end 1.164181 -1.149067)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ea6a58a-df4f-402a-94ac-38585dfc44a3")
+	)
+	(fp_arc
+		(start 1.164181 1.149067)
+		(mid 0.713029 1.409539)
+		(end 0.199999 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d8cb757-d56d-4f7d-9329-dbb71d6e1666")
+	)
+	(fp_line
+		(start -0.2 -1.5)
+		(end 0.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38111f55-ffeb-4810-9111-b90125dd9770")
+	)
+	(fp_line
+		(start -0.2 1.5)
+		(end 0.2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df99087a-30be-4f99-a1db-b70fc5b5c59c")
+	)
+	(fp_arc
+		(start -0.2 1.5)
+		(mid -1.7 0)
+		(end -0.2 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8166739-0a46-4d53-8f5b-9c054ccb9194")
+	)
+	(fp_arc
+		(start 0.2 -1.5)
+		(mid 1.7 0)
+		(end 0.2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66c29de0-3591-465d-8bd7-97f6eb72ce1b")
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "930cfe0b-c850-49a4-842c-ac93e3c9a448")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4c238390-de62-4ee0-81ac-85032fbdf4bb")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/THERM_VISHAY_2381 640 5XXXX.stp"
+		(offset
+			(xyz 0.00011 0.00012 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

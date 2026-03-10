@@ -1,0 +1,187 @@
+(footprint "RES_BARRY_REC2010CT-XXXXJN-2T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Chip, 2 Side Concave, 2.845mm Pitch; 2 Pin,5.08mm W X 2.413mm L X 1.016mm H")
+	(property "Reference" "REF**"
+		(at 0 -2.225 0)
+		(layer "F.SilkS")
+		(uuid "e018930c-a5c5-462d-ba75-1f137aeaf305")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RES_BARRY_REC2010CT-XXXXJN-2T"
+		(at 0 2.225 0)
+		(layer "F.Fab")
+		(uuid "da3fb784-dfde-4c70-8b28-80339d3ad3f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b3d24e5-42ed-433c-92fd-90a97b246f74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ed72c76-37b8-4258-aa3d-c539f26b3d06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start 0 1.2)
+		(end 0 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d42656de-7aa2-43f3-98ab-db04be73c6a2")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "68f1fb9b-e0d4-42de-a89d-d2af26ba4276")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "092a7724-9017-4dfa-aad6-6154a1adeb1a")
+	)
+	(fp_line
+		(start -3.3 -1.5)
+		(end 3.3 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5787422-c960-4498-876f-0ae453f4ef28")
+	)
+	(fp_line
+		(start -3.3 1.5)
+		(end -3.3 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "feb802f6-20a4-4d8c-a3cf-32018ad3d6d2")
+	)
+	(fp_line
+		(start -3.3 1.5)
+		(end 3.3 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12f6105b-4b14-4c55-b254-b2f37e65d189")
+	)
+	(fp_line
+		(start 3.3 1.5)
+		(end 3.3 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4091a1e-4f47-4caa-9688-7291984cb158")
+	)
+	(fp_line
+		(start -2.54 -1.206)
+		(end 2.54 -1.206)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cb82f5c-ee5c-4bcb-8ed8-0ae7ee1e0142")
+	)
+	(fp_line
+		(start -2.54 1.206)
+		(end -2.54 -1.206)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79b61e45-01b9-4410-9856-40c584baff80")
+	)
+	(fp_line
+		(start -2.54 1.206)
+		(end 2.54 1.206)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5fb01fb-fce5-4875-93bd-a48f5a94438d")
+	)
+	(fp_line
+		(start 2.54 1.206)
+		(end 2.54 -1.206)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca9b684f-5fab-4426-a1fa-ddf65f5cc115")
+	)
+	(pad "1" smd rect
+		(at -1.75 0)
+		(size 2.6 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1fb81d14-f8ef-4ad8-b9d0-a418408b792f")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 2.6 2.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f87d009-6ff8-485a-bb41-3d5ccf30264d")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RES_BARRY_REC2010CT-XXXXJN-2T.stp"
+		(offset
+			(xyz 0.00006 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

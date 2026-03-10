@@ -1,0 +1,148 @@
+(footprint "HSINK_ATS_ATS-HK127-R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plastic Pin and Spring Assembly, Spring Lenght 7.3mm, Overall Height 13.3mm, Vertical Mount")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(layer "F.SilkS")
+		(uuid "a6055b76-3a50-480a-8ef1-ef15992e5185")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HSINK_ATS_ATS-HK127-R0"
+		(at 0 3.3 0)
+		(layer "F.Fab")
+		(uuid "f1fa79e6-c4d9-4010-b029-6b6494e89c12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cf36d24-0208-4341-bcee-afb7f87ef7a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bdc0fa8-b0db-4c8c-b62b-ad3347229900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5e45e343-fed7-4f06-bcf8-c30a0e8d332d")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9d020c6d-3635-4f2d-89c3-d56047f3602d")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "269dde5f-8b8f-4c94-8ecb-f2bfe86cd4c6")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d2f51dd4-313c-443a-8a7e-4741cf179305")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e15c33fc-551a-4613-afc5-5430b806cd8e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "9c23ab5a-55f0-4306-94fc-c22a7555e806")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "860ce055-f2fc-465d-b8c0-40173aef3766")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1)
+		(thermal_bridge_angle 90)
+		(uuid "65cbeb93-2585-4caf-a670-574726d0e6dd")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HSINK_ATS_ATS-HK127-R0.stp"
+		(offset
+			(xyz 0.0001 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

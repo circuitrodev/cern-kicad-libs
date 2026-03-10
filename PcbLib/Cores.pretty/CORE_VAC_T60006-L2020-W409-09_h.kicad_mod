@@ -1,0 +1,150 @@
+(footprint "CORE_VAC_T60006-L2020-W409-09_h"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Nanocrystalline Vitroperm Core in Plastic Casing for Common Mode Choke, D 22.6mm d 10.3mm W 10.2mm")
+	(property "Reference" "REF**"
+		(at 0 -12.1 0)
+		(layer "F.SilkS")
+		(uuid "5f6ae5ad-acb7-4b12-b101-827af5821d12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "CORE_VAC_T60006-L2020-W409-09_h"
+		(at 0 12.1 0)
+		(layer "F.Fab")
+		(uuid "37f36aab-a310-466d-8ab8-3c2e76610eec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d86fc418-159f-4dbc-a801-5a203ebc9c93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56e14aa7-1bb8-4017-9bc6-ce74fa82582b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -11.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4347b2ca-8f58-4f8d-bf5f-87224c05ee50")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e203e5e0-26e7-4c08-bccf-fe366aa62c9f")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a4f2fa87-1370-430f-acff-132069fc4222")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "15c303aa-8538-44a0-9e94-d25f8d603d04")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4977c8ac-a780-425d-9de3-a939c9e6a5fa")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "46e41b59-5328-4892-85b3-4564188214c9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -11.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ba96b90-0f51-4431-a77f-8cab6f62c2c3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8e874acf-095a-4e47-962b-fd1310fb7811")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/CORE_VAC_T60006-L2020-W409-09_h.stp"
+		(offset
+			(xyz 0.00006 0.00011 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

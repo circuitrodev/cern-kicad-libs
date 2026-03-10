@@ -1,0 +1,67 @@
+(footprint "RES_TYCO_SM_3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Molded Body; 12.00mm L X 5.50mm W X 5.00mm H, SM 3W Series")
+	(property "Reference" "REF**"
+		(at 0 -2.39995 0)
+		(layer "F.SilkS")
+		(uuid "05d8a3c8-11bb-4f94-bfe8-1c699481b6f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RES_TYCO_SM_3"
+		(at 0 2.40005 0)
+		(layer "F.Fab")
+		(uuid "3fab6c12-0563-47a1-809f-e105bc5e4f78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "687d4e68-6f5b-490b-a5ab-51a477de8516")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b2fc37d-c01d-492c-80d5-24a2f0e05bba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at -7.75001 0.00005)
+		(size 4.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "842bf11e-267d-4f76-88dc-29126e18950e")
+	)
+	(pad "2" smd rect
+		(at 7.75001 0.00005)
+		(size 4.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8db8f9e-a50c-4dc2-b571-2c02530aae6a")
+	)
+	(embedded_fonts no)
+)

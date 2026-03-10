@@ -1,0 +1,64 @@
+(footprint "MTG480_1000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole: Hole Dia.=4.8mm Pad Dia.=10.0mm")
+	(property "Reference" "REF**"
+		(at 0 -5.7 0)
+		(layer "F.SilkS")
+		(uuid "4e3ee034-99c4-4769-9eec-aaa22f4e3983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MTG480_1000"
+		(at 0 5.7 0)
+		(layer "F.Fab")
+		(uuid "7e66de23-3ee2-4531-983c-f3d5135e135a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "969fe46d-3204-4a0d-8891-769c79099da6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9efd1f14-0a78-41b5-b8c5-68b3bc83a070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 10 10)
+		(drill 4.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "4f1c6c37-bb99-4b17-a003-d7d69a2d57f8")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,128 @@
+(footprint "HARTING_09 03 000 6202"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DIN-41612  Type M, 20A Special Power Straight Female Contact")
+	(property "Reference" "REF**"
+		(at 0.00004 -4.1 0)
+		(layer "F.SilkS")
+		(uuid "67b4ea9a-cb34-4f2d-acb7-82a857fc1c59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARTING_09 03 000 6202"
+		(at 0.00004 4.1 0)
+		(layer "F.Fab")
+		(uuid "a4e54b09-a771-4749-a6e0-806c360c264e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b49bd16-3075-437e-a16b-38f312ccdf6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b02a5150-9bc3-43e0-b56e-1e7fd56b5103")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0.00004 0)
+		(end 0.00004 -3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dcb4fd84-88e8-4d75-ac21-bb40cd93c3d2")
+	)
+	(fp_line
+		(start -0.49996 0)
+		(end 0.00004 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "be9b653d-5ec9-40c8-b39a-e730c9330a53")
+	)
+	(fp_line
+		(start 0.00004 0)
+		(end 0.00004 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b9de4d8d-9463-488d-a8ad-2551bd766531")
+	)
+	(fp_line
+		(start 0.00004 0)
+		(end 0.50005 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "94bc1a9e-524d-41ef-90db-84f9590184e9")
+	)
+	(fp_line
+		(start 0.00004 0.5)
+		(end 0.00004 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5a1d478d-87a0-4cd2-9f9e-df08da12960f")
+	)
+	(fp_circle
+		(center 0.00004 0)
+		(end 0.00004 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dc9d3690-8f4f-4aa7-aaf5-b8e467810812")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARTING_09 03 000 6202.stp"
+		(offset
+			(xyz 0.00011 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

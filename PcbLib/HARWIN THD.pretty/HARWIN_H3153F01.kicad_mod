@@ -1,0 +1,137 @@
+(footprint "HARWIN_H3153F01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Single Sub-Miniature PC Board Socket for Ø0.5mm Pin")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "48233915-f0f4-4597-9da1-8d56bff5444e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARWIN_H3153F01"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "6b5f9b55-7165-49cd-bfc5-a4ed7a5ddb9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d91ca69-b136-404b-bee7-7c122828b3a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14033fdc-f8c2-4782-8b92-42916de82422")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "20fdd8fa-79c2-4208-b1b0-2c97a23b4fdf")
+	)
+	(fp_line
+		(start -0.8 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "356681f5-e07f-4b8f-8344-b5533e2298d6")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4ca399cb-7a31-48d1-9a8c-a88bcaf068bd")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8a1e7f99-fa4b-4502-b315-a710f46f14b7")
+	)
+	(fp_line
+		(start 0 0.8)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "bfa8955b-21cc-4a03-8cc6-d28818da2c2f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "132803ab-b868-40c2-b36d-3065da780413")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.75 1.75)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "0df305ae-9ca3-40fc-9552-87489fae8c8c")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARWIN_H3153F01.stp"
+		(offset
+			(xyz 0.00008 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

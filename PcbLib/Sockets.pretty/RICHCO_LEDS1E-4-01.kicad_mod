@@ -1,0 +1,99 @@
+(footprint "RICHCO_LEDS1E-4-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6.4mm Spacer For 3mm LED - RICHCO LEDS1E Serie")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "aab8f8bd-1e66-4a1b-9d3e-f2f85839d5be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RICHCO_LEDS1E-4-01"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "49454a12-bd06-4fe2-af63-1560f157aaa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71e29aa8-e171-455d-89e9-eabd2f59c9cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01b22551-768c-4a72-b419-2c36cbbb255d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_arc
+		(start -1.295344 -1.249834)
+		(mid 0 -1.8)
+		(end 1.295344 -1.249834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5009dc7a-d5da-4860-9d08-ae0d836c210b")
+	)
+	(fp_arc
+		(start 1.295522 1.249649)
+		(mid 0 1.8)
+		(end -1.295522 1.249649)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdad14bd-0847-48d4-af0f-0959f575b4a6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a1f83133-ceab-4d92-b733-c3fd32b30c78")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RICHCO_LEDS1E-4-01.stp"
+		(offset
+			(xyz 0.00005 0.00005 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

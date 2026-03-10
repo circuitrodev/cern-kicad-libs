@@ -1,0 +1,276 @@
+(footprint "II-VI_APA4401040001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4x Fiber Optic Surface-Emitting Laser, Anode and Cathode Wire Bonding on Top Side")
+	(property "Reference" "REF**"
+		(at 0 -1.175 0)
+		(layer "F.SilkS")
+		(uuid "24d894c7-dbf1-46f3-8931-dced9db53638")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "II-VI_APA4401040001"
+		(at 0 1.175 0)
+		(layer "F.Fab")
+		(uuid "6ca1962b-7f4a-4111-aa6b-ed426b9b165e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8ccccf1-ea35-485b-99c5-2a4230a611f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7215d9d6-36a3-4a1b-8144-a282d9ac080f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.25 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "05cdc6d8-722d-474f-bbba-64279a3dab1b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a918f960-d088-4604-b809-dc78438567d8")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fe15ce77-194b-4d5f-ba15-506aa83e3595")
+	)
+	(fp_line
+		(start 0 0.25)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c40db800-f859-4642-9cc7-b04b3d665f5d")
+	)
+	(fp_line
+		(start -0.85 -0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f079dac4-c993-4546-afd9-6da288ad1b49")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end -0.85 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2e1e97df-9faa-4bf8-a6cc-d8dc622fef92")
+	)
+	(fp_line
+		(start -0.85 0.45)
+		(end 0.85 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9341803d-efc2-468b-aecb-4f0831c41efa")
+	)
+	(fp_line
+		(start 0.85 0.45)
+		(end 0.85 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6360569d-1ea3-4cca-8109-691e7ff78dd8")
+	)
+	(fp_line
+		(start -0.49 -0.14)
+		(end 0.49 -0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1d21c9e-37ab-494f-a23a-ac2ca33ca715")
+	)
+	(fp_line
+		(start -0.49 0.14)
+		(end -0.49 -0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35d30bd0-a786-4c83-8460-f202de43a823")
+	)
+	(fp_line
+		(start -0.49 0.14)
+		(end 0.49 0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b5d2b55-0f7f-4dc7-a159-b309b061431c")
+	)
+	(fp_line
+		(start 0.49 0.14)
+		(end 0.49 -0.14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f81a879b-9cb5-4fe6-921b-dc4fa6d480bb")
+	)
+	(pad "DIEPAD" smd rect
+		(at 0 0)
+		(size 1.18 0.48)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2147.48364)
+		(uuid "47547534-1843-45e4-98d2-bda3818c9503")
+	)
+	(pad "M1" smd circle
+		(at -0.32 0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "91069854-8f38-4ebd-b5cf-8f0b9684a6fd")
+	)
+	(pad "M2" smd circle
+		(at -0.07 0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "6f96cefb-1c09-42a0-a984-3e0c992d22ec")
+	)
+	(pad "M3" smd circle
+		(at 0.18 0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "5f754efb-1b5c-4ac4-81d3-d4c5e91479b9")
+	)
+	(pad "M4" smd circle
+		(at 0.43 0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "d1018fa0-1d9f-44f5-85f4-188527181bde")
+	)
+	(pad "N1" smd circle
+		(at -0.43 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "322e10f3-28d8-49ba-9d4b-53fffe5b3dab")
+	)
+	(pad "N2" smd circle
+		(at -0.18 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "cbc0da0e-5c02-4711-aaf5-f41b184ca18d")
+	)
+	(pad "N3" smd circle
+		(at 0.07 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "efd2cdbc-c9ae-4cfe-a0d1-76657ab04992")
+	)
+	(pad "N4" smd circle
+		(at 0.32 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "240e81fd-50e5-4daf-877e-160f26f217cd")
+	)
+	(pad "P1" smd circle
+		(at -0.32 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "36db13c4-6f7d-427c-b2e7-f88913be96ff")
+	)
+	(pad "P2" smd circle
+		(at -0.07 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "5c5497cd-c85b-42fb-a369-6a1f233e53ab")
+	)
+	(pad "P3" smd circle
+		(at 0.18 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "88b14a3e-74ef-497f-8345-eeb82d78715e")
+	)
+	(pad "P4" smd circle
+		(at 0.43 -0.08)
+		(size 0.07 0.07)
+		(layers "In1.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "64bdc3e0-0fea-48d5-83b9-ee5f4b5fbecf")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/II-VI_APA4401040001.stp"
+		(offset
+			(xyz 0.00011 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,106 @@
+(footprint "INSUL_WAKEFIELD_CD-02-05-220_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220 Transistor Case Insulator, L 17.8mm x W 12.7mm x H 0.08mm, Vertical Mount")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "2bb40eb4-47e6-4c6b-a765-4a0d1021aec9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "INSUL_WAKEFIELD_CD-02-05-220_v"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(uuid "382a9550-07fa-4e30-9e4c-3fe4a42f9043")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36aa5b44-0e80-4805-8c9a-0df72bba7604")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8780e62e-1d62-4f9c-b567-833970df20e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -6.35 -0.1145)
+		(end 6.35 -0.1145)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3e7aa21-3c9c-4656-8138-01daab04172b")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "01d15416-6a82-4a60-9b4d-407507c75963")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9a3ca94b-fa51-43ce-a796-ef5bff6d14ad")
+	)
+	(fp_line
+		(start -6.35 -0.1145)
+		(end 6.35 -0.1145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79f85811-7e99-4ca9-8f3b-720cf920397b")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/INSUL_WAKEFIELD_CD-02-05-220_v.stp"
+		(offset
+			(xyz 0.0001 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,204 @@
+(footprint "RES_WELWYN_PR4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial, Pad spacing 10.16 mm - Body Lengh 6.2mm X Body Diameter 2.5mm")
+	(property "Reference" "REF**"
+		(at 0 -2.05 0)
+		(layer "F.SilkS")
+		(uuid "85e7d20f-48cb-451e-8fce-e6b6937eb43b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RES_WELWYN_PR4"
+		(at 0 2.05 0)
+		(layer "F.Fab")
+		(uuid "fc4b8b4f-03d7-4d6b-956d-54981c4ac00d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beebd198-7668-4024-9b85-b4944604b251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d30ad783-2aab-428e-98a2-e8aa592d8f9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -3.95 0)
+		(end -3.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ae41e79-5832-4f23-b994-b1e0b95826e3")
+	)
+	(fp_line
+		(start -3.1 -1.25)
+		(end 3.1 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50a5d5b7-8891-4781-9deb-a4d5ddd8b106")
+	)
+	(fp_line
+		(start -3.1 1.25)
+		(end -3.1 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "830a5a8a-3a63-456a-b7b1-45bf90092f68")
+	)
+	(fp_line
+		(start -3.1 1.25)
+		(end 3.1 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c7cf931-830c-4243-9df1-11d178c1593b")
+	)
+	(fp_line
+		(start 3.1 0)
+		(end 3.95 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6be419c8-b5f8-49d7-a2e9-b709d52d9b66")
+	)
+	(fp_line
+		(start 3.1 1.25)
+		(end 3.1 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28acd0b6-1c0f-40b4-aef2-fb7771e9158f")
+	)
+	(fp_line
+		(start -3.95 0)
+		(end -3.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6f9b49c-1ee8-49d6-a19a-f5fbf7c65978")
+	)
+	(fp_line
+		(start -3.1 -1.25)
+		(end 3.1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9beeef48-e98a-4b7d-a4ec-e999e7b8581c")
+	)
+	(fp_line
+		(start -3.1 1.25)
+		(end -3.1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3091d02a-535c-4f2a-9dbb-dfbdd9e38b38")
+	)
+	(fp_line
+		(start -3.1 1.25)
+		(end 3.1 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4aebca1-2bd4-4fdc-960a-52e3e02af34a")
+	)
+	(fp_line
+		(start 3.1 0)
+		(end 3.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f69f791-d238-41c5-8ddf-9cd02ce7f96f")
+	)
+	(fp_line
+		(start 3.1 1.25)
+		(end 3.1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0fdce24-4728-4161-b726-64c0733c7e77")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "37c6696c-08a9-48f4-955f-300223023697")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "dd751a73-8114-48a4-a048-83381a91ac1a")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RES_WELWYN_PR4.stp"
+		(offset
+			(xyz 0.00012 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

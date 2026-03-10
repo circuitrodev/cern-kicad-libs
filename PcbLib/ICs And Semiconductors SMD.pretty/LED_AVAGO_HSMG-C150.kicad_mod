@@ -1,0 +1,288 @@
+(footprint "LED_AVAGO_HSMG-C150"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Green Chip LED, 2-Leads, Body 3.2 x1.6mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at -0.2375 -1.875 0)
+		(layer "F.SilkS")
+		(uuid "d9e5efde-1856-4e15-bb25-8d19b84d09ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "LED_AVAGO_HSMG-C150"
+		(at -0.2375 1.875 0)
+		(layer "F.Fab")
+		(uuid "edeb3784-5811-47cb-aea2-c6d98a90b9dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ab85dc3-272b-45eb-bf59-dc5068ec507f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f96f28e3-4b02-4145-b925-424a653101d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.65 -0.8)
+		(end 0.65 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b916860-e43e-4b42-a6f3-7cb6db8efa5a")
+	)
+	(fp_line
+		(start -0.65 0.8)
+		(end -0.65 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cef7cba3-71c9-44bb-9644-d0fe47934ab1")
+	)
+	(fp_line
+		(start -0.65 0.8)
+		(end 0.65 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e8d18fe-44a7-4f8c-87dd-bdf40d2263a4")
+	)
+	(fp_line
+		(start -0.45 0.8)
+		(end -0.45 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f42469e1-ee5d-41d1-b0ea-8a7a91c8211c")
+	)
+	(fp_line
+		(start -0.25 0.8)
+		(end -0.25 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "361d159e-aa4f-436f-8709-92a95c56a321")
+	)
+	(fp_circle
+		(center -2.5 0)
+		(end -2.5 -0.125)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9d3c6ce1-463e-4962-a45d-78d944263c84")
+	)
+	(fp_line
+		(start -2.25 -1.15)
+		(end 2.25 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02085e3c-e48c-415c-96d2-64cb74a034e4")
+	)
+	(fp_line
+		(start -2.25 1.15)
+		(end -2.25 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dc1d6f7-e993-4fa6-8c0e-b73fb8c8eb80")
+	)
+	(fp_line
+		(start -2.25 1.15)
+		(end 2.25 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ed4089c-20b2-472d-a300-f20521b61426")
+	)
+	(fp_line
+		(start 2.25 1.15)
+		(end 2.25 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d08d8445-bf7f-4d38-914a-2a91b9a05338")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51c3075c-8149-41bb-b234-d1a4ceefd3d2")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "daf68a88-1ea4-485c-a2e0-51835cda31e9")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb3099f3-296a-4d73-9bff-c5518c88e08c")
+	)
+	(fp_line
+		(start -1.5 0.8)
+		(end -1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c486b55-a216-4233-8a6c-6bc0f2bfe933")
+	)
+	(fp_line
+		(start -1.4 0.8)
+		(end -1.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66e5c64c-681c-4bec-a079-90e0e95a9414")
+	)
+	(fp_line
+		(start -1.3 0.8)
+		(end -1.3 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5f5e1ec-49ee-46be-bfd3-1a92dd713b2e")
+	)
+	(fp_line
+		(start -1.2 0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73628d4d-51fb-4df2-95e8-600e334270f2")
+	)
+	(fp_line
+		(start -1.1 0.8)
+		(end -1.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84de983c-4c84-474d-8856-bc26fe04ce23")
+	)
+	(fp_line
+		(start -1 0.8)
+		(end -1 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c19d99c-98d5-4da7-a806-60b5b39b8916")
+	)
+	(fp_line
+		(start -0.9 0.8)
+		(end -0.9 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50e432e2-daf8-4572-9b35-54fe3cf65b69")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d31722a7-b083-4bdb-a158-a5f60a70072d")
+	)
+	(pad "1" smd rect
+		(at -1.5 0 90)
+		(size 1.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "455c7093-9f40-4895-a1ff-515c7386e739")
+	)
+	(pad "2" smd rect
+		(at 1.5 0 90)
+		(size 1.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d89d3934-8121-47a8-a101-c035f128c5c8")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/LED_AVAGO_HSMG-C150.stp"
+		(offset
+			(xyz 0.00007 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

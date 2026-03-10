@@ -1,0 +1,157 @@
+(footprint "RES_ANAREN_R1A100550R0J5C0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "High Frequency (up to 17 GHz) Surface Mount Chip Resistor, 1.0mm L X 0.5mm W X 0.25mm H")
+	(property "Reference" "REF**"
+		(at 0 -1.185 0)
+		(layer "F.SilkS")
+		(uuid "a1cd2e45-740a-46e1-97f6-77e2ed8d8ec2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RES_ANAREN_R1A100550R0J5C0"
+		(at 0 1.185 0)
+		(layer "F.Fab")
+		(uuid "4d8d69f1-3b1c-4ffa-95cc-77a77ca65f96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b932d67-d3e2-43a9-b839-7d83e10a3acc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5983fe9-a1d0-449c-8a84-8192e8efc782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.91 -0.46)
+		(end 0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e806c2d3-ef5b-4c4a-9eae-1ab5dd099001")
+	)
+	(fp_line
+		(start -0.91 0.46)
+		(end -0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c86f1730-8cb8-42b6-9415-d2f94cc92e9c")
+	)
+	(fp_line
+		(start -0.91 0.46)
+		(end 0.91 0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eff3b109-0298-4bfd-8de8-a794797505f5")
+	)
+	(fp_line
+		(start 0.91 0.46)
+		(end 0.91 -0.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "853a8058-e9b2-484f-ade8-52ad9185f164")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8096e96-a689-46e4-b3f8-b28229bc7318")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a84a9208-3965-48fa-8cc1-07fe9f8d7f29")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "367c0dc1-bfe5-42a5-b535-8157c013550c")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad79f59a-d6cd-46e8-b773-7d15145ef76a")
+	)
+	(pad "1" smd rect
+		(at -0.47 0 90)
+		(size 0.62 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dd261d78-9dd4-4e8a-9278-2734615dd14b")
+	)
+	(pad "2" smd rect
+		(at 0.47 0 90)
+		(size 0.62 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "787fa8e8-0a1b-415d-b4d1-50f6fd1ee7b6")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RES_ANAREN_R1A100550R0J5C0.stp"
+		(offset
+			(xyz 0.00007 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

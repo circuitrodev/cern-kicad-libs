@@ -1,0 +1,275 @@
+(footprint "OSC_IDT_XLH7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Oscillator, Side Convave, 6 Pins, 5.00x7.00mm IDT XLH Series")
+	(property "Reference" "REF**"
+		(at 0 -4.99 0)
+		(layer "F.SilkS")
+		(uuid "e2292c16-d643-4b4c-a7fe-f9d2197f8b2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "OSC_IDT_XLH7"
+		(at 0 4.575 0)
+		(layer "F.Fab")
+		(uuid "9319ef0b-815b-4fa0-bd66-9d4e97464ec8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fcbe55e-c06f-4905-bc07-b4298c6ce2cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "031d2dc1-bc4f-4389-a603-f5ea039e7031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.75 -3.5)
+		(end 0.75 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9c85b63-8ff5-43b9-85c2-699c1a9b4efc")
+	)
+	(fp_line
+		(start -0.75 3.5)
+		(end 0.75 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b30ec4d8-8113-4f5b-aaa6-1921fda9725e")
+	)
+	(fp_circle
+		(center -3.1 -4.04)
+		(end -3.1 -4.165)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7e09780f-2ba9-4a4d-aad0-d0a0d5980491")
+	)
+	(fp_line
+		(start -3.35 -3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "802815bf-941a-4966-a8cc-634e645fafe5")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end -3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92521b86-f05e-4807-a219-50b3fd82e609")
+	)
+	(fp_line
+		(start -3.35 3.85)
+		(end 3.35 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba140006-9885-4836-a43d-ca7a6359e96b")
+	)
+	(fp_line
+		(start 3.35 3.85)
+		(end 3.35 -3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b6c43c6-9010-490a-9cb5-d17e9c649f16")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a4e8de0-f7f2-4af4-a96d-c66f9a129c67")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end -2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98667b78-97c6-4d33-b708-3311da909eda")
+	)
+	(fp_line
+		(start -2.5 3.5)
+		(end 2.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e9dba77-be1b-48c1-8022-8390e74e5d7c")
+	)
+	(fp_line
+		(start 2.5 3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32c487b8-59f6-4dd8-ac74-9423231bab4e")
+	)
+	(fp_circle
+		(center -1.5 -2.5)
+		(end -1.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f300dbe5-f863-43d9-af65-e56f7e562b2d")
+	)
+	(pad "1" smd rect
+		(at -2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14569561-de71-44cd-a40c-bfeae7884c84")
+	)
+	(pad "2" smd rect
+		(at -2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9122b0f0-5537-4afc-a5fe-2aff8e44f4e3")
+	)
+	(pad "3" smd rect
+		(at 2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ba146d1c-f5a9-4d89-9d0a-582b7014166b")
+	)
+	(pad "4" smd rect
+		(at 2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ca407d3-64c6-4db1-ae51-760cd085a489")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "48345eaa-ca6d-494d-81b1-b96f34b89c53")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.1 -0.9) (xy -1.1 -0.9) (xy -1.1 0.9) (xy -3.1 0.9)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e737c765-0cd5-435a-a00c-5d020084b9f0")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 1.1 -0.9) (xy 3.1 -0.9) (xy 3.1 0.9) (xy 1.1 0.9)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/OSC_IDT_XLH7.stp"
+		(offset
+			(xyz 0.00012 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

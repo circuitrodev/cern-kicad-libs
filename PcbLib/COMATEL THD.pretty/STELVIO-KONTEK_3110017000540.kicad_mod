@@ -1,0 +1,199 @@
+(footprint "STELVIO-KONTEK_3110017000540"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Solder Fork Terminal ( hole 1.3 mm)")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "2790c634-77b4-4492-ad60-a62a07193645")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "STELVIO-KONTEK_3110017000540"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "4bc63d67-2cea-4140-a256-7c1c37462f93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8549c777-7048-42f7-979d-307348141ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d95a022-3eb4-4bc2-9db5-66f461e718fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0191a485-b82c-453d-9268-845a97593546")
+	)
+	(fp_line
+		(start -1 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "066a44f0-e3bd-465b-9d3e-2d43a1752914")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f277647d-7495-47de-b1f0-40a0151e6ce7")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4ec57361-c80e-4a6c-b703-312e7b3b1425")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "00df9bb5-b919-483e-91db-19cefb3c135b")
+	)
+	(fp_line
+		(start -0.4 -0.44721)
+		(end -0.4 -1.18427)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a0da546-ab5e-4d75-8987-2ba4f449f74b")
+	)
+	(fp_line
+		(start -0.4 1.18427)
+		(end -0.4 0.44721)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b9dbb9b-68f0-4b1a-bae9-331622f04bdb")
+	)
+	(fp_line
+		(start 0.4 -0.44721)
+		(end 0.4 -1.18427)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "410a3435-54dc-4a6a-9e43-159b0ff10d06")
+	)
+	(fp_line
+		(start 0.4 1.18427)
+		(end 0.4 0.44721)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61b807a5-6e10-42f4-bce3-2207e96c9425")
+	)
+	(fp_arc
+		(start -0.4 -0.447214)
+		(mid 0 -0.6)
+		(end 0.4 -0.447214)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4018bfb-026d-4b06-8471-0db656fecf6e")
+	)
+	(fp_arc
+		(start 0.4 0.447214)
+		(mid 0 0.6)
+		(end -0.4 0.447214)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b564de8-c027-406f-913a-ee2f0d9b3b48")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec6cb1fd-19cf-4470-9965-338721477471")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "21232f52-ccc1-4c3d-ab23-e45727972d00")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/STELVIO-KONTEK_3110017000540.stp"
+		(offset
+			(xyz 0.00008 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

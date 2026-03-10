@@ -1,0 +1,103 @@
+(footprint "MTG900_R1500X1500"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole: Hole Dia.=0.9mm Square Pad 1.5mm x 1.5mm")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "de90a248-f6d9-4287-9236-6f861715cac7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MTG900_R1500X1500"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "70c12834-ecbd-4a49-8aa7-d02ce10503cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74833bf7-8ffd-402f-a5cd-f5d82284ad2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "812833e8-88a0-4554-ae62-088e746a9915")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -1.4 -1.4)
+		(end 1.4 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c61e935-37f3-485f-8442-619b8ec7bfc0")
+	)
+	(fp_line
+		(start -1.4 1.4)
+		(end -1.4 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65ce904e-49bc-4d2d-8ab3-e5bb4828461b")
+	)
+	(fp_line
+		(start -1.4 1.4)
+		(end 1.4 1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2f06f70-a722-4f3c-b0ac-62f555572f57")
+	)
+	(fp_line
+		(start 1.4 1.4)
+		(end 1.4 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2818094c-6479-4878-bb2b-b07d578dd3c4")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ab2bf249-918f-4fb2-85df-0b20cea9e235")
+	)
+	(embedded_fonts no)
+)

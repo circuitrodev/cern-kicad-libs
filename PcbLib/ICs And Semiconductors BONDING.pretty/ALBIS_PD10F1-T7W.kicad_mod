@@ -1,0 +1,204 @@
+(footprint "ALBIS_PD10F1-T7W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Fiber Optic Photodiode Detector, Anode and Cathode Wire Bonding on Front Side")
+	(property "Reference" "REF**"
+		(at 0 -1.175 0)
+		(layer "F.SilkS")
+		(uuid "e0811e24-651a-4beb-af6f-225c14e1ae9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ALBIS_PD10F1-T7W"
+		(at 0 1.175 0)
+		(layer "F.Fab")
+		(uuid "f646337e-711e-404a-a399-c799a266b3b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f9e13c3-5c9a-4b74-b0c6-4225dd23afb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b15c0da2-1c77-4169-8b16-328d2f5a4369")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.25 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a9263609-a136-4dd0-9782-301d6d86b029")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "dafd9da9-09b5-4b1c-b012-4398492e625e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c9b8a107-af33-4ab8-9853-d8fcb4b0a561")
+	)
+	(fp_line
+		(start 0 0.25)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ffb96a21-2af0-4ba4-a29b-b5dc0f8aee0d")
+	)
+	(fp_line
+		(start -0.45 -0.45)
+		(end 0.45 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b7bf201-7ddd-46cc-84a3-88c4b986a85c")
+	)
+	(fp_line
+		(start -0.45 0.45)
+		(end -0.45 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f93c8d2a-92ba-4e73-aa57-101613d64297")
+	)
+	(fp_line
+		(start -0.45 0.45)
+		(end 0.45 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20904370-9da4-4c40-a822-98c263471efc")
+	)
+	(fp_line
+		(start 0.45 0.45)
+		(end 0.45 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9fe5c9a-b28b-48db-a85d-26bc8c96c673")
+	)
+	(fp_line
+		(start -0.15 -0.175)
+		(end 0.15 -0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7319bd4d-f35c-4672-b360-3a21c94bfe42")
+	)
+	(fp_line
+		(start -0.15 0.175)
+		(end -0.15 -0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96c3103b-b76e-4e46-8c4e-f2798f697c2a")
+	)
+	(fp_line
+		(start -0.15 0.175)
+		(end 0.15 0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43c9b097-8230-45d6-81ab-a4c954045aaf")
+	)
+	(fp_line
+		(start 0.15 0.175)
+		(end 0.15 -0.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0820ab67-c5fb-455b-8af2-81f215cc1995")
+	)
+	(pad "A1" smd rect
+		(at 0 -0.1)
+		(size 0.2 0.07)
+		(layers "In1.Cu")
+		(uuid "6131ae12-96ad-4dc4-9b5d-499e8d73d683")
+	)
+	(pad "C1" smd oval
+		(at 0 0.1)
+		(size 0.2 0.07)
+		(layers "In1.Cu")
+		(uuid "d16ac302-b1af-4bab-ab89-6ea5a6e7f27a")
+	)
+	(pad "DIEPAD" smd rect
+		(at 0 0)
+		(size 0.4 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2147.48364)
+		(uuid "1af36108-f64a-423c-a1cf-1c3535a83dfa")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ALBIS_PD10F1-T7W.stp"
+		(offset
+			(xyz 0.00011 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

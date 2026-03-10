@@ -1,0 +1,109 @@
+(footprint "FIDUCIAL_TOP_C100-200"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Round Fiducial Target, Top Layer, 1.0mm, Top Solder 2.0mm, Keepout =2.0mm")
+	(property "Reference" "REF**"
+		(at 0 -1.744944 0)
+		(layer "F.SilkS")
+		(uuid "3e9e1431-df3b-4485-872c-aaef0240e4c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FIDUCIAL_TOP_C100-200"
+		(at 0 1.744944 0)
+		(layer "F.Fab")
+		(uuid "29c83208-9350-4639-a44c-4fc016b62358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "844bf3f2-35de-40f8-8f51-b4c9cfb524d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e9ed5ea-514f-4208-b615-cadba28b1fd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.5)
+		(thermal_bridge_angle 90)
+		(uuid "359da6ec-d22b-46cb-877d-bc54d51d5d77")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "9f0f82c6-80a7-4a8d-abc6-9ee67545bec8")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.304799 -1.004787) (xy 0.494967 -0.926017) (xy 0.666113 -0.811661) (xy 0.811661 -0.666113)
+				(xy 0.926017 -0.494967) (xy 1.004787 -0.304799) (xy 1.044944 -0.102918) (xy 1.044944 0.102918) (xy 1.004787 0.304799)
+				(xy 0.926017 0.494967) (xy 0.811661 0.666113) (xy 0.666113 0.811661) (xy 0.494967 0.926017) (xy 0.304799 1.004787)
+				(xy 0.102918 1.044944) (xy -0.102918 1.044944) (xy -0.304799 1.004787) (xy -0.494967 0.926017) (xy -0.666113 0.811661)
+				(xy -0.811661 0.666113) (xy -0.926017 0.494967) (xy -1.004787 0.304799) (xy -1.044944 0.102918)
+				(xy -1.044944 -0.093567) (xy -0.95 -0.093567) (xy -0.95 0.093567) (xy -0.913492 0.277105) (xy -0.841879 0.449994)
+				(xy -0.737913 0.60559) (xy -0.60559 0.737913) (xy -0.449994 0.841879) (xy -0.277105 0.913492) (xy -0.093567 0.95)
+				(xy 0.093567 0.95) (xy 0.277105 0.913492) (xy 0.449994 0.841879) (xy 0.60559 0.737913) (xy 0.737913 0.60559)
+				(xy 0.841879 0.449994) (xy 0.913492 0.277105) (xy 0.95 0.093567) (xy 0.95 -0.093567) (xy 0.913492 -0.277105)
+				(xy 0.841879 -0.449994) (xy 0.737913 -0.60559) (xy 0.60559 -0.737913) (xy 0.449994 -0.841879) (xy 0.277105 -0.913492)
+				(xy 0.093567 -0.95) (xy -0.093567 -0.95) (xy -0.277105 -0.913492) (xy -0.449994 -0.841879) (xy -0.60559 -0.737913)
+				(xy -0.737913 -0.60559) (xy -0.841879 -0.449994) (xy -0.913492 -0.277105) (xy -0.95 -0.093567) (xy -1.044944 -0.093567)
+				(xy -1.044944 -0.102918) (xy -1.004787 -0.304799) (xy -0.926017 -0.494967) (xy -0.811661 -0.666113)
+				(xy -0.666113 -0.811661) (xy -0.494967 -0.926017) (xy -0.304799 -1.004787) (xy -0.102918 -1.044944)
+				(xy 0.102918 -1.044944)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

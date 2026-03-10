@@ -1,0 +1,170 @@
+(footprint "HARTING_09 33 000 9811"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Single PC Board Adaptor for Han E Module")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "3c7b9847-fd45-4dad-937b-ea586c9fd979")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "HARTING_09 33 000 9811"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "c99ba16d-26ea-4e0f-9835-e90649de5546")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db08999c-692c-4f93-a24c-73a0cb0ec2d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "781d4309-b448-411a-8a4f-9429dcf5c2cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "090ab55f-fceb-4586-b276-dcc7789f88fc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f1551f4f-fa4a-47f2-a3bc-5e8e13d501de")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "17bc5d6a-a9d6-4969-a706-baeedeefdf1b")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c471c5ad-2406-452a-bf98-307f9e1e2497")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0d2abb20-afea-42b2-b71a-72b576f97fae")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e81fe1bb-99b7-4def-a91f-689890802b39")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fa8a6c92-90d2-46dd-a8ec-11d04b7205df")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d37e005e-fa60-4ab0-84a2-1496a7426f00")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "80f35c61-52a7-4343-b7f8-3e70aec3e729")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b68845c0-b9e9-4fc6-8d7a-7225a5d9015a")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/HARTING_09 33 000 9811.stp"
+		(offset
+			(xyz 0.00008 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

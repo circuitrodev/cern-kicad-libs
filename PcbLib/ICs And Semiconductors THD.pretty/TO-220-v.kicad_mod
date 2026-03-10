@@ -1,0 +1,192 @@
+(footprint "TO-220-v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220 3-Terminal - Vertical Mount")
+	(property "Reference" "REF**"
+		(at 0 -3.848 0)
+		(layer "F.SilkS")
+		(uuid "0447f891-a8bf-48f5-847d-42468c29000e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TO-220-v"
+		(at 0 2.578 0)
+		(layer "F.Fab")
+		(uuid "5bc4a323-65ad-475b-a33f-94d15d1d8021")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf0a310a-307c-4458-94f6-22481ee31a12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ab372d2-fd0a-4d8b-8b23-e25512230c37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -5.207 -3.048)
+		(end 5.207 -3.048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffc3f8fa-5f52-4ba8-b545-5cce2eee4518")
+	)
+	(fp_line
+		(start -5.207 -1.778)
+		(end 5.207 -1.778)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa5b90e8-07b2-4e75-9db7-63d18213ec05")
+	)
+	(fp_line
+		(start -5.207 1.778)
+		(end -5.207 -3.048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b6614f1-0f97-467b-bec3-da17e2e44fb0")
+	)
+	(fp_line
+		(start -5.207 1.778)
+		(end 5.207 1.778)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b737b759-c1e5-4dbc-8ab5-bfb6f65b536b")
+	)
+	(fp_line
+		(start 5.207 1.778)
+		(end 5.207 -3.048)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36a0a450-53e2-4690-9083-fa914a1738af")
+	)
+	(fp_line
+		(start -5.207 -3.048)
+		(end 5.207 -3.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "98ac25dc-3d25-4d76-929b-c46300a5b02f")
+	)
+	(fp_line
+		(start -5.207 -1.778)
+		(end 5.207 -1.778)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4cea86a9-8509-4ab7-83e6-e667d33199cb")
+	)
+	(fp_line
+		(start -5.207 1.778)
+		(end -5.207 -3.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a45a3002-d9af-46c3-ac42-487bff5687e1")
+	)
+	(fp_line
+		(start -5.207 1.778)
+		(end 5.207 1.778)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4695906c-6321-48ef-98c9-7c8380814b8b")
+	)
+	(fp_line
+		(start 5.207 1.778)
+		(end 5.207 -3.048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfd97e11-0223-4bb9-b3ff-498eb6431027")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9580170b-ac9b-4bbe-995c-bced9e09b6a9")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "b88c9998-9841-49af-ac3b-22a1c22e9012")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "89cad96c-40ba-42c0-9f69-2ec92041079e")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TO-220-V.stp"
+		(offset
+			(xyz 0.00012 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

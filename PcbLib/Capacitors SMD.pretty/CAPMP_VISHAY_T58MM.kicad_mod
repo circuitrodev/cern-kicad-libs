@@ -1,0 +1,168 @@
+(footprint "CAPMP_VISHAY_T58MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor, Polarized, Molded  Body 1.6x0.85mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at -0.2625 -1.475 0)
+		(layer "F.SilkS")
+		(uuid "40f64148-f90d-4292-a579-a0c710547d36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "CAPMP_VISHAY_T58MM"
+		(at -0.2625 1.475 0)
+		(layer "F.Fab")
+		(uuid "55cd411f-6205-417f-a405-404d656ac1ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39b43458-f47e-4715-8417-9723a761b6d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eda6f520-9884-475d-8db5-a2563fc83c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_circle
+		(center -1.8 0)
+		(end -1.8 -0.125)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fb69beeb-cbe1-45ef-a646-a87db1c87926")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c55bf7fc-c8b0-4a11-bfc5-f61c37dad3c4")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e18efa64-329c-4bdf-8173-72428871ed66")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a30551e1-c4b0-4a03-88ee-b1260dc37e46")
+	)
+	(fp_line
+		(start 1.5 0.75)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b6ba36d-5c76-463f-8eff-4142c936fa4f")
+	)
+	(fp_line
+		(start -0.8 -0.425)
+		(end 0.8 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4bb1746-a02b-49e6-a545-b9d881e9267e")
+	)
+	(fp_line
+		(start -0.8 0.425)
+		(end -0.8 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc9b5220-e87d-43a8-8717-3984356dc0a9")
+	)
+	(fp_line
+		(start -0.8 0.425)
+		(end 0.8 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f4e54ac-e604-41a8-ba2f-a3b18f6eaa17")
+	)
+	(fp_line
+		(start 0.8 0.425)
+		(end 0.8 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27e84fb1-0772-4ccf-a557-ebfc9064de98")
+	)
+	(pad "1" smd rect
+		(at -0.75 0)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa904a04-17bb-4940-bbb9-a55640de4410")
+	)
+	(pad "2" smd rect
+		(at 0.75 0)
+		(size 0.95 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ab57c28-d8ce-4af0-9e1b-3180b12ac1d7")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/CAPMP_VISHAY_T58MM.stp"
+		(offset
+			(xyz 0.00006 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

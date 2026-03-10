@@ -1,0 +1,128 @@
+(footprint "BOSSARD_BN670-1253255_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Flat Washer Without Chamfer for M12 Screw, DIN 125 A, Stainless Steel A2 140 HV")
+	(property "Reference" "REF**"
+		(at 0 -12.75 0)
+		(layer "F.SilkS")
+		(uuid "edd2721f-5669-44ca-b24b-05a3761064c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BOSSARD_BN670-1253255_v"
+		(at 0 12.75 0)
+		(layer "F.Fab")
+		(uuid "ccd37e51-4cf5-45d5-8ba2-14ddba9a7f2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01705e8c-815c-4fd9-9dd6-c24da45bcb2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eac15775-ac63-462b-9700-85719e14e5e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "098ddd8a-2954-419f-a1ff-96423fd10474")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "84c146df-c1d4-4c6e-bb90-2345a1d80ce5")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "776ca9ae-4a02-4f72-a391-95005c94b23a")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "65e4fbee-e678-4e54-b494-6fae1b3e43be")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b81dba9e-42f9-4cd6-9513-9db8e4b4a3c1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "10c270c7-3fef-4b90-99e2-081191d9125c")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/BOSSARD_BN670-1253255_v.stp"
+		(offset
+			(xyz 0.00008 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

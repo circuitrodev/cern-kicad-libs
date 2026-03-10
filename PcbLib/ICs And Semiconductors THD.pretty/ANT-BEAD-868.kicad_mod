@@ -1,0 +1,170 @@
+(footprint "ANT-BEAD-868"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Miniature Bead Antenna, Body 7 diam. x 9mm")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "c9e4d89a-2740-4326-a51c-611bf83e0e4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "ANT-BEAD-868"
+		(at 0 4.3 0)
+		(layer "F.Fab")
+		(uuid "d8f04b13-2d6a-4a60-95d7-a4bbde5498c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e22c0e0-d28c-4b35-b050-c57139fc71cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1ec820d-a0aa-44da-a720-01db38cbc667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "95c7f5aa-8f54-4122-a780-ff99d1f4d231")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cdc3bc2f-8585-483a-a1e2-a64069b546bd")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "355b4efd-06b6-445e-b95e-3d876ab4658e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "270780d4-6a06-49e1-af49-ba93b847abca")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "223f46d9-5f10-4308-9508-8b403908c97a")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "45a22f2b-6793-4201-8c2c-7da4a98db706")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a9cbd535-89ae-4887-bd00-4cc720428da6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe4cb700-986b-4948-a85f-f164c9967dbf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bcf4dce6-48a5-46b7-abbb-9749b715edce")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "7e3dfd14-f362-4f48-97a2-5913ab9a0f53")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/ANT-BEAD-868.stp"
+		(offset
+			(xyz 0.00011 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,188 @@
+(footprint "FUSH_BUSSMANN_1A3400-09"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BUSSMANN 1A3400-09, Fuse holder for 10x38mm Fuses")
+	(property "Reference" "REF**"
+		(at 0 -6.75 0)
+		(layer "F.SilkS")
+		(uuid "38ccaf2e-a8e2-4170-b298-6f1c2128f968")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "FUSH_BUSSMANN_1A3400-09"
+		(at 0 6.75 0)
+		(layer "F.Fab")
+		(uuid "a7e42911-e9fb-4d88-aedf-0e2c58db3b8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1752de1b-85e8-4783-8c3e-d96957ff8a12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba840cb0-c918-473f-a482-18ccff60b6c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -5.85 -5.948)
+		(end 5.85 -5.948)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2292d4f5-be15-4d06-b25f-00450858ca16")
+	)
+	(fp_line
+		(start -5.85 -2.25)
+		(end -5.85 -5.948)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1d94cca-dc40-4663-9b44-dfa863e31910")
+	)
+	(fp_line
+		(start -5.85 5.948)
+		(end -5.85 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "147716bc-0a50-4027-93d3-3eb77dd78e32")
+	)
+	(fp_line
+		(start -5.85 5.948)
+		(end 5.85 5.948)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9707bfe6-c295-43ca-84d2-4f29c657c561")
+	)
+	(fp_line
+		(start -5.65 -6)
+		(end 5.65 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9d91b6a-e0d7-48a1-ac79-eadf48337b56")
+	)
+	(fp_line
+		(start -5.65 6)
+		(end -5.65 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd9fa6c9-77e3-4c91-b93c-bbde0c3d8d34")
+	)
+	(fp_line
+		(start -5.65 6)
+		(end 5.65 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cb7c534-20fb-49b8-ae7a-c54d78845cee")
+	)
+	(fp_line
+		(start 5.65 6)
+		(end 5.65 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0a8f964-6e6b-47ff-810e-a7f1aaa14b18")
+	)
+	(pad "1" thru_hole circle
+		(at -4.85 0)
+		(size 2.9 2.9)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "fb173355-9fa0-4187-b1a9-d8a94bb8f779")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 11 11)
+		(drill 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "b859bba3-8453-4154-93c1-80a3ead7a5b7")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 5.5 5.5)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape circle)
+				(size 5.5 5.5)
+				(thermal_bridge_angle 90)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 4.85 0)
+		(size 2.9 2.9)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "57f567c2-7a3d-4136-9e03-f2c362740c3c")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/FUSH_BUSSMANN_1A3400-09.stp"
+		(offset
+			(xyz 0.00008 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

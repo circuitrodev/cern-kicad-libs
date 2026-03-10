@@ -1,0 +1,106 @@
+(footprint "IND_WURTH_WE-TI"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Radial Leaded Wire Wound Inductor D=8.3mm WE-TI Series")
+	(property "Reference" "REF**"
+		(at 0 -4.95 0)
+		(layer "F.SilkS")
+		(uuid "09eef70d-b968-4afe-b890-78132561aaf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "IND_WURTH_WE-TI"
+		(at 0 4.95 0)
+		(layer "F.Fab")
+		(uuid "9b43a16a-759d-453a-bdb0-2218f5d6ba50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d0a6d41-e440-4a93-a555-a2b00f6cba6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd569f5e-a72d-4408-92b8-be732aaadc86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b0ade9d4-f222-45fb-bdb2-a588d54a33d0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "562d6e14-9d07-4e4e-ae07-0a9e862cf429")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6c34c102-6ea4-4d97-b644-c27c2a68e009")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "21d3de28-afe8-4295-bd9c-b89928397a38")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/INDRD_WURTH_WE-TI.stp"
+		(offset
+			(xyz 0.00006 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

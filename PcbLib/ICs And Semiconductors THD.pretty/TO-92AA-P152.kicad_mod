@@ -1,0 +1,135 @@
+(footprint "TO-92AA-P152"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-92 (TO-226),  Pitch 1.524mm, Flat Index, 3 In-Line, Axial Leads, Body Dia. 5.3mm, Leads Dia. 0.5mm (max)")
+	(property "Reference" "REF**"
+		(at 0 -3.45 0)
+		(layer "F.SilkS")
+		(uuid "e741ba69-1778-423c-80c4-355e84e38b31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TO-92AA-P152"
+		(at 0 2.32 0)
+		(layer "F.Fab")
+		(uuid "fd7c6c55-35b1-40f6-94b2-f4aee9b127ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b79f2f52-7c71-41a6-b1a9-ede2eb9ec374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecdf7539-9de7-49d7-8e66-8081c902f9a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -2.171 1.52)
+		(end 2.171 1.52)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ee085bb-8240-4992-be48-218b96e6ecd2")
+	)
+	(fp_arc
+		(start -2.170753 1.519978)
+		(mid 0 -2.65)
+		(end 2.170753 1.519977)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09fd1e78-7cd4-4a24-8b96-58ff354ce212")
+	)
+	(fp_line
+		(start -2.171 1.52)
+		(end 2.171 1.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03e84d19-1592-443a-a253-a4f9adf4a2b3")
+	)
+	(fp_arc
+		(start -2.170753 1.519978)
+		(mid 0 -2.65)
+		(end 2.170753 1.519977)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c48b5b6f-92a1-4720-909a-8f750fcd1628")
+	)
+	(pad "1" thru_hole circle
+		(at -1.524 0 90)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "01816ac4-2843-43e4-a53e-7a6b9ba59af1")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 90)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "f1c612c5-f15f-4e69-900f-f7cad5b6f26f")
+	)
+	(pad "3" thru_hole circle
+		(at 1.524 0 90)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "690c8b99-1988-4d3c-818b-3684887ef2d4")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TO-92AA-P152.stp"
+		(offset
+			(xyz 0.0001 0.0001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

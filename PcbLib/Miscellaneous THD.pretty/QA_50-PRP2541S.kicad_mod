@@ -1,0 +1,189 @@
+(footprint "QA_50-PRP2541S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Probe For 1.27mm Pitch, Spear Head")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "ab0ff465-cd53-410b-a0d8-b5ba1a2b141b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "QA_50-PRP2541S"
+		(at 0 1.45 0)
+		(layer "F.Fab")
+		(uuid "a075ad64-0f7b-4fb6-972a-c4eb89987418")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7896c471-323e-480a-9a34-b7b11aa133ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fb8384e-b84c-4dfe-b166-dff98335d1f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "24210b26-25ff-467c-85e3-849c4e0f5c50")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5f3d1d4d-d31b-40a4-a2cd-fddf139028d5")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c2a45868-e4c9-42b7-ae55-52e34d26a215")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "25f99844-6c10-42bb-b207-d11e83b81f89")
+	)
+	(fp_line
+		(start -0.7 0)
+		(end 0 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "4cab53a4-9471-4d71-bcff-23f87b918224")
+	)
+	(fp_line
+		(start -0.7 0)
+		(end 0 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "a42776e9-713f-4507-80a6-80e04008babb")
+	)
+	(fp_line
+		(start 0 -0.7)
+		(end 0.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "07522ce3-823b-480b-9f63-5c5db7266e47")
+	)
+	(fp_line
+		(start 0 0.7)
+		(end 0.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "1c3ccc60-5797-4f20-a647-618cc4c678c2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "31522142-8dfa-4d81-8db5-ce3eb26b76ff")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "d5d12773-4b0c-4a80-b2b8-58e186d8d1de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 0.4725 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "8aa6d6ac-20e6-45a1-9e7b-3f002ab5f408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 0.5 0.5)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.25)
+		(thermal_bridge_angle 90)
+		(uuid "957c1699-a569-4adf-b339-17046c88e7b5")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/QA_50-PRP2541S.stp"
+		(offset
+			(xyz 0.00007 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

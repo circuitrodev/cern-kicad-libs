@@ -1,0 +1,167 @@
+(footprint "RESC2012X50N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Resistor, EIA 0805, Metric 2012, Body 2.0x1.25mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "b364d2a9-6b32-4cd6-888d-77ff6e13e9ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "RESC2012X50N"
+		(at 0 1.7 0)
+		(layer "F.Fab")
+		(uuid "f259a554-cdc4-4474-a5a2-7946214abd1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75936789-e73d-4f7f-b53c-f868707e7c95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf5bade4-6f88-4277-88a5-3b6b37745193")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start 0 0.55)
+		(end 0 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4856254f-be2c-477b-a5de-2d1626605b93")
+	)
+	(fp_line
+		(start -1.725 -0.975)
+		(end 1.725 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1dfc2b7-7b18-4e30-8588-eb5c47d46197")
+	)
+	(fp_line
+		(start -1.725 0.975)
+		(end -1.725 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1dabca5-0ed8-40e2-a200-3aa1dec0ab10")
+	)
+	(fp_line
+		(start -1.725 0.975)
+		(end 1.725 0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c085a12f-9072-464a-87d2-7a62dfc17789")
+	)
+	(fp_line
+		(start 1.725 0.975)
+		(end 1.725 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7854ba59-69eb-44f8-a82e-7e7ddc00e7f2")
+	)
+	(fp_line
+		(start -1.025 -0.625)
+		(end 1.025 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afd988ac-2b8f-4aca-a9db-a3fe95bbe95b")
+	)
+	(fp_line
+		(start -1.025 0.625)
+		(end -1.025 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dc24b6d-ac5b-4579-89b9-f323a037ff5e")
+	)
+	(fp_line
+		(start -1.025 0.625)
+		(end 1.025 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33e4e455-f889-41d3-8c51-b94cf48fd133")
+	)
+	(fp_line
+		(start 1.025 0.625)
+		(end 1.025 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20926d03-a616-4ddf-83dd-fe2ec2bec900")
+	)
+	(pad "1" smd rect
+		(at -1 0 90)
+		(size 1.45 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b32f08ff-41ec-47f8-b483-830d1625c0b1")
+	)
+	(pad "2" smd rect
+		(at 1 0 90)
+		(size 1.45 0.95)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53f6e643-9e94-4b6b-803d-d22fe3dd4c86")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/RESC2012X50N.stp"
+		(offset
+			(xyz 0.00006 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

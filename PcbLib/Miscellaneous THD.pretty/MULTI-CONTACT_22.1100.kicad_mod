@@ -1,0 +1,208 @@
+(footprint "MULTI-CONTACT_22.1100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "25A Multilam 2mm x 11mm plug, M2 x 10mm Termination")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "02c35a33-6d1c-4a56-94ca-23f617974674")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "MULTI-CONTACT_22.1100"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "03e5f7ed-b499-4a9b-827e-659972194346")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71670749-3185-4e66-bf11-a058c8d9cf59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4496c83-9f59-43ff-8488-96b73245cd76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c4a2fec6-6411-4de3-9072-a2cca76d0951")
+	)
+	(fp_line
+		(start -1 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b6d24bf3-0a7a-4882-8137-d1ce335cec93")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "db418d66-82a3-43eb-b153-26e2949cc310")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "68d16722-885b-4bd2-bac5-c917f882e407")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "66bbf928-804f-4db1-b172-e40d3ee02d1f")
+	)
+	(fp_line
+		(start -1.94856 -1.125)
+		(end 0 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03f6348d-87d6-4404-945c-f18dd519f1b3")
+	)
+	(fp_line
+		(start -1.94856 1.125)
+		(end -1.94856 -1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af2c0f03-3707-4978-a129-0eea11f0c3f7")
+	)
+	(fp_line
+		(start -1.94856 1.125)
+		(end 0 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "539aca46-2ad6-409c-859c-040e7e72e675")
+	)
+	(fp_line
+		(start 0 -2.25)
+		(end 1.94856 -1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2561f21d-60c7-4b82-8817-3560437e285e")
+	)
+	(fp_line
+		(start 0 2.25)
+		(end 1.94856 1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18793548-5d4d-4ab2-9baa-b8849cc0509e")
+	)
+	(fp_line
+		(start 1.94856 1.125)
+		(end 1.94856 -1.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "371de76e-0d2b-4870-a307-557064349b8c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.94856)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bd15a1b2-61d6-4821-9d08-75ff457aac67")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6f01ecea-572a-4eeb-8227-76e05b126de9")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.7 4.7)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6cfda2aa-2225-4efc-a2bb-f022042d304b")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/MULTI-CONTACT_22.1100.stp"
+		(offset
+			(xyz 0.00009 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

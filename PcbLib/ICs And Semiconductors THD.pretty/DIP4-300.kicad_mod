@@ -1,0 +1,245 @@
+(footprint "DIP4-300"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DIP 4 Leads; Row Spacing 7.62 mm; Pitch 2.54 mm")
+	(property "Reference" "REF**"
+		(at 0 -3.41 0)
+		(layer "F.SilkS")
+		(uuid "664da026-6a7c-42f6-ab6a-02f9a7eb7a05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "DIP4-300"
+		(at 0 3.41 0)
+		(layer "F.Fab")
+		(uuid "1e06b302-49b3-4ae1-88eb-d94d967411d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06a94b1-8b17-4158-8990-0952249dafb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a9f4066-79d0-4603-a6fe-71e14ce6bf87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -2.65001 -2.61)
+		(end -0.635 -2.61)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66059922-4a49-45ad-8bdc-e40250823e52")
+	)
+	(fp_line
+		(start -2.65001 2.61)
+		(end -2.65001 -2.61)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1749072-4708-40d4-a380-d3d3e0cc06cd")
+	)
+	(fp_line
+		(start -2.65001 2.61)
+		(end 2.65001 2.61)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2df8ca8-05ff-4dfe-b9a7-14a8ba97e37e")
+	)
+	(fp_line
+		(start 0.635 -2.61)
+		(end 2.65001 -2.61)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2e66b82-a057-4326-93a5-57a51c66f295")
+	)
+	(fp_line
+		(start 2.65001 2.61)
+		(end 2.65001 -2.61)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fa3b5ab-23e2-4da9-9498-ec78a6498d81")
+	)
+	(fp_arc
+		(start 0.635 -2.61)
+		(mid 0 -1.975)
+		(end -0.635 -2.61)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0855d666-1909-4aa2-94a2-e70b811b862f")
+	)
+	(fp_arc
+		(start 0.635 -2.61)
+		(mid 0 -1.975)
+		(end -0.635 -2.61)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bda910a2-7939-4d58-be2e-17e56d595e81")
+	)
+	(fp_line
+		(start -3.3 -2.61)
+		(end -0.635 -2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4071573e-b217-4276-b19c-75f031a934c9")
+	)
+	(fp_line
+		(start -3.3 2.61)
+		(end -3.3 -2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90bf0136-ded6-4886-a587-89389989431b")
+	)
+	(fp_line
+		(start -3.3 2.61)
+		(end 3.3 2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d21a303c-31b5-45bb-a7d2-a8b53d56729c")
+	)
+	(fp_line
+		(start 0.635 -2.61)
+		(end 3.3 -2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ebc992b4-3ba6-4d51-989e-61b685c6d114")
+	)
+	(fp_line
+		(start 3.3 2.61)
+		(end 3.3 -2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0006a8bd-fa84-4b70-95c1-307818d1d621")
+	)
+	(fp_arc
+		(start 0.635 -2.61)
+		(mid 0 -1.975)
+		(end -0.635 -2.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "409d5b50-ffc9-42b1-9063-b9cd0831453e")
+	)
+	(fp_circle
+		(center -1.905 -1.27001)
+		(end -1.905 -1.52401)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5862f16b-4fe5-4f86-af49-ad6067d80b19")
+	)
+	(pad "1" thru_hole rect
+		(at -3.81 -1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6dc9538-a294-4c86-968c-c32f283726da")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "fe3ca6ff-ea30-4f10-842e-b71804fb6526")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "05d4f2e1-6d74-47dc-a5f2-d31bfda78cc2")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -1.27)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "d9edd8c1-47a0-4972-9186-652ea458f194")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/DIP4-300.stp"
+		(offset
+			(xyz 0.0001 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -1,0 +1,62 @@
+(footprint "R1500X550"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "15mm x 5.5mm SMD Pad")
+	(property "Reference" "REF**"
+		(at 0 -3.45 0)
+		(layer "F.SilkS")
+		(uuid "c591ecda-5b92-480d-baf2-2b83c90611ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "R1500X550"
+		(at 0 3.45 0)
+		(layer "F.Fab")
+		(uuid "d3868383-2596-4bcf-8751-d5a1d397ad9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01cd15ee-0844-4ed1-9682-99f5ad512c3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7ea8668-f9b1-4ddf-a6a1-9c1949f24611")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 15 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2.75)
+		(uuid "3df33783-42fd-4f1c-9294-ea88737a0946")
+	)
+	(embedded_fonts no)
+)

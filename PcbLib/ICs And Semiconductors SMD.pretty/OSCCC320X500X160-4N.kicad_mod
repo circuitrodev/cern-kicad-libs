@@ -1,0 +1,231 @@
+(footprint "OSCCC320X500X160-4N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Oscillator, Corner Convave, 4 pins, 5x3.2mm")
+	(property "Reference" "REF**"
+		(at -0.2375 -3.825 0)
+		(layer "F.SilkS")
+		(uuid "9bebf850-8340-444b-b23c-9d0886da1d92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "OSCCC320X500X160-4N"
+		(at -0.2375 3.825 0)
+		(layer "F.Fab")
+		(uuid "3a2a2376-76da-44cd-9104-c2ebdcea9260")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9c9d72d-5fad-459e-b0b4-5cb7c7282465")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b213f8a-26ae-4c28-ab54-be0818f6f7cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -1.6 1.1)
+		(end -1.6 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20964604-0052-4a46-ad72-536e40b7e0e7")
+	)
+	(fp_line
+		(start -0.3 -2.5)
+		(end 0.3 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce023cf5-8fc6-48e2-a645-a99d632f4161")
+	)
+	(fp_line
+		(start -0.3 2.5)
+		(end 0.3 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c3f8367-29e8-4d78-ac6a-44a8909d3990")
+	)
+	(fp_line
+		(start 1.6 1.1)
+		(end 1.6 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c809625-77a4-4a18-a3e0-b2443ca0dfe5")
+	)
+	(fp_circle
+		(center -2.45 -2.15)
+		(end -2.45 -2.275)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "773f8aa1-978d-4215-ac12-d1f6a4e6ac9f")
+	)
+	(fp_line
+		(start -2.2 -3.1)
+		(end 2.2 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17121f39-7aa5-4b81-a1c6-d7bff6fb0f9e")
+	)
+	(fp_line
+		(start -2.2 3.1)
+		(end -2.2 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4bba16b-f73d-42c6-b677-52cb143997ef")
+	)
+	(fp_line
+		(start -2.2 3.1)
+		(end 2.2 3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7f76076-b909-4493-b5ad-8f766acf4871")
+	)
+	(fp_line
+		(start 2.2 3.1)
+		(end 2.2 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cec132f7-798a-4202-a11c-230d1f3f36e2")
+	)
+	(fp_line
+		(start -1.6 -2.5)
+		(end 1.6 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd4d7f8e-a42a-4d3c-86f7-58a0c5621dcc")
+	)
+	(fp_line
+		(start -1.6 2.5)
+		(end -1.6 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f56061fc-a125-4ea9-8d33-0c5b1274379d")
+	)
+	(fp_line
+		(start -1.6 2.5)
+		(end 1.6 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa4be72a-d695-41f5-a85a-ee9e83e328cf")
+	)
+	(fp_line
+		(start 1.6 2.5)
+		(end 1.6 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7c7c464-75b7-4a6a-ac70-86da95d8ff82")
+	)
+	(fp_circle
+		(center -0.6 -1.5)
+		(end -0.6 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "51c87856-b788-4545-ae70-36616790619c")
+	)
+	(pad "1" smd rect
+		(at -1.3 -2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6025c24f-6dd9-4c05-84cc-d3ebb3bde426")
+	)
+	(pad "2" smd rect
+		(at -1.3 2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f1c60ed-0a61-4267-8fe4-6ff0eff646a6")
+	)
+	(pad "3" smd rect
+		(at 1.3 2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "826240b1-83a0-4180-809c-d30d273526a3")
+	)
+	(pad "4" smd rect
+		(at 1.3 -2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80f64a48-7f47-4902-9850-69e999fd1042")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/OSCCC320X500X160-4N.stp"
+		(offset
+			(xyz 0.00012 0.00012 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

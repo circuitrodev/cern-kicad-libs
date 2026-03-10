@@ -1,0 +1,204 @@
+(footprint "TYCO_62409-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "6.3 x 0.8mm FASTON Tab for Printed Circuit Board")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "e9539615-4808-4880-86e5-cc677419acb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TYCO_62409-1"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "baab5c00-6641-4d82-b268-2669eb6ad147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4490227e-d38b-4dd2-b057-1ab4771bf6c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6caad8b-e707-4641-86d0-209dd0c0fb27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -1.125 -0.4)
+		(end 1.1 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2bb78b5-2326-42d3-88a0-52e1e43a25fb")
+	)
+	(fp_line
+		(start -1.125 0.4)
+		(end 1.1 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eeb003bf-ce10-4a04-99c8-a650565e8374")
+	)
+	(fp_line
+		(start -3.54 0)
+		(end -2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a4cb787e-9e29-475f-a571-2706befc69e3")
+	)
+	(fp_line
+		(start -2.54 1)
+		(end -2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "734eb3f4-1ab5-444d-9bb1-731aba2fea0d")
+	)
+	(fp_line
+		(start 1.54 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "efb85d69-500a-4780-b4ec-7a489be48fc8")
+	)
+	(fp_line
+		(start 2.54 1)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "58531027-4f2f-4901-a9fd-d6cc3c8f8865")
+	)
+	(fp_line
+		(start -3.74642 -0.40012)
+		(end 3.74658 -0.40012)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b22241f-4c07-4738-a9c0-ab12c55e7fc2")
+	)
+	(fp_line
+		(start -3.74642 0.39998)
+		(end -3.74642 -0.40012)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f651e862-38c2-4e03-911b-95541722be99")
+	)
+	(fp_line
+		(start -3.74642 0.39998)
+		(end 3.74658 0.39998)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dac7b07-7350-4595-a892-b4ff6e6ef8b7")
+	)
+	(fp_line
+		(start 3.74658 0.39998)
+		(end 3.74658 -0.40012)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26e7b4d0-e6ef-413e-b8da-2f4931c9e9aa")
+	)
+	(pad "1" smd custom
+		(at -3.95 0.4)
+		(size 0.000001 0.000001)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0) (xy 0 -0.8) (xy 0 -0.83978) (xy 0.03045 -0.91329) (xy 0.08671 -0.96955) (xy 0.16022 -1) (xy 0.2 -1) (xy 7.7 -1) (xy 7.73978 -1) (xy 7.81329 -0.96955) (xy 7.86955 -0.91329) (xy 7.9 -0.83978) (xy 7.9 -0.8) (xy 7.9 0) (xy 7.9 0.03978) (xy 7.86955 0.11329) (xy 7.81329 0.16955) (xy 7.73978 0.2) (xy 7.7 0.2) (xy 0.2 0.2) (xy 0.16022 0.2) (xy 0.08671 0.16955) (xy 0.03045 0.11329) (xy 0 0.03978) (xy 0 -0.00001)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5d0d8f82-d2d3-4c02-890b-8131bcda9ac3")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 2.2 2.2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "540b553a-ecad-4f90-9040-254ca401f088")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 0)
+		(size 2.2 2.2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "c1c4416e-1e27-467d-9c60-18fe691218b6")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TYCO_62409-1.stp"
+		(offset
+			(xyz 0.00008 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

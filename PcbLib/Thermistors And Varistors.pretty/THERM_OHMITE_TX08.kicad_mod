@@ -1,0 +1,167 @@
+(footprint "THERM_OHMITE_TX08"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Chip Thermistor, EIA 0805, Metric 2013, Body 2.00x1.25mm, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -1.725 0)
+		(layer "F.SilkS")
+		(uuid "b3a9f2c8-00eb-4c2e-be87-e585b697cc5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "THERM_OHMITE_TX08"
+		(at 0 1.725 0)
+		(layer "F.Fab")
+		(uuid "979a57b1-e3ba-45e7-9e6b-10ccbda8a7e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "876c50ad-956e-4b48-b7f8-eed60680f735")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59f58a6b-387e-47e5-8034-8a54e270e3f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start 0 0.55)
+		(end 0 -0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f59f2b51-5ac6-48a5-a595-437708ba7b6b")
+	)
+	(fp_line
+		(start -1.75 -1)
+		(end 1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffeaedae-ae68-4180-b367-d069de5466fa")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end -1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c2abc7c-5887-462f-bcf1-675fdd246ebe")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end 1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a73d788a-88fe-448e-8d97-e940101eaae9")
+	)
+	(fp_line
+		(start 1.75 1)
+		(end 1.75 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42ceb441-a9c3-4225-9b52-b961c6918eda")
+	)
+	(fp_line
+		(start -1.015 -0.635)
+		(end 1.015 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c76fe25-7be7-4153-8d7b-9d3f1e1b557e")
+	)
+	(fp_line
+		(start -1.015 0.635)
+		(end -1.015 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2044f1a-a504-42cb-96fa-6b5cba3fea30")
+	)
+	(fp_line
+		(start -1.015 0.635)
+		(end 1.015 0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "caa73b00-c2c5-4a73-8b64-5ea755bb050f")
+	)
+	(fp_line
+		(start 1.015 0.635)
+		(end 1.015 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5877b58b-07e6-4c55-9949-95b996f367bc")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 1.05 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "193d41a6-e67b-49b3-ae69-b8fa29e49eb9")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 1.05 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1843de7-0ab1-41d2-b985-34abd911f494")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/THERM_OHMITE_TX08.stp"
+		(offset
+			(xyz 0.00006 0.00007 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

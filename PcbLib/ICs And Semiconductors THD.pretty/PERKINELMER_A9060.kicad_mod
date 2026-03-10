@@ -1,0 +1,73 @@
+(footprint "PERKINELMER_A9060"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Ambient Light Sensing Photocell D 5mm H 5.5mm")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "bb3f2d0f-8e22-4174-a9b9-7852aad4d366")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "PERKINELMER_A9060"
+		(at 0 1.4 0)
+		(layer "F.Fab")
+		(uuid "abab1bb7-6ee6-4f09-b0d3-40c090d6143a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21d08cf8-5a4c-4649-98cd-3116b54e39d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e987be-4f67-42f0-a7c3-5b2e08996ba6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" thru_hole circle
+		(at -1.5 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "84ab251b-cdb7-4c14-9c55-4cb169ae163e")
+	)
+	(pad "2" thru_hole circle
+		(at 1.5 0)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "a809424f-b028-46c1-a7e1-263322797a58")
+	)
+	(embedded_fonts no)
+)

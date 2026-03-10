@@ -1,0 +1,135 @@
+(footprint "COAX_1XC250H150_1XC500H300"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2 Plated Through Hole For Coaxial Cable Link: 1 X Hole Dia.=1.5mm + 1 X Hole Dia.=3.0mm")
+	(property "Reference" "REF**"
+		(at -3.39 -3.65 0)
+		(layer "F.SilkS")
+		(uuid "63ba66f4-0149-4a87-b655-480265ab8f61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "COAX_1XC250H150_1XC500H300"
+		(at -3.39 3.65 0)
+		(layer "F.Fab")
+		(uuid "c067784c-cdeb-48d1-92c4-8e5d96922a3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93426bdf-89a9-4099-b3b8-5fdd635723c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1f098de-8770-4584-887d-f25d944129a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -2.3 -0.75)
+		(end -1.4 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73a98dbc-71b6-439a-9a19-a0e772031194")
+	)
+	(fp_line
+		(start -2.3 0.75)
+		(end -1.4 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea19b783-a5be-4868-b687-dd603fde42cd")
+	)
+	(fp_circle
+		(center -5.08 0)
+		(end -5.08 -2.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f3026088-2e26-4b33-bd3c-e90c85d55376")
+	)
+	(fp_line
+		(start -2.3 -0.75)
+		(end -1.4 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5744d60d-1e75-4db9-90c2-fe35886e5c84")
+	)
+	(fp_line
+		(start -2.3 0.75)
+		(end -1.4 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dd0111f-6338-4d73-9412-9f887f41002f")
+	)
+	(fp_circle
+		(center -5.08 0)
+		(end -5.08 -2.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6ad8f7fa-cce4-4bed-84d2-708390df7d8a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "07df1f9b-3c82-435c-abb9-ce1de24d07e3")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 0)
+		(size 5 5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "5a383599-af0f-4c42-a5e2-04167651574b")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,70 @@
+(footprint "BONDING_R30X10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0.3mm x 0.1mm Bonding Pad")
+	(property "Reference" "REF**"
+		(at 0 -0.95 0)
+		(layer "F.SilkS")
+		(uuid "35668260-228f-4c90-9936-990d09b61014")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "BONDING_R30X10"
+		(at 0 0.95 0)
+		(layer "F.Fab")
+		(uuid "e0cda6a7-6866-48de-b8a2-2b1b4b0d560b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "053722a4-9d65-4dd5-9287-7a381ea21945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec0f2b8f-e6ba-4926-b93f-ad54716bd621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.3 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(solder_paste_margin -0.15)
+		(uuid "34a4c682-5356-4d1d-b503-33a230794af8")
+	)
+	(pad "L" smd rect
+		(at 0 0)
+		(size 0.3 0.1)
+		(layers "In1.Cu")
+		(solder_paste_margin -0.15)
+		(uuid "c9b0989f-3cdc-4547-a5a0-e346661ac206")
+	)
+	(embedded_fonts no)
+)

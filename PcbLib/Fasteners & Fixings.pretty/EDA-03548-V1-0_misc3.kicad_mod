@@ -1,0 +1,148 @@
+(footprint "EDA-03548-V1-0_misc3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "12mm Diameter, 30mm Height Column, Part For TE/EPC Beds Of Nails")
+	(property "Reference" "REF**"
+		(at 0 -6.8 0)
+		(layer "F.SilkS")
+		(uuid "035a4cc0-ba32-463c-b9e3-c0eae9e05f8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "EDA-03548-V1-0_misc3"
+		(at 0 6.8 0)
+		(layer "F.Fab")
+		(uuid "792c6e4e-a225-4805-858c-b007ceadcf9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "634b4071-62b9-4eea-a767-6e81aaca71b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79b996e5-4d13-417b-abbb-d3d1e1c801c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "98864838-f350-40b7-87ce-8602a7289129")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9969e7c8-75a9-40c6-838c-a147869b4b9a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "da775124-b3b4-4922-b579-8657e0c6beee")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5c92c1f4-7b68-49bc-b103-2bae6ab5c70a")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ca807fa5-5778-4ca4-aea2-0fe48f6df509")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0d2e8cf5-86b0-4600-9d21-32c53668c2cd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4253c17c-43f0-4ceb-bf0d-3c45b698ac6c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 1.5)
+		(thermal_bridge_angle 90)
+		(uuid "a54501e4-2284-491a-aabc-cd669d2c6e5f")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/EDA-03548-V1-0_misc3.stp"
+		(offset
+			(xyz 0.00008 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

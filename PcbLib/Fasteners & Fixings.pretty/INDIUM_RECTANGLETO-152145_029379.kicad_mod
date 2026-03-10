@@ -1,0 +1,157 @@
+(footprint "INDIUM_RECTANGLETO-152145_029379"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Solder Preform  Size 0603 (0.76mm x 1.52mm x 0.787mm)")
+	(property "Reference" "REF**"
+		(at 0 -1.13 0)
+		(layer "F.SilkS")
+		(uuid "3892d08a-71b7-4fec-8ba7-12f8bd598a08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "INDIUM_RECTANGLETO-152145_029379"
+		(at 0 1.13 0)
+		(layer "F.Fab")
+		(uuid "792e470e-33b3-451d-a5f3-1ff281341e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5ec52f2-9fc2-4a22-96f8-b9865ec1ffa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e506745-e431-4189-8199-5eb7a6a0f56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "70fcede9-ec6f-45be-a963-893003b361f9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "07735463-3356-4457-9337-e8fc6f347f81")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3f70be6f-c1e4-405c-ad02-2cff247f217b")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5f6592ba-afbd-4508-876c-01e4bff7c311")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.025)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "0d1a3172-570f-4751-8df3-ad5c1abdf6d3")
+	)
+	(fp_line
+		(start -0.76 -0.38)
+		(end 0.76 -0.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0ff177e-ab92-4f4d-91ba-9b1b194728cb")
+	)
+	(fp_line
+		(start -0.76 0.38)
+		(end -0.76 -0.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03458ce9-6f23-405d-807f-445eb6411dd9")
+	)
+	(fp_line
+		(start -0.76 0.38)
+		(end 0.76 0.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b382aab-b069-4ec9-85ca-82804058a2be")
+	)
+	(fp_line
+		(start 0.76 0.38)
+		(end 0.76 -0.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00ae2c78-5568-4495-a6d6-2a246779745f")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/INDIUM_RECTANGLETO-152145_029379.stp"
+		(offset
+			(xyz 0.00005 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

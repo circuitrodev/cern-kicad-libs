@@ -1,0 +1,160 @@
+(footprint "QA_100-PRP2509S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Probe For 2.54mm Pitch, Serrated Head")
+	(property "Reference" "REF**"
+		(at 0 -1.805 0)
+		(layer "F.SilkS")
+		(uuid "ec49ccf5-a073-471b-9e70-300d1299e952")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "QA_100-PRP2509S"
+		(at 0 1.805 0)
+		(layer "F.Fab")
+		(uuid "4388bb13-7e3c-4a89-ae82-c715f7df1280")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3f63156-8907-48ec-a081-cba182ebb48f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e140ff67-7045-4a97-bdb2-f7c17a0fb6b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1fdf77d6-2955-4f7a-a51c-5f3734178c41")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "bc8d579b-0dcd-41a2-8aab-0f2c70b76a59")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8a3497c2-d20e-4139-a4b2-1954c441a6c8")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b04a424d-c53a-49e0-8c36-45bca8277fb9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "af4109b9-e62d-42ea-a8d8-724e806ccec2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "be2d91f3-6f6e-4329-b313-6e1782afc572")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -0.4375)
+		(stroke
+			(width 0.875)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "9c2df9a6-469f-410a-9f1b-610f755a1de2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.375 0.4725 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f0ac40f7-7313-49e5-89a4-a0e0923e04ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 0.5 0.5)
+		(drill 1.75)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.625)
+		(thermal_bridge_angle 90)
+		(uuid "d8469684-b36e-4ae8-9a29-9236e0369458")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/QA_100-PRP2509S.stp"
+		(offset
+			(xyz 0.00007 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

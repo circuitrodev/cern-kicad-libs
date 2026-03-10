@@ -1,0 +1,124 @@
+(footprint "CAPR1000-520X1320X1200"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor Radial, Pin spacing 10mm - Body With 5mm X Body Length 13mm X Body Height 11mm")
+	(property "Reference" "REF**"
+		(at 0.000045 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "2eddc2a1-2cde-4932-b53c-59b147c3b521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "CAPR1000-520X1320X1200"
+		(at 0.000045 3.4 0)
+		(layer "F.Fab")
+		(uuid "20c2cca2-7bb7-4564-ade2-0282f52878c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3727a473-d32e-4e79-92d9-9910298218d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cf70cb6-a0ad-402a-9c4a-1dfdc67191ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -6.59996 -2.6)
+		(end 6.60005 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f8e8b6c-e1c5-4309-8064-83f9205e021d")
+	)
+	(fp_line
+		(start -6.59996 2.6)
+		(end -6.59996 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c870adec-3d13-4bb6-8723-be15a0d472ce")
+	)
+	(fp_line
+		(start -6.59996 2.6)
+		(end 6.60005 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e21a8490-880c-41e9-81bc-2661e6a2bd48")
+	)
+	(fp_line
+		(start 6.60005 2.6)
+		(end 6.60005 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61193620-4657-44bc-a509-cc703f7cccd1")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "6296aca7-9a32-49f2-ba68-59c44eb7be0d")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "ab543ab9-1481-423b-bc27-c83d835e7114")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/CAPR1000-520X1320X1200.stp"
+		(offset
+			(xyz 0.00014 0.00006 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

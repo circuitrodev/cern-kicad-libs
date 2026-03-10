@@ -1,0 +1,204 @@
+(footprint "CAPR3750-2400X4150X1900"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor Radial, Pin spacing 37.5mm - Body With 24mm X Body Length 41.5mm X Body Height 19mm")
+	(property "Reference" "REF**"
+		(at 0 -12.8 0)
+		(layer "F.SilkS")
+		(uuid "93d95556-08a3-4212-ac62-3f217b42296b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "CAPR3750-2400X4150X1900"
+		(at 0 12.8 0)
+		(layer "F.Fab")
+		(uuid "e4c21dbc-993c-4816-9236-013ac415b35a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0da0a30d-5199-4462-95d0-5f1247a25453")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68bb7730-8208-4388-b0c3-9f4f850253b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -20.75 -12)
+		(end 20.75 -12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c718161f-23f9-4e9d-a89a-b53095639c28")
+	)
+	(fp_line
+		(start -20.75 12)
+		(end -20.75 -12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecddee12-bb4e-40a7-adbc-51ad3f5add5c")
+	)
+	(fp_line
+		(start -20.75 12)
+		(end 20.75 12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c969f69-1ac2-473c-8778-d891ea2ee02a")
+	)
+	(fp_line
+		(start 20.75 12)
+		(end 20.75 -12)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d243cc6e-816b-492f-9908-9081a5cccaac")
+	)
+	(fp_line
+		(start -20.75 -12)
+		(end 20.75 -12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2082f771-1abb-444d-ac99-ae7e2d195e1d")
+	)
+	(fp_line
+		(start -20.75 -12)
+		(end 20.75 -12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5739319f-f93f-4476-a322-1cac4fd4be57")
+	)
+	(fp_line
+		(start -20.75 12)
+		(end -20.75 -12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c402cd0a-58a1-43c9-94e1-cefc5a259c45")
+	)
+	(fp_line
+		(start -20.75 12)
+		(end -20.75 -12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef8efbb9-03ed-4ecb-8281-67731a721c7e")
+	)
+	(fp_line
+		(start -20.75 12)
+		(end 20.75 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "881bf0a6-e85a-49a0-ae88-a996f35ecd98")
+	)
+	(fp_line
+		(start -20.75 12)
+		(end 20.75 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca8bc5f2-aaa3-4719-bda4-007e023d2886")
+	)
+	(fp_line
+		(start 20.75 12)
+		(end 20.75 -12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d89695d0-fbf5-4e4b-84dc-7fbb5250cd98")
+	)
+	(fp_line
+		(start 20.75 12)
+		(end 20.75 -12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1cb6d34-0a96-46d8-a733-4b68f7d8e46a")
+	)
+	(pad "1" thru_hole circle
+		(at -18.75 0)
+		(size 2.15 2.15)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "fe2d6dd2-9ed3-4eb9-99d9-cfad221013da")
+	)
+	(pad "2" thru_hole circle
+		(at 18.75 0)
+		(size 2.15 2.15)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "35e1e1dd-1818-4edf-9eda-95c74673dc96")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/CAPR3750-2400X4150X1900.stp"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

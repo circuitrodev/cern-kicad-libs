@@ -1,6 +1,6 @@
 c3c6302b4f9984addab08dc01cfbf93b  SchLib/Analog & Interface.kicad_sym
 32a831914e6214d27a35ed1f58eaa048  SchLib/Batteries.kicad_sym
-822f5c92b076f82677582dbc5b2f5e45  SchLib/Bonding.kicad_sym
+2aaf88a382510631fc28291aebed5021  SchLib/Bonding.kicad_sym
 2d9d3f7541a2f9dd85e549d32b9bb3ee  SchLib/Capacitors.kicad_sym
 2672dd0f280f91bf9cc3f5939eb4a04a  SchLib/Connectors.kicad_sym
 2f4501df194e409c09460ebc88003266  SchLib/Crystals & Oscillators.kicad_sym
@@ -25,7 +25,7 @@ a3538995107cb99fc445119ecf867d28  SchLib/Regulators.kicad_sym
 92e20459a97184d2a535c6ce2900bfee  SchLib/Sensors.kicad_sym
 2ff154d04b83dcd3b207d82d0561bfcf  SchLib/Sockets.kicad_sym
 24ec8372bca0b21c81b18d7cbca80e67  SchLib/Standard Logic.kicad_sym
-6c6c6dbca3a074789651985a77e3d8f8  SchLib/Switches.kicad_sym
+c36d00f2578d534092902e3fc8739d1c  SchLib/Switches.kicad_sym
 65a33bdbf821821ba4fcb735dc1ddbb0  SchLib/Transistors.kicad_sym
 cac7ecdb540cf709110cd7929912822b  PcbLib/3M SMD.pretty/3M_10236-2210PE.kicad_mod
 91dda21a4e3f2d929913640154e1e6a8  PcbLib/3M SMD.pretty/3M_10250-1210PE.kicad_mod
@@ -2142,10 +2142,11 @@ da78901d625ecdf2a5f2a0bc49af38f7  PcbLib/Heat-Sinks.pretty/TB_ATCERAMICS_QB0805X
 2d48d883a0a73c7b51712cd3d7f092c3  PcbLib/Heat-Sinks.pretty/TB_KYOCERA_QB0805X40W.kicad_mod
 ba314ffcb26c3c26e8fbc824ab2af1c2  PcbLib/Heat-Sinks.pretty/TB_VISHAY_THJP0612A.kicad_mod
 3f51e12d0db1a802b5b32e746e710713  PcbLib/ICs And Semiconductors BONDING.pretty/ALBIS_PD10F1-T7W.kicad_mod
+2dd86b366e51e6a91edc7db5c2b0e732  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_ACCURATE3.kicad_mod
 32e198c367a972ec1c17ceb150834323  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_ACCURATE_2A.kicad_mod
 4237f2f048b5cfbc12cb92cbf174ce94  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_FBCM2023.kicad_mod
 e0678545e79940c518d9e33cb012d62b  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_FBCM2023_REDUCED.kicad_mod
-e5b16a2dab47dedf0443f5bd4f56da16  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_FBCM2023_REDUCED_NOBONDING.kicad_mod
+a44393a8e7365f1796f96c0308e28f89  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_FBCM2023_REDUCED_NOBONDING.kicad_mod
 14cfb41996fd82a5f2133548e6cabc01  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_GBTIA.kicad_mod
 7c62978e14b2c9c080e507344c22aa23  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_LDQ10.kicad_mod
 6160c0c7a217b64b847669fc0156796f  PcbLib/ICs And Semiconductors BONDING.pretty/CERN_Malta_V0.kicad_mod
@@ -4398,6 +4399,7 @@ b718dfd03d7b95cdd70a303a8fe4d690  PcbLib/ICs And Semiconductors THD.pretty/FAIRC
 8a5c9c7956fc188fc0f41c5f1f60a8d9  PcbLib/ICs And Semiconductors THD.pretty/FAIRCHILD_TO-3PF_hflip.kicad_mod
 a7123016432abe2df3801c2051c3424d  PcbLib/ICs And Semiconductors THD.pretty/FAIRCHILD_TO-3PF_v.kicad_mod
 0a8cb5495bcecd66df31129816648871  PcbLib/ICs And Semiconductors THD.pretty/FCI-InGaAs-120L-FC_H.kicad_mod
+e6d08f654ede2a1d6fc398943098f74e  PcbLib/ICs And Semiconductors THD.pretty/FCI-InGaAs-120L-FC_H_A.kicad_mod
 45adfa91357fca52fe68c32803666c73  PcbLib/ICs And Semiconductors THD.pretty/FCI-InGaAs-120L-FC_V.kicad_mod
 a1d3363b6dc23fe6bcfd51942834cf8c  PcbLib/ICs And Semiconductors THD.pretty/FCI-InGaAs-120_FLAT.kicad_mod
 9f6e6a4d7be6fc2bf9738518103e1322  PcbLib/ICs And Semiconductors THD.pretty/FCI-InGaAs-120_LENS.kicad_mod
@@ -7314,7 +7316,7 @@ fa8d9ac6e9265b86084c3698761eefda  PcbLib/Resistors THD.pretty/RES1016-720X250.ki
 4152b614d2e2126f55cbcaeeee76f378  PcbLib/Resistors THD.pretty/RES1651-1000X390.kicad_mod
 ecb92fc138ca9a933d8cd2b622bda9d4  PcbLib/Resistors THD.pretty/RES1905-1447X546.kicad_mod
 43219e8b45a8801337295a33cd4d03e7  PcbLib/Resistors THD.pretty/RES2032-1400X350.kicad_mod
-6bae5a107b9e2158ac5994c5b7d35b98  PcbLib/Resistors THD.pretty/RES2200-1826X764.kicad_mod
+a1fb6b1a0cff4a8931d16f24aa010b2c  PcbLib/Resistors THD.pretty/RES2200-1826X764.kicad_mod
 175f7799e298ba0bb1d67167ccf9e0f0  PcbLib/Resistors THD.pretty/RES2286-1670X520.kicad_mod
 2f2791d9c1bb8979238449e7bf4f9df3  PcbLib/Resistors THD.pretty/RES2930-2130X860.kicad_mod
 0a066bbde8b1620f1a3cea11404eb828  PcbLib/Resistors THD.pretty/RES3556-2700X800.kicad_mod
@@ -7356,6 +7358,7 @@ b07acedd9823d894baa9999ad282a357  PcbLib/Resistors THD.pretty/RES_BOURNS_PWR221T
 d222211b197a64baf9c92da1b5558cdf  PcbLib/Resistors THD.pretty/RES_CERN-VISHAY_VN319xxx-v.kicad_mod
 6eb9d0e49706ed204c0ce2994bc774fa  PcbLib/Resistors THD.pretty/RES_EBG_SSP 52.kicad_mod
 7dddf25ad62fc26cc5a9e6a476ba1547  PcbLib/Resistors THD.pretty/RES_EBG_SSX 39.kicad_mod
+9b89f7b64283cb14a45961782876905d  PcbLib/Resistors THD.pretty/RES_HVR_AJ149.kicad_mod
 cdb350e7ce1b3f8d883edaa5c740eaa8  PcbLib/Resistors THD.pretty/RES_HVR_RL818.kicad_mod
 7411157f45157bd34137ffe0a6b3df2f  PcbLib/Resistors THD.pretty/RES_HVR_RT818.kicad_mod
 8f34fd3f3c533d5ebc8dee9960538a91  PcbLib/Resistors THD.pretty/RES_KOA_MOS5.kicad_mod
@@ -7394,8 +7397,8 @@ c765c9f9d9f85a0224e941e48b3eecd7  PcbLib/Resistors THD.pretty/RES_TYCO_HB1(RE).k
 cdd8726d58d69696c6c9feb2061be1bb  PcbLib/Resistors THD.pretty/RES_TYCO_HB3(RE).kicad_mod
 743d6f3d555467c3ac1c1c05d0512f75  PcbLib/Resistors THD.pretty/RES_TYCO_HBA(RE).kicad_mod
 b01bb667e4d2c1cfc974c412746efd63  PcbLib/Resistors THD.pretty/RES_TYCO_MPC10.kicad_mod
-626ab0d74f6d3f990382404cdef793ff  PcbLib/Resistors THD.pretty/RES_TYCO_ROX2S.kicad_mod
 856f0e71fd47195d9dc22ca1e0d5fd38  PcbLib/Resistors THD.pretty/TO-220-2-H.kicad_mod
+626ab0d74f6d3f990382404cdef793ff  PcbLib/Resistors THD.pretty/RES_TYCO_ROX2S.kicad_mod
 59877e1d1956bf0b34fc5fc3d75c5129  PcbLib/Resistors THD.pretty/RES_TYCO_ROX7J.kicad_mod
 c981bde7669c95690206af9ed8e2a89c  PcbLib/Resistors THD.pretty/RES_TYCO_SBCHE-15.kicad_mod
 bb726792914d11617535b3c1f0e9a5a0  PcbLib/Resistors THD.pretty/RES_TYCO_SQM-10W.kicad_mod
@@ -8496,7 +8499,7 @@ c733fb3e1af4b2b6d578f6bbc7dfc037  PcbLib/Switches.pretty/PB_C&K_KMR731NG-LFS.kic
 092e04a2905c291bc27a8e1f9d91bf86  PcbLib/Switches.pretty/PB_C&K_KSS221GLFS.kicad_mod
 926f247f2a40f7dbc82acb1cea65e7fd  PcbLib/Switches.pretty/PB_CTS_228ADS2XXXXCXXX.kicad_mod
 312b38fedb2d0376870bf492a52f742e  PcbLib/Switches.pretty/PB_E-SWITCH_TL2243.kicad_mod
-2c2fff70950ac367cd4c6b9c1528e729  PcbLib/Switches.pretty/PB_KNITTER_SSP_1_CY_R.kicad_mod
+be863916c41bb145d41e972a4c7b7a9f  PcbLib/Switches.pretty/PB_KNITTER_SSP_1_CY_R.kicad_mod
 c44a29d8116eb92e7a6c786d0dcf3152  PcbLib/Switches.pretty/PB_MEC_NAVIKITTH30WL.kicad_mod
 dc20a5d54d02332c6863dde0bd74fd1d  PcbLib/Switches.pretty/PB_MENTOR_1840.6131.kicad_mod
 4e86fcf3b5d8097e0808f0cf2548b0b1  PcbLib/Switches.pretty/PB_MENTOR_1840.6132.kicad_mod
@@ -8523,7 +8526,7 @@ b1a9ee85484775bd3ec17df8878dedb5  PcbLib/Switches.pretty/PB_OMRON_B3F-1060.kicad
 395e6b2d31bf4c1e583e8bc613ada7ab  PcbLib/Switches.pretty/PB_SCHNEIDER_ZB6AS834.kicad_mod
 7bd475b7644b6021790bd972b0d99f37  PcbLib/Switches.pretty/PB_SCHNEIDER_ZB6E2A.kicad_mod
 82b9ca29c2f5a60b603e9e05680f9dbc  PcbLib/Switches.pretty/PB_SCHNEIDER_ZB6Y009.kicad_mod
-19b30a13fc40d38070e13c1313902f83  PcbLib/Switches.pretty/PB_SCHNEIDER_ZB6Y011.kicad_mod
+7468163705545b9962b0efeb2274a2b7  PcbLib/Switches.pretty/PB_SCHNEIDER_ZB6Y011.kicad_mod
 075a1f6a458c0e7adefd38c5c614192a  PcbLib/Switches.pretty/PB_SCHNEIDER_ZBE701.kicad_mod
 24f587d95b4d9db1f2b3e1c0c708796f  PcbLib/Switches.pretty/PB_SCHNEIDER_ZBE702.kicad_mod
 210983c2f08a6598ba9f104f463b7ba8  PcbLib/Switches.pretty/PB_TS03-66-70-BK-260-LCR-D-67.kicad_mod
@@ -8542,7 +8545,7 @@ ae86e25fe8d89bf0a618ec617fb520d8  PcbLib/Switches.pretty/SW_ALPS_SKQUCAA010.kica
 f88cc449ee11ddd12480f50e0a21d6a9  PcbLib/Switches.pretty/SW_ALPS_SRBM140700.kicad_mod
 e28746487383ee59d53b4531c770e99d  PcbLib/Switches.pretty/SW_APEM_IKN0403000.kicad_mod
 ac391c8245715477e3befe4847aa0ae5  PcbLib/Switches.pretty/SW_APEM_MU-AS90R.kicad_mod
-f260f068f50cf4bf3b500d846d12d5e0  PcbLib/Switches.pretty/SW_APEM_NDS-08-V.kicad_mod
+ee5a0c0f8149ea02327c8a02cf576392  PcbLib/Switches.pretty/SW_APEM_NDS-08-V.kicad_mod
 a2e2c85c487691ae262b9aaf23210d17  PcbLib/Switches.pretty/SW_APEM_P36S101.kicad_mod
 d482425b679ad82b5b61cbeda9c540c9  PcbLib/Switches.pretty/SW_APEM_P36S103.kicad_mod
 f145b912af022fb9597dbda553f0e1c7  PcbLib/Switches.pretty/SW_APEM_P36S106.kicad_mod
@@ -8585,6 +8588,7 @@ c9f9a069aa3300be3f38a2eb4a3ea488  PcbLib/Switches.pretty/SW_C&K_JS202011CQN.kica
 b415b0522ad05c858260fb48514f191d  PcbLib/Switches.pretty/SW_C&K_OS202011MA0Q.kicad_mod
 d88430847c9e33fa04a378fe19d89a55  PcbLib/Switches.pretty/SW_C&K_PCM12SMTR.kicad_mod
 478f4a277a797c788e67de0e135aab35  PcbLib/Switches.pretty/SW_C&K_PCM13SMTR.kicad_mod
+3db63e46b1aa121dde88676de8685428  PcbLib/Switches.pretty/SW_C&K_RB-231X2.kicad_mod
 8db39b9f1298e5bb4553510f31be822d  PcbLib/Switches.pretty/SW_CIT_RD10RA16CVA.kicad_mod
 d99cafaf1baa826aeefe33c42e8462d1  PcbLib/Switches.pretty/SW_CTS_204-121ST.kicad_mod
 9a4fc0049d580a6c3878dac8cf1246f6  PcbLib/Switches.pretty/SW_CTS_204-124ST.kicad_mod
@@ -9236,7 +9240,7 @@ ffc6e96fd926131735d81fb4db9ff53a  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_194217
 2a3ce7bc6ff33dcf21735841deb4f4c1  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_1942940000.kicad_mod
 ae0b3ec46821ae202bd1cc47dea439e8  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_2472090000.kicad_mod
 9c9edda1c24da99f8da50e54df4c87af  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_2472100000.kicad_mod
-c7163476dc732ded871235774de76483  CERN.sqlite
+f606ff623d3b581c8813ef01aed08d15  CERN.sqlite
 157cdc014a743f8754ceae70cae2c4ab  CERN_Linux.kicad_dbl
 bd20789409488d506a3ed663f07f1976  CERN_Windows.kicad_dbl
 652ff4ea08282416f87bdec4b9833205  sym-lib-table

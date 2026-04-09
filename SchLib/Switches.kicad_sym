@@ -51575,4 +51575,264 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Tilt Switch Type2"
+		(pin_names
+			(offset 1.27)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 7.62 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "${DEVICE}"
+			(at 3.81 -13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rollerball - Tilt Switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Tilt Switch Type2_1_0"
+			(polyline
+				(pts
+					(xy 0 0) (xy 15.24 0) (xy 16.51 -1.27) (xy 16.51 -3.81) (xy 15.24 -5.08) (xy 0 -5.08) (xy 0 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 2.159 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 2.159 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.81 -2.54)
+				(radius 1.27)
+				(stroke
+					(width 0.0254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 -2.54) (xy 9.398 -1.27)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.763 -1.524) (xy 9.271 -2.032) (xy 8.89 -2.159) (xy 8.763 -1.524)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.763 -3.556) (xy 9.271 -3.048) (xy 8.89 -2.921) (xy 8.763 -3.556)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(bezier
+				(pts
+					(xy 8.984 -3.1569) (xy 9.185 -2.7953) (xy 9.1972 -2.3584) (xy 9.0168 -1.9861)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.398 -3.81) (xy 5.842 -2.54)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.906 -2.54) (xy 5.842 -2.54)
+				)
+				(stroke
+					(width 0.0254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "10"
+				(at 9.906 -2.032 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "10"
+				(at 9.906 -3.048 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "o"
+				(at 10.668 -1.524 0)
+				(effects
+					(font
+						(size 0.6096 0.6096)
+					)
+				)
+			)
+			(text "o"
+				(at 10.668 -2.54 0)
+				(effects
+					(font
+						(size 0.6096 0.6096)
+					)
+				)
+			)
+			(text "OPEN"
+				(at 12.954 -3.81 0)
+				(effects
+					(font
+						(size 0.9144 0.9144)
+					)
+				)
+			)
+			(text "CLOSE"
+				(at 13.208 -1.27 0)
+				(effects
+					(font
+						(size 0.9144 0.9144)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -1.27 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -3.81 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )

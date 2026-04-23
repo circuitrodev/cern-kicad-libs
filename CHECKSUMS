@@ -4,7 +4,7 @@ bf286acd724c6120506aa31571ccb5b1  SchLib/Analog & Interface.kicad_sym
 2d9d3f7541a2f9dd85e549d32b9bb3ee  SchLib/Capacitors.kicad_sym
 b9baf014a87fa0e104d3890fef52ce4a  SchLib/Connectors.kicad_sym
 2f4501df194e409c09460ebc88003266  SchLib/Crystals & Oscillators.kicad_sym
-192c14afd32334d98516975c89ded206  SchLib/DC-DC Converters.kicad_sym
+34f58c460318acaf2e34f2af682def5f  SchLib/DC-DC Converters.kicad_sym
 05346d1d0298c057fe096795ec22afb2  SchLib/Diodes.kicad_sym
 e5328f79b9b181f7be72ef91f7912942  SchLib/Fasteners & Fixings.kicad_sym
 3da8bf6e7ed4ed85983b91fb99fee1b2  SchLib/Fuses.kicad_sym
@@ -16,7 +16,7 @@ e1662bb715e4143b3b257fd63620a983  SchLib/Logic.kicad_sym
 d5479729383a346dda11cc76f658ff63  SchLib/Metal Screening Box.kicad_sym
 9cab746a49be907898afd249eedcc666  SchLib/Operational Amplifiers.kicad_sym
 409c11050a51a88130f6e3e3470a2a8b  SchLib/Optocouplers.kicad_sym
-794895c829f46568e12871164136c367  SchLib/PCB Modules.kicad_sym
+5edb179e9a994c42d59773b3a0acd823  SchLib/PCB Modules.kicad_sym
 2283eaeb1b5ce69dcd5d4c6e678945f4  SchLib/Pads.kicad_sym
 d94825633202621b0edb2e14b8727612  SchLib/Power Supplies.kicad_sym
 a3538995107cb99fc445119ecf867d28  SchLib/Regulators.kicad_sym
@@ -4278,6 +4278,7 @@ ca0139a3385ea700fc8edd1ed5b20e58  PcbLib/ICs And Semiconductors THD.pretty/DCDC_
 27c091df882405e6b7706a26eebec294  PcbLib/ICs And Semiconductors THD.pretty/DCDC_TRACO_THM6_Single Output.kicad_mod
 ee38f5fba71f9665cc2fcdc959bb5c7d  PcbLib/ICs And Semiconductors THD.pretty/DCDC_TRACO_THN10WIR.kicad_mod
 068de4777882b0bd9f7fcc96b5706658  PcbLib/ICs And Semiconductors THD.pretty/DCDC_TRACO_THN15.kicad_mod
+909527d6604212810d7028e7e2abd9d1  PcbLib/ICs And Semiconductors THD.pretty/DCDC_TRACO_THN15WI.kicad_mod
 9c893eefc448c63aa2e40220bf165099  PcbLib/ICs And Semiconductors THD.pretty/DCDC_TRACO_THN15WIR.kicad_mod
 3890488adadd6f1a38a0a9c6d26e0bf3  PcbLib/ICs And Semiconductors THD.pretty/DCDC_TRACO_THN20WI.kicad_mod
 dd848fa54b67d30c449fb3dafd3c24bb  PcbLib/ICs And Semiconductors THD.pretty/DCDC_TRACO_THN20WIR.kicad_mod
@@ -4484,6 +4485,7 @@ d3c7879f5f16ba009b0ab6728c1fb75a  PcbLib/ICs And Semiconductors THD.pretty/LEDLP
 d652d985e67b3bdc292e45d98626254a  PcbLib/ICs And Semiconductors THD.pretty/LEDLP_DIALIGHT_515-1192-00550F.kicad_mod
 a6b534a00c60c2025ceb20235c5aa65b  PcbLib/ICs And Semiconductors THD.pretty/LEDLP_DIALIGHT_515-1230F.kicad_mod
 d78ddc6f47e8b36b6a83fd78a56c9b1e  PcbLib/ICs And Semiconductors THD.pretty/LEDLP_MENTOR_1270.1010.kicad_mod
+306c0ab1c0356924de607351d8ce1283  PcbLib/ICs And Semiconductors THD.pretty/LED_3MM_RED_1C-2A.kicad_mod
 9e8dd5813fe8d8dfaba4b5656d4de7ed  PcbLib/ICs And Semiconductors THD.pretty/LEDLP_MENTOR_1276.1003.kicad_mod
 6d6f7b2d44f36e6fbaad351b4f5902b4  PcbLib/ICs And Semiconductors THD.pretty/LEDLP_MENTOR_1276.1004.kicad_mod
 7adc274dfc93b07039e115ac6fda9655  PcbLib/ICs And Semiconductors THD.pretty/LEDLP_MENTOR_1278.1020.kicad_mod
@@ -4497,7 +4499,6 @@ a2c860b93151acfd338e402c316b8892  PcbLib/ICs And Semiconductors THD.pretty/LEDLP
 fdb97ad50757af0b58fa746111fa43f3  PcbLib/ICs And Semiconductors THD.pretty/LEDLP_MENTOR_1296.2104.kicad_mod
 816ecd5725122d55161eb21f43b03b69  PcbLib/ICs And Semiconductors THD.pretty/LEDL_LEDIL_FCA12795_IRIS-O.kicad_mod
 8b24ebfa54a222b947f8a323d2994bf3  PcbLib/ICs And Semiconductors THD.pretty/LED_3MM_GREEN_1C-2A.kicad_mod
-306c0ab1c0356924de607351d8ce1283  PcbLib/ICs And Semiconductors THD.pretty/LED_3MM_RED_1C-2A.kicad_mod
 826b90da9c4a963fe79baf64c7654400  PcbLib/ICs And Semiconductors THD.pretty/LED_3MM_YELLOW_1C-2A.kicad_mod
 5bb561ac3d31530f50a9317e4f79bfe5  PcbLib/ICs And Semiconductors THD.pretty/LED_5MM_GREEN_1C-2A.kicad_mod
 24d287fd8d51b37a7bc6dad712e4c979  PcbLib/ICs And Semiconductors THD.pretty/LED_5MM_RED_1C-2A.kicad_mod
@@ -6554,11 +6555,11 @@ c7efa7f71d6adfe6a86a8be8b02552fd  PcbLib/PCB Modules.pretty/PCBM_FTDI_UMFT231XA.
 15f206af07b3d5592987354d6f1abf10  PcbLib/PCB Modules.pretty/PCBM_HC-05.kicad_mod
 483c1aaac29d67b43e7ab4f6474f62cb  PcbLib/PCB Modules.pretty/PCBM_HMS ANYBUS_AB6600-C.kicad_mod
 21f7d4c1013dbd28972b4cc0311c3270  PcbLib/PCB Modules.pretty/PCBM_HMS ANYBUS_AB6605-C.kicad_mod
-20fea87175dc3c35a4959787f3363bbb  PcbLib/PCB Modules.pretty/PCBM_HMS ANYBUS_AB6675-D_B40-1.kicad_mod
-ccd027fd151cd823f8ad45106715c641  PcbLib/PCB Modules.pretty/PCBM_HMS ANYBUS_AB6675-D_Copper Based Ethernet.kicad_mod
+516d263e8f4e392ca49d5c14c7b8bb50  PcbLib/PCB Modules.pretty/PCBM_HMS ANYBUS_AB6675-D_B40-1.kicad_mod
+b3e4455faa0bda70594222a9c9ce6d30  PcbLib/PCB Modules.pretty/PCBM_HMS ANYBUS_AB6675-D_Copper Based Ethernet.kicad_mod
 11c31825ab76c57c824147641610ba10  PcbLib/PCB Modules.pretty/PCBM_INTEL_EDISON.kicad_mod
 7702487d5adc65b879cb32e6ea3230fb  PcbLib/PCB Modules.pretty/PCBM_INTEL_EK-10M08E144.kicad_mod
-a4f98d6af51f365c01d9b5ad1fd82067  PcbLib/PCB Modules.pretty/PCBM_M.2_SSD.kicad_mod
+8bc32261622da9c301c0bb378f75c93a  PcbLib/PCB Modules.pretty/PCBM_M.2_SSD.kicad_mod
 97a96eea1ab4c97100d2ec144b93a507  PcbLib/PCB Modules.pretty/PCBM_MBED_LPC1768.kicad_mod
 a789e42dba81b96788e8a2733288702a  PcbLib/PCB Modules.pretty/PCBM_MIKROE_AD-SWIO_2_CLICK.kicad_mod
 f9b6d110f3c540fb4875c4201dfa196c  PcbLib/PCB Modules.pretty/PCBM_NUMATO_RL80001.kicad_mod
@@ -6567,6 +6568,7 @@ c5c56c8bdfc3ff1c08a6a6d85356a9df  PcbLib/PCB Modules.pretty/PCBM_NVIDIA_JETSON N
 4530230e6b6acbb459981cfb358ee1fe  PcbLib/PCB Modules.pretty/PCBM_OLIMEX_STM32-E407.kicad_mod
 24cd7f4aed625257920dc1e2cad36f8b  PcbLib/PCB Modules.pretty/PCBM_RASPBERRY_PI_CM5116064.kicad_mod
 7c5d5c286c1612e507113daaa6f036f0  PcbLib/PCB Modules.pretty/PCBM_RASPBERRY_PI_PICO_W.kicad_mod
+53e7799030ff5d209030818a28d0e5f3  PcbLib/PCB Modules.pretty/PCBM_RASPBERRY_PI_PICO_W_A - duplicate.kicad_mod
 aa7c4807c9dcf01bcc4499538cf1e654  PcbLib/PCB Modules.pretty/PCBM_RASPBERRY_PI_PICO_W_A.kicad_mod
 2a9993253a3f232010b166675679bcc1  PcbLib/PCB Modules.pretty/PCBM_RASPBERRY_PI_ZERO_2W.kicad_mod
 96fec78309da25c13d73328cac97f82e  PcbLib/PCB Modules.pretty/PCBM_SAMTEC_ECUO_R12_XX-XXX-0-X-1-X-XX.kicad_mod
@@ -9249,7 +9251,7 @@ ffc6e96fd926131735d81fb4db9ff53a  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_194217
 2a3ce7bc6ff33dcf21735841deb4f4c1  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_1942940000.kicad_mod
 ae0b3ec46821ae202bd1cc47dea439e8  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_2472090000.kicad_mod
 9c9edda1c24da99f8da50e54df4c87af  PcbLib/WEIDMULLER THD.pretty/WEIDMULLER_2472100000.kicad_mod
-0244e115641026324991e204463d9554  CERN.sqlite
+ebb959fbce7fdb1016f7a29241db3ef1  CERN.sqlite
 157cdc014a743f8754ceae70cae2c4ab  CERN_Linux.kicad_dbl
 bd20789409488d506a3ed663f07f1976  CERN_Windows.kicad_dbl
 652ff4ea08282416f87bdec4b9833205  sym-lib-table

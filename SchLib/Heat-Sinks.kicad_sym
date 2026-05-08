@@ -1251,7 +1251,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "HS"
-			(at 0 3.556 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 0.9144 0.9144)
@@ -1398,7 +1398,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "HS"
-			(at 0 3.556 0)
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 0.9144 0.9144)
@@ -2149,6 +2149,77 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "THERMAL-TAPE"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.27)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TT"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "${MANUFACTURER PART NUMBER}"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal Tape"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "THERMAL-TAPE_1_0"
+			(rectangle
+				(start 7.62 0.254)
+				(end -7.62 -0.254)
+				(stroke
+					(width 0.0254)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 208 208 208 1)
 				)
 			)
 		)

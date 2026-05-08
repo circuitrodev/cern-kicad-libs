@@ -1,0 +1,146 @@
+(footprint "TTAPE_T-GLOBAL_TG-T1000-23-23-0.25-5PT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L23 x W23 x H0.25mm, Adhesive Both Sides Thermal Tape")
+	(property "Reference" "REF**"
+		(at 0 -12.25 0)
+		(layer "F.SilkS")
+		(uuid "1a07b45e-cc1f-456e-bf15-023b19ce0eef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TTAPE_T-GLOBAL_TG-T1000-23-23-0.25-5PT"
+		(at 0 12.25 0)
+		(layer "F.Fab")
+		(uuid "ebb066ce-f57f-4f14-bca3-b2c37ab6d1ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "777972f5-3cb8-4d95-b768-f909a005e2a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3bb197d-f0f4-4689-b455-0b4ce41b6f13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c82825d1-34ba-4d73-92d7-b68eb87143d0")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6ab7f2c9-3ae5-46ea-bb6c-f238b4f178ba")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "56391a40-8f83-4104-ae11-7ec6ec4a14a5")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e359d32e-64a6-43aa-8506-12b0a2232735")
+	)
+	(fp_line
+		(start -11.5 -11.5)
+		(end 11.5 -11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ef744d4-adb1-4eb5-8f52-94eade585b66")
+	)
+	(fp_line
+		(start -11.5 11.5)
+		(end -11.5 -11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f29a2d23-c09d-414c-aa6c-0f82d9667cd0")
+	)
+	(fp_line
+		(start -11.5 11.5)
+		(end 11.5 11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29017078-1618-48b0-93b0-9299394699dd")
+	)
+	(fp_line
+		(start 11.5 11.5)
+		(end 11.5 -11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1acd1850-c54a-4eb8-972d-e04bc9738ea2")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TTAPE_T-GLOBAL_TG-T1000-23-23-0.stp"
+		(offset
+			(xyz 0.00005 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

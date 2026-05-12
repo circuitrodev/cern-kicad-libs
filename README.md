@@ -1,5 +1,19 @@
 # CERN KiCad Libraries
 
+> ## Mirror Notice
+>
+> This repository is a **mirror** of the upstream project hosted on GitLab:
+>
+> **Original source:** https://gitlab.com/ohwr/cern-kicad-libs
+>
+> All content is © CERN and licensed under **CERN-OHL-P v2.0** (permissive). This mirror exists for convenience (e.g. easier access for users working primarily on GitHub) and is **not affiliated with or endorsed by CERN**.
+>
+> - Last sync: 2026-05-12
+> - For issues with the libraries themselves, please report them to the [upstream issue tracker](https://gitlab.com/ohwr/cern-kicad-libs/-/work_items/new?type=Issue&initialCreationContext=list-route).
+> - Mirror maintained by [circuitrodev](https://github.com/circuitrodev).
+
+---
+
 ## About
 
 These are the component libraries used at CERN for electronics design using

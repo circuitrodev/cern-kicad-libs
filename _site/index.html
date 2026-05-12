@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CERN KiCad Libraries — Preview</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='4' y='4' width='16' height='16' fill='%23c83434'/%3E%3C/svg%3E">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="title">CERN KiCad Libraries</div>
+    <div class="subtitle"><span id="stats">loading…</span> &middot; <a href="https://gitlab.com/ohwr/cern-kicad-libs" target="_blank" rel="noopener">upstream</a> &middot; <a href="https://github.com/circuitrodev/cern-kicad-libs" target="_blank" rel="noopener">mirror</a></div>
+  </div>
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="Search across libraries…" autocomplete="off">
+    <div class="search-meta" id="search-meta"></div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside id="sidebar">
+    <div class="section-toggle">
+      <button class="tab active" data-kind="symbols">Symbols</button>
+      <button class="tab" data-kind="footprints">Footprints</button>
+    </div>
+    <ul class="lib-list" id="lib-list"></ul>
+  </aside>
+
+  <main id="main">
+    <div class="crumb" id="crumb">Loading index…</div>
+    <div class="grid" id="grid"></div>
+    <div class="pager" id="pager"></div>
+  </main>
+</div>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-body">
+    <button class="close" data-close>&times;</button>
+    <div class="modal-svg" id="modal-svg"></div>
+    <div class="modal-meta" id="modal-meta"></div>
+  </div>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>

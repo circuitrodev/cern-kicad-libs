@@ -1,5 +1,7 @@
 # CERN KiCad Libraries
 
+> **Live preview site:** https://circuitrodev.github.io/cern-kicad-libs/ — searchable browser with SVG previews for every symbol and footprint.
+
 > ## Mirror Notice
 >
 > This repository is a **mirror** of the upstream project hosted on GitLab:

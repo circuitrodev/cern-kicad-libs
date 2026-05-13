@@ -1,6 +1,12 @@
 # CERN KiCad Libraries
 
-> **Live preview site:** https://circuitrodev.github.io/cern-kicad-libs/ — searchable browser with SVG previews for every symbol and footprint.
+## [▶ Live preview site](https://circuitrodev.github.io/cern-kicad-libs/)
+
+**https://circuitrodev.github.io/cern-kicad-libs/**
+
+A searchable web viewer with SVG previews for all **8,365 symbols** and **9,246 footprints** in this repository. Click any item to see a larger preview and metadata. No KiCad install required.
+
+---
 
 > ## Mirror Notice
 >

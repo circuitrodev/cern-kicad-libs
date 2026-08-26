@@ -1,9 +1,9 @@
 name: Sync with upstream
 
 # The upstream project regenerates the libraries from CERN's Altium sources
-# every night, so this mirror checks for new content daily and commits whatever
-# changed. Only upstream-owned files are touched; README.md, _site/, scripts/
-# and .github/ belong to the mirror.
+# every night, so this mirror checks for new content daily, rebuilds the preview
+# site from it, and commits both together. Only upstream-owned files are synced;
+# README.md, _site/, scripts/ and .github/ belong to the mirror.
 
 on:
   schedule:
@@ -32,29 +32,44 @@ jobs:
         with:
           python-version: "3.12"
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: Sync library files from upstream
-        run: python3 scripts/sync-upstream.py --ref "${{ inputs.ref || 'master' }}"
+        id: sync
+        run: |
+          python3 scripts/sync-upstream.py --ref "${{ inputs.ref || 'master' }}"
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Verify the tree is byte-identical to upstream
         run: python3 scripts/sync-upstream.py --ref "${{ inputs.ref || 'master' }}" --verify
 
+      # Only when the libraries actually moved: rebuilding otherwise would
+      # change nothing but the index's timestamp, producing an empty commit and
+      # a redeploy of the ~256 MB site every day.
+      - name: Rebuild preview site
+        if: steps.sync.outputs.changed == 'true'
+        run: python3 scripts/build-site.py
+
       - name: Commit
+        if: steps.sync.outputs.changed == 'true'
         run: |
-          if git diff --quiet && git diff --cached --quiet; then
-            echo "Already up to date with upstream."
-            exit 0
-          fi
           commit=$(python3 -c "import json;print(json.load(open('mirror-state.json'))['upstream_commit'][:8])")
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: sync libraries with upstream ${commit}"
+          git commit -m "chore: sync libraries with upstream ${commit} and rebuild site"
           git push
 
-      - name: Note preview-site drift
+      - name: Check the site matches the libraries
         run: |
           libs=$(python3 -c "import json;print(json.load(open('mirror-state.json'))['upstream_committed'][:10])")
           site=$(python3 -c "import json;print(json.load(open('_site/index.json'))['generated'][:10])")
           if [ "$libs" != "$site" ]; then
-            echo "::notice::Library data is from $libs but the preview site was generated from $site — regenerate _site (see scripts/README.md)."
+            echo "::notice::Library data is from $libs but the preview site was generated on $site — run scripts/build-site.py."
           fi

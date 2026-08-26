@@ -136,7 +136,15 @@ python3 scripts/sync-upstream.py             # apply it
 python3 scripts/sync-upstream.py --verify    # prove the tree matches upstream
 ```
 
+The preview site is rebuilt from those files by `scripts/build-site.py`:
+
+```sh
+python3 scripts/build-site.py                # regenerate _site/ from the libraries
+```
+
 [`.github/workflows/sync-upstream.yml`](.github/workflows/sync-upstream.yml)
-runs it daily, and `mirror-state.json` records the exact upstream commit this
-mirror currently reflects. The preview site is rebuilt separately — see
-[`scripts/README.md`](scripts/README.md).
+runs both daily — syncing, rebuilding the site when the libraries moved, and
+pushing them together — and `mirror-state.json` records the exact upstream
+commit this mirror currently reflects. Neither script needs anything installed
+beyond Python and, for the site build, Node; see
+[`scripts/README.md`](scripts/README.md) for details.

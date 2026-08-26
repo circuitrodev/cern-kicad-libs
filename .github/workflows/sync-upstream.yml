@@ -14,6 +14,10 @@ on:
         description: "Upstream branch or commit to sync to"
         default: "master"
         required: false
+      rebuild_site:
+        description: "Rebuild the preview site even if upstream did not move"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -53,17 +57,25 @@ jobs:
       # change nothing but the index's timestamp, producing an empty commit and
       # a redeploy of the ~256 MB site every day.
       - name: Rebuild preview site
-        if: steps.sync.outputs.changed == 'true'
+        if: steps.sync.outputs.changed == 'true' || inputs.rebuild_site
         run: python3 scripts/build-site.py
 
       - name: Commit
-        if: steps.sync.outputs.changed == 'true'
+        if: steps.sync.outputs.changed == 'true' || inputs.rebuild_site
         run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Nothing to commit."
+            exit 0
+          fi
           commit=$(python3 -c "import json;print(json.load(open('mirror-state.json'))['upstream_commit'][:8])")
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "chore: sync libraries with upstream ${commit} and rebuild site"
+          if [ "${{ steps.sync.outputs.changed }}" = "true" ]; then
+            git commit -m "chore: sync libraries with upstream ${commit} and rebuild site"
+          else
+            git commit -m "chore: rebuild preview site"
+          fi
           git push
 
       - name: Check the site matches the libraries

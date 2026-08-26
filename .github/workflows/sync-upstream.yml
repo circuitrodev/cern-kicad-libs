@@ -1,0 +1,60 @@
+name: Sync with upstream
+
+# The upstream project regenerates the libraries from CERN's Altium sources
+# every night, so this mirror checks for new content daily and commits whatever
+# changed. Only upstream-owned files are touched; README.md, _site/, scripts/
+# and .github/ belong to the mirror.
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # daily, shortly after upstream's nightly conversion
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Upstream branch or commit to sync to"
+        default: "master"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync library files from upstream
+        run: python3 scripts/sync-upstream.py --ref "${{ inputs.ref || 'master' }}"
+
+      - name: Verify the tree is byte-identical to upstream
+        run: python3 scripts/sync-upstream.py --ref "${{ inputs.ref || 'master' }}" --verify
+
+      - name: Commit
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "Already up to date with upstream."
+            exit 0
+          fi
+          commit=$(python3 -c "import json;print(json.load(open('mirror-state.json'))['upstream_commit'][:8])")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: sync libraries with upstream ${commit}"
+          git push
+
+      - name: Note preview-site drift
+        run: |
+          libs=$(python3 -c "import json;print(json.load(open('mirror-state.json'))['upstream_committed'][:10])")
+          site=$(python3 -c "import json;print(json.load(open('_site/index.json'))['generated'][:10])")
+          if [ "$libs" != "$site" ]; then
+            echo "::notice::Library data is from $libs but the preview site was generated from $site — regenerate _site (see scripts/README.md)."
+          fi

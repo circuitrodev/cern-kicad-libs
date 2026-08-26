@@ -10,6 +10,12 @@ on:
   # Called by sync-upstream.yml: a push made with GITHUB_TOKEN does not start
   # another workflow, so the sync has to invoke the deploy itself.
   workflow_call:
+    inputs:
+      ref:
+        description: "Commit to publish. Defaults to the commit that triggered the run."
+        type: string
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -27,7 +33,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      # The caller pushes a new commit before invoking this, and that commit is
+      # not the one that triggered the run -- publish the pushed one.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.sha }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

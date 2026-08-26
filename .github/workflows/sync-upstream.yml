@@ -33,6 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       committed: ${{ steps.commit.outputs.committed }}
+      sha: ${{ steps.commit.outputs.sha }}
     steps:
       - uses: actions/checkout@v4
 
@@ -83,6 +84,7 @@ jobs:
             git commit -m "chore: rebuild preview site"
           fi
           git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Check the site matches the libraries
         run: |
@@ -98,3 +100,5 @@ jobs:
     needs: sync
     if: needs.sync.outputs.committed == 'true'
     uses: ./.github/workflows/deploy.yml
+    with:
+      ref: ${{ needs.sync.outputs.sha }}

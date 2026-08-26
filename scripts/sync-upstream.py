@@ -253,11 +253,18 @@ def main() -> int:
 
     print(f"in sync with upstream: {len(upstream)} files")
 
+    if not to_download and not removed:
+        # Nothing moved. Rewriting the state file anyway would change only its
+        # timestamp, which on a daily schedule means an empty commit — and a
+        # redeploy of the ~256 MB preview site — every single day.
+        print("already up to date; leaving mirror-state.json untouched")
+        return 0
+
     state = {
         "upstream": f"https://gitlab.com/{PROJECT}",
         "upstream_commit": sha,
         "upstream_committed": committed,
-        "synced_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "synced_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),  # last sync that changed content
         "files": len(upstream),
     }
     blob = json.dumps(state, indent=2) + "\n"

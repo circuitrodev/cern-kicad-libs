@@ -4,7 +4,7 @@
 
 **https://circuitrodev.github.io/cern-kicad-libs/**
 
-A searchable web viewer with SVG previews for all **8,365 symbols** and **9,246 footprints** in this repository. Click any item to see a larger preview and metadata. No KiCad install required.
+A searchable web viewer with SVG previews for all **8,499 symbols** and **9,377 footprints** in this repository. Click any item to see a larger preview and metadata. No KiCad install required.
 
 ---
 
@@ -16,7 +16,7 @@ A searchable web viewer with SVG previews for all **8,365 symbols** and **9,246 
 >
 > All content is © CERN and licensed under **CERN-OHL-P v2.0** (permissive). This mirror exists for convenience (e.g. easier access for users working primarily on GitHub) and is **not affiliated with or endorsed by CERN**.
 >
-> - Last sync: 2026-05-12
+> - Last sync: 2026-08-26
 > - For issues with the libraries themselves, please report them to the [upstream issue tracker](https://gitlab.com/ohwr/cern-kicad-libs/-/work_items/new?type=Issue&initialCreationContext=list-route).
 > - Mirror maintained by [circuitrodev](https://github.com/circuitrodev).
 
@@ -46,6 +46,57 @@ supported by our [Open Source Program Office](https://opensource.cern/) (OSPO).
 See the [OSPO documentation](https://ospo.docs.cern.ch/) for more details and
 feel free to ask any questions in the [OSPO forums](https://ospo.web.cern.ch/).
 
+## Installation
+
+First, clone the repository to a local directory. Then, install an SQLite ODBC
+driver for your OS. These libraries use a database format, so an ODBC driver is
+required — please do not add the symbol and footprint libraries separately, they
+are not structured to be used that way.
+
+> [!tip]
+> If you're on Linux and have installed KiCad using `flatpak install flathub
+> org.kicad.KiCad`, you can install an ODBC driver by running `flatpak install
+> org.kicad.KiCad.ODBCDriver.sqliteodbc`
+
+The next step is to rename `CERN_Windows.kicad_dbl` or `CERN_Linux.kicad_dbl`
+(depending on your OS) to `CERN.kicad_dbl`. Then, in KiCad, go to **Preferences
+→ Configure Paths** and add a `CERN_LIB_DIR` variable pointing to your local
+library copy. After that point, installing the libraries for 9.x and 10.x can
+differ significantly, follow the ones for your version:
+
+<details>
+<summary>Instructions for KiCad 9.x</summary>
+
+> [!warning]
+> This will overwrite your existing library configuration: please back up your
+> `sym-lib-table` and `fp-lib-table` files first. If you want to mix the CERN
+> KiCad libraries with yours, you need to manually (and carefully) merge the
+> contents into your existing library table files (again, after backing them
+> up).
+
+Copy `sym-lib-table` and `fp-lib-table` from the root of this repository to the
+KiCad configuration directory (usually this will be %APPDATA%/kicad/9.0 for
+Windows installations, ~/.config/kicad/9.0 for Linux).
+
+</details>
+
+<details>
+<summary>Instructions for KiCad 10.x</summary>
+
+Open **Preferences → Manage Symbol Libraries** and add a new entry with format
+`Table`, nickname `CERN`, and the path pointing to
+`${CERN_LIB_DIR}/sym-lib-table`; then do the same with **Preferences → Manage
+Footprint Libraries** and `${CERN_LIB_DIR}/fp-lib-table`.
+
+> [!note]
+> The v9.x instructions can be used for v10.x, as well; however, this method is
+> more flexible and makes it easier to combine the CERN KiCad libraries with
+> your existing ones.
+
+</details>
+
+Finally, restart KiCad to apply the changes.
+
 ## Licence
 
 The libraries are made available under the [permissive
@@ -71,3 +122,21 @@ from the original symbols and footprints or introduced during the automatic
 conversion process. Feel free to [report it via the project's issue
 tracker](https://gitlab.com/ohwr/cern-kicad-libs/-/work_items/new?type=Issue&initialCreationContext=list-route)
 and we will do our best to follow up and fix it.
+
+## About this mirror
+
+The library files here are byte-identical to upstream. They are refreshed by
+`scripts/sync-upstream.py`, which compares git blob hashes against the upstream
+tree and downloads only what changed — a day of upstream activity is a few
+hundred small files rather than a fresh ~900 MB clone:
+
+```sh
+python3 scripts/sync-upstream.py --dry-run   # show what upstream changed
+python3 scripts/sync-upstream.py             # apply it
+python3 scripts/sync-upstream.py --verify    # prove the tree matches upstream
+```
+
+[`.github/workflows/sync-upstream.yml`](.github/workflows/sync-upstream.yml)
+runs it daily, and `mirror-state.json` records the exact upstream commit this
+mirror currently reflects. The preview site is rebuilt separately — see
+[`scripts/README.md`](scripts/README.md).

@@ -975,6 +975,590 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Battery Holder 4 Pin Dual Cell_a"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.27)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BATH"
+			(at 5.08 5.08 0)
+			(effects
+				(font
+					(size 1.2192 1.2192)
+				)
+			)
+		)
+		(property "Value" "${VALUE}"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery Holder for Dual Cell with 4 Pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ClassName" "Overlapping"
+			(at -0.508 -11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(symbol "Battery Holder 4 Pin Dual Cell_a_1_0"
+			(polyline
+				(pts
+					(xy 4.572 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.826 2.286) (xy 4.826 -2.286) (xy 4.572 -2.286) (xy 4.572 2.286) (xy 4.826 2.286)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 0)
+				(radius 3.81)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.334 -1.524) (xy 5.334 1.524) (xy 6.096 1.524) (xy 6.096 -1.524) (xy 5.334 -1.524)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 0) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "+"
+				(at 4.572 1.016 900)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 1.27)
+				(name "PLUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 0 180)
+				(length 1.27)
+				(name "MINUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.159)
+				(name "HOLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "HOLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Battery Holder 4 Pin Dual Cell_a_2_0"
+			(polyline
+				(pts
+					(xy 4.572 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.826 2.286) (xy 4.826 -2.286) (xy 4.572 -2.286) (xy 4.572 2.286) (xy 4.826 2.286)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.08 0)
+				(radius 3.81)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.334 -1.524) (xy 5.334 1.524) (xy 6.096 1.524) (xy 6.096 -1.524) (xy 5.334 -1.524)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 0) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "+"
+				(at 4.572 1.016 900)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 1.27)
+				(name "PLUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 0 180)
+				(length 1.27)
+				(name "MINUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Battery Holder 4 Pin Dual Cell_a [alt]"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.27)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BATH"
+			(at 5.08 5.08 0)
+			(effects
+				(font
+					(size 1.2192 1.2192)
+				)
+			)
+		)
+		(property "Value" "${VALUE}"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery Holder for Dual Cell with 4 Pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ClassName" "Overlapping"
+			(at -0.508 -11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(symbol "Battery Holder 4 Pin Dual Cell_a [alt]_1_0"
+			(rectangle
+				(start 1.27 3.81)
+				(end 8.89 -8.89)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -5.08) (xy 1.27 -5.08)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.826 2.286) (xy 4.826 -2.286) (xy 4.572 -2.286) (xy 4.572 2.286) (xy 4.826 2.286)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.826 -2.794) (xy 4.826 -7.366) (xy 4.572 -7.366) (xy 4.572 -2.794) (xy 4.826 -2.794)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.334 -1.524) (xy 5.334 1.524) (xy 6.096 1.524) (xy 6.096 -1.524) (xy 5.334 -1.524)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.334 -6.604) (xy 5.334 -3.556) (xy 6.096 -3.556) (xy 6.096 -6.604) (xy 5.334 -6.604)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 0) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -5.08) (xy 8.89 -5.08)
+				)
+				(stroke
+					(width 0.0254)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "+"
+				(at 4.572 1.016 900)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "+"
+				(at 4.572 -4.064 900)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 1.27)
+				(name "PLUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -5.08 0)
+				(length 1.27)
+				(name "PLUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 0 180)
+				(length 1.27)
+				(name "MINUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -5.08 180)
+				(length 1.27)
+				(name "MINUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -7.62 180)
+				(length 2.159)
+				(name "HOLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "HOLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Battery Holder 8 Pin Quad Cell"
 		(pin_numbers
 			(hide yes)

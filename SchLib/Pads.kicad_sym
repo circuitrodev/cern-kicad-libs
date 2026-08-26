@@ -367,15 +367,16 @@
 			(hide yes)
 		)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" ""
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "OHL"
 			(at -1.27 1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Value" "*"
@@ -416,7 +417,7 @@
 			)
 		)
 		(property "OHL_Date" "${YEAR}"
-			(at 14.732 -3.048 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.2192 1.2192)
@@ -426,7 +427,7 @@
 			)
 		)
 		(property "OHL_License" "OHL-W v2.0+"
-			(at 59.69 -7.01 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.2192 1.2192)
@@ -436,7 +437,7 @@
 			)
 		)
 		(property "OHL_Version" "OHL v2.0"
-			(at 17.526 -19.304 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.2192 1.2192)
@@ -445,11 +446,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "CERN_OHL_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 86.36 0) (xy 86.36 -20.32) (xy 0 -20.32) (xy 0 0)
-				)
+		(symbol "CERN_OHL_1_1"
+			(text_box "Copyright CERN ${OHL_DATE}\n\nThis documentation describes Open Hardware and is licensed under the CERN ${OHL_License}.\n\nYou may redistribute and modify this under the terms of the CERN ${OHL_License}.\n(http://ohwr.org/CERNOHL)\n\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, \nINCLUDING OF MERCHANTABILITY, SATISFACTORY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN ${OHL_Version} for applicable conditions."
+				(at 0 0 0)
+				(size 86.36 -20.32)
+				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width 0)
 					(type solid)
@@ -457,59 +458,11 @@
 				(fill
 					(type none)
 				)
-			)
-			(text "=OHL_Date"
-				(at 14.478 -2.921 0)
 				(effects
 					(font
-						(size 1.2192 1.2192)
+						(size 1.143 1.143)
 					)
-					(justify left bottom)
-				)
-			)
-			(text "=OHL_Version"
-				(at 17.526 -19.304 0)
-				(effects
-					(font
-						(size 1.2192 1.2192)
-					)
-					(justify left bottom)
-				)
-			)
-			(text "=OHL_License"
-				(at 51.054 -11.049 0)
-				(effects
-					(font
-						(size 1.2192 1.2192)
-					)
-					(justify left bottom)
-				)
-			)
-			(text "=OHL_License"
-				(at 59.69 -6.985 0)
-				(effects
-					(font
-						(size 1.2192 1.2192)
-					)
-					(justify left bottom)
-				)
-			)
-			(text_box "Copyright CERN \n\nThis documentation describes Open Hardware and is licensed under the CERN                         .\n\nYou may redistribute and modify this under the terms of the CERN                         .\n(http://ohwr.org/CERNOHL)\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,\nINCLUDING OF MERCHANTABILITY, SATISFACTORY AND FITNESS FOR A PARTICULAR PURPOSE.\nPlease see the CERN                   for applicable conditions."
-				(at 85.09 -1.016 0)
-				(size -83.82 -19.05)
-				(margins 1.016 1.016 1.016 1.016)
-				(stroke
-					(width -0.0001)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.2192 1.2192)
-					)
-					(justify left top)
+					(justify left)
 				)
 			)
 		)
@@ -524,15 +477,16 @@
 			(hide yes)
 		)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(property "Reference" ""
+		(property "Reference" "OHL"
 			(at -1.27 1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Value" "*"
@@ -545,7 +499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Pads:CERN_OHL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -572,16 +526,6 @@
 				(hide yes)
 			)
 		)
-		(property "OHL_Date" "${YEAR}"
-			(at 14.732 -3.048 0)
-			(effects
-				(font
-					(size 1.2192 1.2192)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "OHL_License" "OHL-W v2.0+"
 			(at 59.69 -7.01 0)
 			(effects
@@ -592,18 +536,8 @@
 				(hide yes)
 			)
 		)
-		(property "OHL_Version" "OHL v2.0"
-			(at 17.526 -19.304 0)
-			(effects
-				(font
-					(size 1.2192 1.2192)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
 		(property "OHL_Project" "https://ohwr.org/project/xxxx/wiki"
-			(at -0.254 -23.114 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -612,11 +546,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "CERN_OHL_BIS_1_0"
-			(polyline
-				(pts
-					(xy 0 0) (xy 86.36 0) (xy 86.36 -11.43) (xy 0 -11.43) (xy 0 0)
-				)
+		(symbol "CERN_OHL_BIS_1_1"
+			(text_box "Source location: ${OHL_Project}\n\nAs per ${OHL_License} section 4, should you produce hardware based on these sources, You must maintain the Source Location visible on the silkscreen or top copper for other product you make using this documentation."
+				(at 0 0 0)
+				(size 86.36 -11.43)
+				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width 0)
 					(type solid)
@@ -624,41 +558,11 @@
 				(fill
 					(type none)
 				)
-			)
-			(text "=OHL_License"
-				(at 6.858 -7.366 0)
 				(effects
 					(font
-						(size 1.2192 1.2192)
+						(size 1.143 1.143)
 					)
-					(justify left bottom)
-				)
-			)
-			(text "=OHL_Project"
-				(at 13.97 -3.302 0)
-				(effects
-					(font
-						(size 1.2192 1.2192)
-					)
-					(justify left bottom)
-				)
-			)
-			(text_box "Source location: \n\nAs per                           section 4, should you produce hardware based on these sources, You must maintain the Source Location visible on the silkscreen or top copper for other product you make using this documentation."
-				(at 85.09 -1.27 0)
-				(size -83.82 -8.89)
-				(margins 1.016 1.016 1.016 1.016)
-				(stroke
-					(width -0.0001)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.2192 1.2192)
-					)
-					(justify left top)
+					(justify left)
 				)
 			)
 		)

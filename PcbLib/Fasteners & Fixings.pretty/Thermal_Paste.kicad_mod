@@ -1,0 +1,107 @@
+(footprint "Thermal_Paste"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Thermal Paste")
+	(property "Reference" "REF**"
+		(at 0 -1.07855 0)
+		(layer "F.SilkS")
+		(uuid "7e8fce09-9367-4324-86ec-4611a7ce5241")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "Thermal_Paste"
+		(at 0 1.07855 0)
+		(layer "F.Fab")
+		(uuid "d76e76bb-9ad1-41ad-bd4c-24a4567f8e42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3973049-3771-46f2-87cf-27087a2e2fe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "997caf76-e54e-4d4d-922d-cd9c5b7a371e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.35355 -0.35355)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "026955fb-4367-4e1e-b7d5-4eebaed70b56")
+	)
+	(fp_line
+		(start -0.35355 0.35355)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "5a89e229-2478-46f7-9500-427794e937a0")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.35355 -0.35355)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "abd8e9c4-1a78-4132-9ee2-fd7dd51c3d7d")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.35355 0.35355)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "130be979-25b9-4531-84c9-05271a7dd299")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0.25) (xy -0.04973 0.25) (xy -0.14161 0.21194) (xy -0.21194 0.14161) (xy -0.25 0.04973) (xy -0.25 0) (xy -0.25 -0.04973) (xy -0.21194 -0.14161) (xy -0.14161 -0.21194) (xy -0.04973 -0.25) (xy 0 -0.25) (xy 0.04973 -0.25) (xy 0.14161 -0.21194) (xy 0.21194 -0.14161) (xy 0.25 -0.04973) (xy 0.25 0) (xy 0.25 0.04973) (xy 0.21194 0.14161) (xy 0.14161 0.21194) (xy 0.04973 0.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "d84612d6-fb8a-4dfc-b72a-2b5590d7f88c")
+	)
+	(embedded_fonts no)
+)

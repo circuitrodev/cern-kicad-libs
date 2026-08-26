@@ -22,8 +22,8 @@ Converting Connectors.SchLib...
 Converting Crystals & Oscillators.SchLib...
 Converting Optocouplers.SchLib...
 Converting DC-DC Converters.SchLib...
-00:47:54: Warning: Invalid lock file '/tmp/org.kicad.kicad/instances/kicad-cli-9.0'.
 Converting PCB Modules.SchLib...
+00:50:15: Warning: Invalid lock file '/tmp/org.kicad.kicad/instances/kicad-cli-9.0'.
 Converting Pads.SchLib...
 Converting Diodes.SchLib...
 Converting Power Supplies.SchLib...
@@ -55,8 +55,12 @@ Fixing multidisplay symbol Analog & Interface:LTC2348CLX-16..
 Fixing multidisplay symbol Analog & Interface:LTC2353CLX-16..
 Fixing multidisplay symbol Analog & Interface:LTC2353HLX-18..
 Fixing multidisplay symbol Analog & Interface:LTC2357-18..
+Fixing multidisplay symbol Analog & Interface:LTC2377IDE-20..
 Fixing multidisplay symbol Analog & Interface:LTC2757ACLX..
 Fixing multidisplay symbol Analog & Interface:LTC4352XDD..
+Fixing multidisplay symbol Analog & Interface:LTC6811IG-1..
+Fixing multidisplay symbol Analog & Interface:MAX77751..
+Fixing multidisplay symbol Analog & Interface:MAX77757..
 Fixing multidisplay symbol Analog & Interface:PCA9534PW..
 Fixing multidisplay symbol Analog & Interface:RAFAEL-V1..
 Fixing multidisplay symbol Analog & Interface:SI5341..
@@ -66,6 +70,7 @@ Fixing multidisplay symbol Analog & Interface:TPS65217..
 Fixing multidisplay symbol Analog & Interface:UCC28950..
 Fixing multidisplay symbol Analog & Interface:UCC28951..
 Fixing multidisplay symbol Batteries:Battery Holder 4 Pin Dual Cell..
+Fixing multidisplay symbol Batteries:Battery Holder 4 Pin Dual Cell_a..
 Fixing multidisplay symbol Batteries:Battery Holder 8 Pin Quad Cell..
 Fixing multidisplay symbol Bonding:CERN_aCCURATE2_A_Chip1..
 Fixing multidisplay symbol Connectors:AMPHENOL_10052824-101LF..
@@ -258,6 +263,7 @@ Fixing multidisplay symbol Connectors:Connector 8 Female + 2 GND..
 Fixing multidisplay symbol Connectors:Connector 8 Male..
 Fixing multidisplay symbol Connectors:Connector 8 Male + 2 GND..
 Fixing multidisplay symbol Connectors:Connector 8 Male + 2 MECH..
+Fixing multidisplay symbol Connectors:Connector 8 Male+2MTG..
 Fixing multidisplay symbol Connectors:Connector 80 Female..
 Fixing multidisplay symbol Connectors:Connector 80 Female +2..
 Fixing multidisplay symbol Connectors:Connector 80 Female +4..
@@ -403,6 +409,7 @@ Fixing multidisplay symbol Connectors:TYCO_787082-9..
 Fixing multidisplay symbol DC-DC Converters:DCDC_TRACO_TSRN1..
 Fixing multidisplay symbol Diodes:ESD3V3U4ULC..
 Fixing multidisplay symbol Diodes:ESD7016MUTAG..
+Fixing multidisplay symbol Diodes:ESDS314DBV..
 Fixing multidisplay symbol Diodes:PUSB3AB4..
 Fixing multidisplay symbol Diodes:RCLAMP0524PA..
 Fixing multidisplay symbol Diodes:RCLAMP0544T.TCT..
@@ -443,6 +450,7 @@ Fixing multidisplay symbol LEDs & Displays:NEON_VCC_A1C..
 Fixing multidisplay symbol Logic:AT89C2051..
 Fixing multidisplay symbol Logic:IS25LP064A-JBLE..
 Fixing multidisplay symbol Logic:M25PX80-VMN6P..
+Fixing multidisplay symbol Logic:MT25QxxxxxBA8ESF..
 Fixing multidisplay symbol Logic:MT25QxxxxxBB8ESF..
 Fixing multidisplay symbol Logic:MT25QxxxxxBx8E12..
 Fixing multidisplay symbol Logic:S25FL064LABMFI01..
@@ -669,6 +677,8 @@ Fixing multidisplay symbol Operational Amplifiers:TLV271IDBV..
 Fixing multidisplay symbol Operational Amplifiers:TLV2760xDBV..
 Fixing multidisplay symbol Operational Amplifiers:TLV2761xDBV..
 Fixing multidisplay symbol Operational Amplifiers:TLV3604..
+Fixing multidisplay symbol Operational Amplifiers:TLV7031QDBV..
+Fixing multidisplay symbol Operational Amplifiers:TLV9001IDCK..
 Fixing multidisplay symbol Operational Amplifiers:TLV9002SIRUG..
 Fixing multidisplay symbol Operational Amplifiers:TS951ILT..
 Fixing multidisplay symbol Operational Amplifiers:TS952IDT..
@@ -764,11 +774,5 @@ Fixed reference: HARTING/HARTING_09 73 196 6903                Library Ref: Conn
 Fixed reference: HARTING/HARTING_09 79 196 6903                Library Ref: Connectors:Connector 96abc male (3x32) -> Connectors:Connector 96abc Male (3x32)
 Fixed reference: HARTING/HARTING_09 03 164 2921                Library Ref: Connectors:Connector 64ac male (2x32) -> Connectors:Connector 64ac Male (2x32)
 Fixed reference: HARTING/HARTING_09 03 164 6951                Library Ref: Connectors:Connector 64ac male (2x32) -> Connectors:Connector 64ac Male (2x32)
-Wrong reference: Miscellaneous/WAGO_236-403                    Library Ref: Connectors:Terminal Block_3 Position_Female
-Wrong reference: Miscellaneous/WAGO_236-403/000-009            Library Ref: Connectors:Terminal Block_3 Position_Female
-Wrong reference: Miscellaneous/WAGO_236-404                    Library Ref: Connectors:Terminal Block_4 Position_Female
-Wrong reference: Miscellaneous/WAGO_236-404/000-009            Library Ref: Connectors:Terminal Block_4 Position_Female
-Wrong reference: Miscellaneous/WAGO_236-406                    Library Ref: Connectors:Terminal Block_6 Position_Female
 Fixed reference: Miscellaneous/AFBR-2418TZ                     Library Ref: Connectors:AFBR-24X8XZ -> Connectors:AFBR-24x8XZ
-Wrong reference: Analog & Interface/TXS0108ERGY                Library Ref: Analog & Interface:TXS0108ERGY
 Fixed reference: Crystals & Oscillators/OSC_125MHZ_SI-TIME_SIT9121AI-2C2-33E125.000000 Library Ref: Crystals & Oscillators:Oscillator SI-TIME_SiT9121 -> Crystals & Oscillators:Oscillator SI-TIME_SIT9121

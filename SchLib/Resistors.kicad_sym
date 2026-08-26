@@ -19801,6 +19801,303 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "RN Div - 0.1% R1=20K R2=10K"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.27)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "RN"
+			(at 3.81 1.778 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "${VALUE}"
+			(at 3.81 -1.778 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor Network Divider - 0.035%"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RN Div - 0.1% R1=20K R2=10K_1_0"
+			(polyline
+				(pts
+					(xy 1.524 0.762) (xy 1.524 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -0.762) (xy 6.096 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 0.762) (xy 1.524 0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -0.762) (xy 6.096 0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2192 1.2192)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "0.1%"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "20k"
+				(at 3.81 -1.778 0)
+				(effects
+					(font
+						(size 1.2192 1.2192)
+					)
+				)
+			)
+			(text "3"
+				(at 6.858 0 0)
+				(effects
+					(font
+						(size 1.2192 1.2192)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.524)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 1.524)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RN Div - 0.1% R1=20K R2=10K_2_0"
+			(polyline
+				(pts
+					(xy 1.524 0.762) (xy 1.524 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -0.762) (xy 6.096 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 0.762) (xy 1.524 0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.096 -0.762) (xy 6.096 0.762)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2192 1.2192)
+					)
+					(justify left bottom)
+				)
+			)
+			(text "0.1%"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(text "10k"
+				(at 3.81 -1.778 0)
+				(effects
+					(font
+						(size 1.2192 1.2192)
+					)
+				)
+			)
+			(text "3"
+				(at 6.858 0 0)
+				(effects
+					(font
+						(size 1.2192 1.2192)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 1.524)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 1.524)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "RN Div - 0.1% R1=20K R2=20K"
 		(pin_numbers
 			(hide yes)

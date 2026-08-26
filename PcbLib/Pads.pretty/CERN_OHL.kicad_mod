@@ -6,7 +6,8 @@
 	(property "Reference" "REF**"
 		(at 0 -0.95 0)
 		(layer "F.SilkS")
-		(uuid "7e380506-7821-4d43-a45c-64d8b33e9727")
+		(hide yes)
+		(uuid "733ca9ed-87ea-4050-a3fe-1e74b5cd435a")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +18,8 @@
 	(property "Value" "CERN_OHL"
 		(at 0 0.95 0)
 		(layer "F.Fab")
-		(uuid "6435b9d6-5215-4140-92ac-4dfa7e23ba02")
+		(hide yes)
+		(uuid "4212192f-f9af-473c-8683-8317a60af7e9")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d2f793e-599c-48e6-811d-0eadbd083cd4")
+		(uuid "ea1ea592-5c30-4bbf-b89d-919bffa28fbf")
 		(effects
 			(font
 				(size 1 1)
@@ -41,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b26e88b3-41b8-4804-8528-7f92b554cfde")
+		(uuid "cd85923a-4228-4574-9dbe-20587c5e60b9")
 		(effects
 			(font
 				(size 1 1)
@@ -49,44 +51,49 @@
 			)
 		)
 	)
-	(attr allow_missing_courtyard)
-	(fp_text user "Licensed under CERN OHL-W v2+"
-		(at 0.2 -0.053 0)
-		(unlocked yes)
+	(property "OHL_License" "OHL-W v2.0+"
+		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "1df710a0-743e-407c-aabd-6d28ed56517f")
+		(hide yes)
+		(uuid "17d1699a-7970-4279-a987-99875de56645")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.2)
+				(size 1 1)
+				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
-	(fp_text user "http://ohwr.org/CERNOHL"
-		(at 0.2 2.54708 0)
-		(unlocked yes)
+	(property "OHL_Project" "https://ohwr.org/project/xxxx/wiki"
+		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "851ab835-4693-47dd-9ff4-c45f8c72017c")
+		(hide yes)
+		(uuid "086812bc-bbe2-4292-bb7f-2c92b1d4dac3")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.2)
+				(size 1 1)
+				(thickness 0.1)
 			)
-			(justify left bottom)
 		)
 	)
-	(fp_text user "https://ohwr.org/project/xxxxxxx/wikis"
-		(at 0.2 5.14708 0)
-		(unlocked yes)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_text_box "Licensed under ${OHL_License}\nhttp://ohwr.org/CERNOHL\n${OHL_Project}"
+		(start 0 -2)
+		(end 37.5 5)
+		(margins 1.0025 1.0025 1.0025 1.0025)
 		(layer "F.SilkS")
-		(uuid "ddc77c61-ccfd-4901-a0cf-ddd3871c73a1")
+		(uuid "c4f219a2-d751-40c7-bf28-b0b6ecdc9559")
 		(effects
 			(font
 				(size 1.2 1.2)
-				(thickness 0.2)
+				(thickness 0.2032)
+				(bold yes)
 			)
-			(justify left bottom)
+			(justify left)
+		)
+		(border no)
+		(stroke
+			(width 0)
+			(type solid)
 		)
 	)
 	(embedded_fonts no)

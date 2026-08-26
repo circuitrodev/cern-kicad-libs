@@ -1,0 +1,128 @@
+(footprint "TYCO_5205820-3_v"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Flat Washer Inside Diameter 3.2mm, Outside Diameter 5.6mm , Thick Steel Zinc")
+	(property "Reference" "REF**"
+		(at 0 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "18ab902e-318e-43cd-abb5-d91668e778db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "TYCO_5205820-3_v"
+		(at 0 3.55 0)
+		(layer "F.Fab")
+		(uuid "21891442-b7cb-4dec-9c0a-b3af8d7e8ff9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "962668f8-2134-475b-9705-2a9c278ce45c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64081085-9a8d-4036-9547-c4ca4401f13b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(attr allow_missing_courtyard)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e1dd84ac-f6de-4b90-a444-c710487710c3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e4840447-12b9-4e26-a57f-b9df6e818161")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2e80e845-627b-4ec4-af47-e15aaef53a8a")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1a88dd8c-f4de-4043-9abb-a96460419c6e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "033b180a-d9ab-4afb-aa13-c6ebefb40a76")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6f5efd5-9728-468a-b761-879b0e46adf4")
+	)
+	(embedded_fonts no)
+	(model "${CERN_3DMODEL_DIR}/TYCO_5205820-3_v.stp"
+		(offset
+			(xyz 0.00005 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

@@ -21,6 +21,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: sync-upstream
@@ -29,6 +31,8 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
     steps:
       - uses: actions/checkout@v4
 
@@ -61,12 +65,14 @@ jobs:
         run: python3 scripts/build-site.py
 
       - name: Commit
+        id: commit
         if: steps.sync.outputs.changed == 'true' || inputs.rebuild_site
         run: |
           if [ -z "$(git status --porcelain)" ]; then
             echo "Nothing to commit."
             exit 0
           fi
+          echo "committed=true" >> "$GITHUB_OUTPUT"
           commit=$(python3 -c "import json;print(json.load(open('mirror-state.json'))['upstream_commit'][:8])")
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -85,3 +91,10 @@ jobs:
           if [ "$libs" != "$site" ]; then
             echo "::notice::Library data is from $libs but the preview site was generated on $site — run scripts/build-site.py."
           fi
+
+  # The commit above was pushed with GITHUB_TOKEN, which deliberately does not
+  # trigger the push-driven deploy workflow, so publish the new site from here.
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.committed == 'true'
+    uses: ./.github/workflows/deploy.yml

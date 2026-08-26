@@ -7,6 +7,9 @@ on:
       - "_site/**"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
+  # Called by sync-upstream.yml: a push made with GITHUB_TOKEN does not start
+  # another workflow, so the sync has to invoke the deploy itself.
+  workflow_call:
 
 permissions:
   contents: read

@@ -5557,7 +5557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Oscillator 4 pins 1=OUT 2=GND 3=TUNE 4=+VS"
+		(property "Description" "Oscillator 5 pins 1=OUT 2=GND 3=TUNE 5=+VS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9918,7 +9918,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 10.16 -13.97 0)
+			(at 10.16 -11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9955,7 +9955,7 @@
 		(symbol "Oscillator ABRACON_AOCJY4A_1_0"
 			(polyline
 				(pts
-					(xy 8.89 -5.334) (xy 8.89 -7.366)
+					(xy 8.89 -4.064) (xy 8.89 -6.096)
 				)
 				(stroke
 					(width 0)
@@ -9967,7 +9967,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.398 -4.572) (xy 10.922 -4.572)
+					(xy 9.398 -3.302) (xy 10.922 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -9979,7 +9979,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.922 -4.572) (xy 10.922 -8.128) (xy 9.398 -8.128) (xy 9.398 -4.572)
+					(xy 10.922 -3.302) (xy 10.922 -6.858) (xy 9.398 -6.858) (xy 9.398 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -9991,7 +9991,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -5.334) (xy 11.43 -7.366)
+					(xy 11.43 -4.064) (xy 11.43 -6.096)
 				)
 				(stroke
 					(width 0)
@@ -10003,7 +10003,7 @@
 			)
 			(rectangle
 				(start 20.32 0)
-				(end 0 -12.7)
+				(end 0 -10.16)
 				(stroke
 					(width 0.0254)
 					(type solid)
@@ -10013,44 +10013,8 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -5.08 -2.54 0)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -7.62 0)
-				(length 5.08)
-				(name "VREF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -10.16 0)
 				(length 5.08)
 				(name "CTRLV"
 					(effects
@@ -10067,10 +10031,46 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at 25.4 -2.54 180)
 				(length 5.08)
-				(name "RF_OUT"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10086,7 +10086,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -10.16 180)
+				(at 25.4 -7.62 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -14129,26 +14129,8 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at -5.08 -2.54 0)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -5.08 -7.62 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "E/D"
 					(effects
@@ -14158,6 +14140,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15729,7 +15729,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15747,7 +15747,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15776,14 +15776,14 @@
 			(pin output line
 				(at 25.4 -2.54 180)
 				(length 5.08)
-				(name "RF"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19658,6 +19658,210 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Oscillator RFX_OS400"
+		(pin_names
+			(offset 1.27)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "OSC"
+			(at 10.16 1.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "${VALUE}"
+			(at 10.16 -11.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Oscillator 5 pins 1=VCC 2=OUT 3=GND 4=TRIM 5=VREF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Oscillator RFX_OS400_1_0"
+			(polyline
+				(pts
+					(xy 8.89 -4.064) (xy 8.89 -6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.398 -3.302) (xy 10.922 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.922 -3.302) (xy 10.922 -6.858) (xy 9.398 -6.858) (xy 9.398 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -4.064) (xy 11.43 -6.096)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 20.32 0)
+				(end 0 -10.16)
+				(stroke
+					(width 0.0254)
+					(type solid)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 5.08)
+				(name "TRIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 5.08)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 25.4 -2.54 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 25.4 -7.62 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Oscillator RFX_OS560"
 		(pin_names
 			(offset 1.27)
@@ -19674,7 +19878,7 @@
 			)
 		)
 		(property "Value" "${VALUE}"
-			(at 10.16 -13.97 0)
+			(at 10.16 -11.43 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19711,7 +19915,7 @@
 		(symbol "Oscillator RFX_OS560_1_0"
 			(polyline
 				(pts
-					(xy 8.89 -5.334) (xy 8.89 -7.366)
+					(xy 8.89 -4.064) (xy 8.89 -6.096)
 				)
 				(stroke
 					(width 0)
@@ -19723,7 +19927,7 @@
 			)
 			(polyline
 				(pts
-					(xy 9.398 -4.572) (xy 10.922 -4.572)
+					(xy 9.398 -3.302) (xy 10.922 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -19735,7 +19939,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.922 -4.572) (xy 10.922 -8.128) (xy 9.398 -8.128) (xy 9.398 -4.572)
+					(xy 10.922 -3.302) (xy 10.922 -6.858) (xy 9.398 -6.858) (xy 9.398 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -19747,7 +19951,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -5.334) (xy 11.43 -7.366)
+					(xy 11.43 -4.064) (xy 11.43 -6.096)
 				)
 				(stroke
 					(width 0)
@@ -19759,7 +19963,7 @@
 			)
 			(rectangle
 				(start 20.32 0)
-				(end 0 -12.7)
+				(end 0 -10.16)
 				(stroke
 					(width 0.0254)
 					(type solid)
@@ -19769,26 +19973,8 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at -5.08 -2.54 0)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -5.08 -7.62 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "TRIM"
 					(effects
@@ -19806,7 +19992,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -10.16 0)
+				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "VREF"
 					(effects
@@ -19816,6 +20002,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19842,7 +20046,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -10.16 180)
+				(at 25.4 -7.62 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -25988,7 +26192,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Oscillator TAITIEN NA-100M-6800"
+	(symbol "Oscillator TAITIEN NA-100M-68xx"
 		(pin_names
 			(offset 1.27)
 		)
@@ -26029,7 +26233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tolerance: ±3ppm, Stability: ±0.1ppm, -20°C to +70°C, Through Hole Mount Crystal Oscillator"
+		(property "Description" "Oscillator 5 pins 1=OUT 2=GND 3=NC/VCO 4=NC/Vref 5=VDC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -26038,7 +26242,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Oscillator TAITIEN NA-100M-6800_1_0"
+		(symbol "Oscillator TAITIEN NA-100M-68xx_1_0"
 			(polyline
 				(pts
 					(xy 8.89 -4.064) (xy 8.89 -6.096)

@@ -16,7 +16,7 @@ A searchable web viewer with SVG previews for all **8,499 symbols** and **9,377 
 >
 > All content is © CERN and licensed under **CERN-OHL-P v2.0** (permissive). This mirror exists for convenience (e.g. easier access for users working primarily on GitHub) and is **not affiliated with or endorsed by CERN**.
 >
-> - Last sync: 2026-09-05
+> - Last sync: 2026-09-08
 > - For issues with the libraries themselves, please report them to the [upstream issue tracker](https://gitlab.com/ohwr/cern-kicad-libs/-/work_items/new?type=Issue&initialCreationContext=list-route).
 > - Mirror maintained by [circuitrodev](https://github.com/circuitrodev).
 

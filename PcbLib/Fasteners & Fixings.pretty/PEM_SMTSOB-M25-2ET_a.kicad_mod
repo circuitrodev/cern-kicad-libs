@@ -5,9 +5,9 @@
 	(layer "F.Cu")
 	(descr "5.56mm Diameter, SMT Brass Surface Mount Standoff with Internal Thread M2.5")
 	(property "Reference" "REF**"
-		(at 0 -4.25 0)
+		(at 0 -4.525 0)
 		(layer "F.SilkS")
-		(uuid "695cf74b-dabf-4bcd-90b2-b7955f0a1bc2")
+		(uuid "45010f27-eb25-410c-a3a8-19d34d1422cf")
 		(effects
 			(font
 				(size 1 1)
@@ -16,9 +16,9 @@
 		)
 	)
 	(property "Value" "PEM_SMTSOB-M25-2ET_a"
-		(at 0 4.25 0)
+		(at 0 4.525 0)
 		(layer "F.Fab")
-		(uuid "fd072c44-afc7-4cee-9aec-f3601f809991")
+		(uuid "eb21d136-e44b-4f08-bb10-3c16c49006f9")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b52183e-1747-41e6-a116-56b370070f00")
+		(uuid "ce19934f-916f-42fa-856b-f86f4db70c71")
 		(effects
 			(font
 				(size 1 1)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "108d129e-075c-46d1-99ba-8ef21b922820")
+		(uuid "4ed163b5-bafd-4fcb-adce-422f0d22a216")
 		(effects
 			(font
 				(size 1 1)
@@ -50,7 +50,6 @@
 			)
 		)
 	)
-	(attr allow_missing_courtyard)
 	(fp_circle
 		(center 0 0)
 		(end 0 -3.45)
@@ -60,7 +59,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "96a3ace9-fd6d-4313-aa9d-3a3ebb3ddeac")
+		(uuid "9752a354-2aca-4c2b-8936-fcfb229d84f5")
 	)
 	(fp_poly
 		(pts
@@ -72,7 +71,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "309213e7-ede4-448d-a4fc-19d9f8abd85c")
+		(uuid "9936fd9a-7ab3-4e7a-90b4-52672199c965")
 	)
 	(fp_poly
 		(pts
@@ -84,7 +83,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "8ae71d9f-1ad1-4fae-9779-8b86f1ccc9fd")
+		(uuid "61460f6b-83e7-4d02-9bfa-cda797bcd1e4")
 	)
 	(fp_poly
 		(pts
@@ -96,7 +95,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "e5aefae0-ebd9-42bd-9b67-3238acce274d")
+		(uuid "e027ae10-0011-44cc-8e69-27adb537ddf8")
 	)
 	(fp_poly
 		(pts
@@ -108,7 +107,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "1ff8d07a-d54f-4621-9f9a-287f7897b40f")
+		(uuid "a5eb14a9-dcea-403a-8fc1-a16a3d281302")
 	)
 	(fp_line
 		(start -0.5 0)
@@ -118,7 +117,7 @@
 			(type solid)
 		)
 		(layer "Cmts.User")
-		(uuid "c2beaac5-c3c4-4706-83a0-c3dee701b65b")
+		(uuid "7ad6d5f9-e1a1-417c-ae37-17a6fa668cdd")
 	)
 	(fp_line
 		(start 0 0)
@@ -128,7 +127,7 @@
 			(type solid)
 		)
 		(layer "Cmts.User")
-		(uuid "ffb748b6-79a4-4681-b134-938d1e4193b5")
+		(uuid "f92f8dad-fd28-4219-bc37-6682e1116c0b")
 	)
 	(fp_line
 		(start 0 0)
@@ -138,7 +137,7 @@
 			(type solid)
 		)
 		(layer "Cmts.User")
-		(uuid "d23e6309-b3bf-45ad-8ad3-2958a4b0cebb")
+		(uuid "d4fbfabd-59c6-4ca4-ace1-dbb56dbf29cd")
 	)
 	(fp_line
 		(start 0 0.5)
@@ -148,7 +147,7 @@
 			(type solid)
 		)
 		(layer "Cmts.User")
-		(uuid "28d2c89a-3b91-4b98-b93d-6846009e2689")
+		(uuid "4fad4fdf-5579-4471-9d06-06d69e28d4b8")
 	)
 	(fp_circle
 		(center 0 0)
@@ -159,7 +158,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "310b75eb-470f-479d-9503-6129b56e10d8")
+		(uuid "0806efc1-cca0-4c1f-ac4e-a18aaf4fd07f")
 	)
 	(fp_circle
 		(center 0 0)
@@ -170,29 +169,51 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "0b36b204-337a-4114-b64b-56fb586b10d1")
+		(uuid "bedc4b2d-dd02-4069-b7d5-33838efc4ef0")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0 -2.75)
+		(end 0 -2.78)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2c46c7b1-7032-42bc-9a11-01d379eb73ec")
+		(uuid "dfa9ae8d-96b4-46af-adcc-653e5c3e9818")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0 -1.5)
+		(end 0 -2.6966)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "23e866fb-3ecd-46c9-8c7d-ed7dc45a3ea0")
+		(uuid "3b2ce749-5f33-44b1-b905-ea39c2f76195")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "128a6605-fc5e-42d8-a917-c355a48bd1e1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.005)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1d42c314-eca3-4c07-ad01-3653a3415b3f")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -201,12 +222,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
-		(uuid "f114d656-19a9-4997-89c1-17c4afd3e5b0")
+		(uuid "99226fe6-d4af-44b6-8123-2e045aa48d86")
 	)
 	(embedded_fonts no)
-	(model "${CERN_3DMODEL_DIR}/PEM_SMTSOB-M3-2ET.stp"
+	(model "${CERN_3DMODEL_DIR}/PEM_SMTSOB-M25-2ET.stp"
 		(offset
-			(xyz 0.00011 0.00006 0)
+			(xyz 0 -0 0)
 		)
 		(scale
 			(xyz 1 1 1)
